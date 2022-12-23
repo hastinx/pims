@@ -36,7 +36,7 @@ function Login() {
     // }
   };
   return (
-    <>
+    <div className='h-100 d-flex align-items-center justify-content-center'>
       <section>
         <div className="container mt-5 px-4 py-5 px-md-5 text-center text-lg-start">
           <div className="row gx-lg-5 align-items-center mb-5">
@@ -163,7 +163,7 @@ function Login() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
