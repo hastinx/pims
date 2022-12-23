@@ -1,0 +1,92 @@
+.wrapper-horizontal-pipe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg,rgba(120,120,120,1) 0%, rgba(199,199,199,1) 37%, rgba(237,237,237,1) 100%);
+
+
+}
+
+.wrapper-vertical-pipe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.vertical{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(270deg, rgba(120,120,120,1) 0%, rgba(199,199,199,1) 37%, rgba(237,237,237,1) 100%);
+}
+
+.wrapper-bow{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bow-left-top{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(315deg, rgba(120,120,120,1) 0%, rgba(199,199,199,1) 37%, rgba(237,237,237,1) 100%);;
+    border-top-left-radius: 50%;
+}
+
+.bow-left-bottom{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(315deg, rgba(120,120,120,1) 0%, rgba(199,199,199,1) 37%, rgba(237,237,237,1) 100%);;
+    border-bottom-left-radius: 50%;
+}
+
+
+/* ===================================VALVE */
+        .wrapper-press-valve {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            /* margin: 20% auto 0 0; */
+        }
+
+        .press-valve {
+            border: 10px solid transparent;
+            border-left-color: rgb(149, 149, 149);
+            border-right-color: rgb(149, 149, 149);
+
+            width: 0;
+            height: 0;
+            margin: 1px;
+        }
+
+        .press-valve::before {
+            content: '';
+            position: absolute;
+            width: 14%;
+            height: 150%;
+            background-color: rgb(23, 217, 23);
+            top: -72%;
+            left: 63%;
+        }
+
+        .press-valve::after {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 250%;
+            background-color: rgb(23, 217, 23);
+            top: -319%;
+            left: -24%;
+        }

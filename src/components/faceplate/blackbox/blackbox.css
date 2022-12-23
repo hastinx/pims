@@ -1,0 +1,15 @@
+.black-box{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.black-box-run{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 255, 33);
+}
+.black-box-stop{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,408 @@
+.tank-horizontal{
+    width:120px;
+    height: 50px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+.vertical-left-one{
+    width: 5px;
+    height: 65px;
+}
+.vertical-left-two{
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top:152px;
+    left:16px;
+}
+.top-left-bow{
+    height: 5px;
+    width: 5px;
+}
+.horizontal-top{
+    width: 98%;
+    height: 5px;
+}
+.horizontal-bottom-one{
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top:180px;
+    left:5px;
+}
+.horizontal-bottom-two{
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    top:180px;
+    left:80px;
+}
+.pcv-bdv1151{
+    transform: rotate(90deg);
+    height: 30px;
+    position: absolute;
+    top:125px;
+    left:17px;
+}
+.pcv-esdv1151{
+    height: 30px;
+    position: absolute;
+    top:157px;
+    left:55px;
+}
+.bottom-rigth-bow{
+    height: 5px;
+    width: 5px;
+    transform: rotate(180deg);
+    position: absolute;
+    top:180px;
+    left:110px;
+}
+.vertical-left-three{
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top:150px;
+    left:110px;
+}
+.bottom-left-bow-to-tank{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:145px;
+    left:110px;
+}
+.horizontal-bottom-to-tank{
+    width: 71px;
+    height: 5px;
+    position: absolute;
+    top: 145px;
+    left: 115px;
+}
+.vertical-top-to-separator{
+    width: 5px;
+    height: 45px;
+    position: absolute;
+    top:90px;
+    left:190px;
+}
+.bow-top-one-to-separator{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:85px;
+    left:190px;
+}
+.horizontal-top-one-to-separator{
+    width: 183px;
+    height: 5px;
+    position: absolute;
+    top:85px;
+    left:195px;
+}
+.vertical-top-to-wellpad-vessel-one{
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top:105px;
+    left:210px;
+}
+.bow-top-one-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:100px;
+    left:210px;
+}
+.horizontal-top-one-to-wellpad-vessel-one{
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top:100px;
+    left:215px;
+}
+.bow-top-two-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top:100px;
+    left:265px;
+}
+.vertical-right-to-wellpad-vessel-one{
+    width: 5px;
+    height: 70px;
+    position: absolute;
+    top:105px;
+    left:265px;
+}
+.bow-right-one-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:175px;
+    left:265px;
+}
+.horizontal-right-one-to-wellpad-vessel-one{
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    top:175px;
+    left:270px;
+}
+.lcv-right-one-to-wellpad-vessel-one{
+    width: 20px;
+    position: absolute;
+    top:157px;
+    left:290px;
+}
+.horizontal-right-two-to-wellpad-vessel-one{
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    top:175px;
+    left:309px;
+}
+.vertical-right-one-to-wellpad-vessel-one{
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    top:135px;
+    left:280px;
+}
+.bow-right-baypass-one-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:130px;
+    left:280px;
+}
+.horizontal-right-bypass-one-to-wellpad-vessel-one{
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top:130px;
+    left:285px;
+}
+.lcv-right-bypass-one-to-wellpad-vessel-one{
+    width: 20px;
+    position: absolute;
+    top:112px;
+    left:290px;
+}
+.horizontal-right-bypass-two-to-wellpad-vessel-one{
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top:130px;
+    left:309px;
+}
+.bow-right-baypass-two-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top:130px;
+    left:314px;
+}
+.vertical-right-two-to-wellpad-vessel-one{
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    top:135px;
+    left:314px;
+}
+.vertical-bottom-one-to-wellpad-vessel-two{
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    top:184px;
+    left:220px;
+}
+.bow-bottom-one-to-wellpad-vessel-two{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:224px;
+    left:220px;
+}
+.horizontal-bottom-one-to-wellpad-vessel-two{
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    top:224px;
+    left:225px;
+}
+.ft-bottom-one-to-wellpad-vessel-two{
+    width: 20px;
+    position: absolute;
+    top:214px;
+    left:250px;
+}
+.vertical-bottom-one-bypass-to-wellpad-vessel-two{
+    width: 5px;
+    height: 20px;
+    position: absolute;
+    top:205px;
+    left:235px;
+}
+.bow-bottom-one-bypass-to-wellpad-vessel-two{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:200px;
+    left:235px;
+}
+.horizontal-bottom-one-bypass-to-wellpad-vessel-two{
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top:200px;
+    left:240px;
+}
+.ft-bottom-one-bypass-to-wellpad-vessel-two{
+    width: 20px;
+    position: absolute;
+    top:190px;
+    left:250px;
+}
+.horizontal-bottom-two-bypass-to-wellpad-vessel-two{
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top:200px;
+    left:270px;
+}
+.bow-bottom-two-bypass-to-wellpad-vessel-two{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top:200px;
+    left:280px;
+}
+.vertical-bottom-two-bypass-to-wellpad-vessel-two{
+    width: 5px;
+    height: 20px;
+    position: absolute;
+    top:205px;
+    left:280px;
+}
+.horizontal-bottom-two-to-wellpad-vessel-two{
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    top:224px;
+    left:270px;
+}
+.lcv-bottom-one-to-wellpad-vessel-two{
+    width: 20px;
+    position: absolute;
+    top:205px;
+    left:300px;
+}
+.horizontal-bottom-three-to-wellpad-vessel-two{
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top:224px;
+    left:319px;
+}
+/* THREE */
+.vertical-bottom-one-to-wellpad-vessel-three{
+    width: 5px;
+    height: 90px;
+    position: absolute;
+    top:184px;
+    left:190px;
+}
+.bow-bottom-one-to-wellpad-vessel-three{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:274px;
+    left:190px;
+}
+.horizontal-bottom-one-to-wellpad-vessel-three{
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    top:274px;
+    left:195px;
+}
+.ft-bottom-one-to-wellpad-vessel-three{
+    width: 20px;
+    position: absolute;
+    top:264px;
+    left:220px;
+}
+.vertical-bottom-one-bypass-to-wellpad-vessel-three{
+    width: 5px;
+    height: 20px;
+    position: absolute;
+    top:254px;
+    left:205px;
+}
+.bow-bottom-one-bypass-to-wellpad-vessel-three{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:250px;
+    left:205px;
+}
+.horizontal-bottom-one-bypass-to-wellpad-vessel-three{
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top:250px;
+    left:210px;
+}
+.ft-bottom-one-bypass-to-wellpad-vessel-three{
+    width: 20px;
+    position: absolute;
+    top:240px;
+    left:220px;
+}
+.horizontal-bottom-two-bypass-to-wellpad-vessel-three{
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top:250px;
+    left:240px;
+}
+.bow-bottom-two-bypass-to-wellpad-vessel-three{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top:250px;
+    left:245px;
+}
+.vertical-bottom-two-bypass-to-wellpad-vessel-three{
+    width: 5px;
+    height: 20px;
+    position: absolute;
+    top:255px;
+    left:245px;
+}
+.horizontal-bottom-two-to-wellpad-vessel-three{
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    top:274px;
+    left:240px;
+}
+.lcv-bottom-one-to-wellpad-vessel-three{
+    width: 20px;
+    position: absolute;
+    top:256px;
+    left:270px;
+}
+.horizontal-bottom-three-to-wellpad-vessel-three{
+    width: 90px;
+    height: 5px;
+    position: absolute;
+    top:274px;
+    left:289px;
+}
