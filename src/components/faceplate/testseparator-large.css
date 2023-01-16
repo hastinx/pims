@@ -1,0 +1,416 @@
+.large{
+    height: calc(100vh - 180px);  
+    box-sizing: border-box ;
+}
+.large-testseparator-tank-horizontal{
+    width:30%;
+    height: 25%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.large-testseparator-vertical-left-one{
+    width: 10px;
+    height: 260px;
+    position: absolute;
+    left:9%
+}
+.large-testseparator-vertical-left-two{
+    width: 10px;
+    height: 77px;
+    position: absolute;
+    top:45%;
+    left:9%;
+}
+.large-testseparator-top-left-bow{
+    height: 5px;
+    width: 5px;
+}
+.large-testseparator-horizontal-top{
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    left:9%;
+}
+.large-testseparator-horizontal-bottom-one{
+    width: 82px;
+    height: 10px;
+    position: absolute;
+    top:55%;
+    left:6%;
+}
+.large-testseparator-horizontal-bottom-two{
+    width: 150px;
+    height: 10px;
+    position: absolute;
+    top:55%;
+    left:13%;
+}
+.large-testseparator-pcv-bdv1151{
+    transform: rotate(90deg);
+    height: 40px;
+    position: absolute;
+    top:40.5%;
+    left:9.2%;
+}
+.large-testseparator-pcv-esdv1151{
+    height: 40px;
+    position: absolute;
+    top:51.5%;
+    left:11%;
+}
+.large-testseparator-bottom-rigth-bow{
+    height: 5px;
+    width: 5px;
+    transform: rotate(180deg);
+    position: absolute;
+    top:180px;
+    left:110px;
+}
+.large-testseparator-vertical-left-three{
+    width: 10px;
+    height: 120px;
+    position: absolute;
+    top:40%;
+    left:21.5%;
+}
+.large-testseparator-bottom-left-bow-to-tank{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:145px;
+    left:110px;
+}
+.large-testseparator-horizontal-bottom-to-tank{
+    width: 71px;
+    height: 10px;
+    position: absolute;
+    top: 39%;
+    left: 21.5%;
+}
+.large-testseparator-vertical-top-to-separator{
+    width: 5px;
+    height: 45px;
+    position: absolute;
+    top:90px;
+    left:190px;
+}
+.large-testseparator-bow-top-one-to-separator{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top:85px;
+    left:190px;
+}
+.large-testseparator-horizontal-top-one-to-separator{
+    width: 309px;
+    height: 5px;
+    position: absolute;
+    top: 85px;
+    left: 195px;
+}
+.large-testseparator-vertical-top-to-wellpad-vessel-one{
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 105px;
+    left: 262px;
+}
+.large-testseparator-bow-top-one-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 100px;
+    left: 263px;
+}
+.large-testseparator-horizontal-top-one-to-wellpad-vessel-one{
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 100px;
+    left: 267px;
+}
+.large-testseparator-bow-top-two-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 100px;
+    left: 317px;
+}
+.large-testseparator-vertical-right-to-wellpad-vessel-one{
+    width: 5px;
+    height: 70px;
+    position: absolute;
+    top: 105px;
+    left: 317px;
+}
+.large-testseparator-bow-right-one-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 175px;
+    left: 317px;
+}
+.large-testseparator-horizontal-right-one-to-wellpad-vessel-one{
+    width: 42px;
+    height: 5px;
+    position: absolute;
+    top: 175px;
+    left: 318px;
+}
+.large-testseparator-lcv-right-one-to-wellpad-vessel-one{
+    width: 20px;
+    position: absolute;
+    top: 157px;
+    left: 359px;
+}
+.large-testseparator-horizontal-right-two-to-wellpad-vessel-one{
+    width: 125px;
+    height: 5px;
+    position: absolute;
+    top: 175px;
+    left: 378px;
+}
+.large-testseparator-vertical-right-one-to-wellpad-vessel-one{
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    top: 135px;
+    left: 334px;
+}
+.large-testseparator-bow-right-baypass-one-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 130px;
+    left: 334px;
+}
+.large-testseparator-horizontal-right-bypass-one-to-wellpad-vessel-one{
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    top: 130px;
+    left: 339px;
+}
+.large-testseparator-lcv-right-bypass-one-to-wellpad-vessel-one{
+    width: 20px;
+    position: absolute;
+    top: 112px;
+    left: 359px;
+}
+.large-testseparator-horizontal-right-bypass-two-to-wellpad-vessel-one{
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    top: 130px;
+    left: 378px;
+}
+.large-testseparator-bow-right-baypass-two-to-wellpad-vessel-one{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 130px;
+    left: 393px;
+}
+.large-testseparator-vertical-right-two-to-wellpad-vessel-one{
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    top: 135px;
+    left: 393px;
+}
+.large-testseparator-vertical-bottom-one-to-wellpad-vessel-two{
+    width: 10px;
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    left: 48%;
+}
+.large-testseparator-bow-bottom-one-to-wellpad-vessel-two{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 224px;
+    left: 273px;
+}
+.large-testseparator-horizontal-bottom-one-to-wellpad-vessel-two{
+    width: 405px;
+    height: 10px;
+    position: absolute;
+    top: 75%;
+    left: 48%;
+}
+.large-testseparator-ft-bottom-one-to-wellpad-vessel-two{
+    width: 40px;
+    position: absolute;
+    top: 72.2%;
+    left: 58%;
+}
+.large-testseparator-vertical-bottom-one-bypass-to-wellpad-vessel-two{
+    width: 10px;
+    height: 67px;
+    position: absolute;
+    top: 66.5%;
+    left: 56%;
+}
+.large-testseparator-bow-bottom-one-bypass-to-wellpad-vessel-two{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 200px;
+    left: 296px;
+}
+.large-testseparator-horizontal-bottom-one-bypass-to-wellpad-vessel-two{
+    width: 34px;
+    height: 10px;
+    position: absolute;
+    top: 65.5%;
+    left: 56%;
+}
+.large-testseparator-ft-bottom-one-bypass-to-wellpad-vessel-two{
+    width: 40px;
+    position: absolute;
+    top: 62.8%;
+    left: 58%;
+}
+.large-testseparator-horizontal-bottom-two-bypass-to-wellpad-vessel-two{
+    width: 35px;
+    height: 10px;
+    position: absolute;
+    top: 65.5%;
+    left: 60.5%;
+}
+.large-testseparator-bow-bottom-two-bypass-to-wellpad-vessel-two{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 200px;
+    left: 339px;
+}
+.large-testseparator-vertical-bottom-two-bypass-to-wellpad-vessel-two{
+    width: 10px;
+    height: 65px;
+    position: absolute;
+    top: 66.8%;
+    left: 62%;
+}
+.large-testseparator-horizontal-bottom-two-to-wellpad-vessel-two{
+    width: 77px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+    left: 330px;
+}
+.large-testseparator-lcv-bottom-one-to-wellpad-vessel-two{
+    width: 40px;
+    position: absolute;
+    top: 70.2%;
+    left: 72.5%;
+}
+.large-testseparator-horizontal-bottom-three-to-wellpad-vessel-two{
+    width: 77px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+    left: 426px;
+}
+/* THREE */
+.large-testseparator-vertical-bottom-one-to-wellpad-vessel-three{
+    width: 10px;
+    height: 250px;
+    position: absolute;
+    top: 60%;
+    left: 32%;
+}
+.large-testseparator-bow-bottom-one-to-wellpad-vessel-three{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 274px;
+    left: 240px;
+}
+.large-testseparator-horizontal-bottom-one-to-wellpad-vessel-three{
+    width: 120px;
+    height: 10px;
+    position: absolute;
+    top: 91%;
+    left: 32.6%;
+}
+.large-testseparator-ft-bottom-one-to-wellpad-vessel-three{
+    width: 45px;
+    position: absolute;
+    top: 87.8%;
+    left: 39.5%;
+}
+.large-testseparator-vertical-bottom-one-bypass-to-wellpad-vessel-three{
+    width: 10px;
+    height: 67px;
+    position: absolute;
+    top: 82.5%;
+    left: 38%;
+}
+.large-testseparator-bow-bottom-one-bypass-to-wellpad-vessel-three{
+    height: 10px;
+    width: 5px;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+}
+.large-testseparator-horizontal-bottom-one-bypass-to-wellpad-vessel-three{
+    width: 27px;
+    height: 10px;
+    position: absolute;
+    top: 81.5%;
+    left: 38%;
+}
+.large-testseparator-ft-bottom-one-bypass-to-wellpad-vessel-three{
+    width: 45px;
+    position: absolute;
+    top: 78.4%;
+    left: 39.5%;
+}
+.large-testseparator-horizontal-bottom-two-bypass-to-wellpad-vessel-three{
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    top: 81.5%;
+    left: 42.3%;
+}
+.large-testseparator-bow-bottom-two-bypass-to-wellpad-vessel-three{
+    height: 5px;
+    width: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 250px;
+    left: 296px;
+}
+.large-testseparator-vertical-bottom-two-bypass-to-wellpad-vessel-three{
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    top: 82.8%;
+    left: 43.5%;
+}
+.large-testseparator-horizontal-bottom-two-to-wellpad-vessel-three{
+    width: 500px;
+    height: 10px;
+    position: absolute;
+    top: 91%;
+    left: 42.3%;
+}
+.large-testseparator-lcv-bottom-one-to-wellpad-vessel-three{
+    width: 40px;
+    position: absolute;
+    top: 86.2%;
+    left: 72.5%;
+}
+.large-testseparator-horizontal-bottom-three-to-wellpad-vessel-three{
+    width: 109px;
+    height: 5px;
+    position: absolute;
+    top: 274px;
+    left: 394px;
+}

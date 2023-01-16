@@ -4,22 +4,37 @@ import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Loader from '../../utils/loader';
+
 
 function Login() {
+  console.log('NAMA', window.$name)
   const [user, setUser] = useState('');
   const [password, setPassword] = useState('');
+  const [status, setStatus] = useState('200');
+  const [passwordType, setPasswordType] = useState("password");
+  const togglePassword = () => {
+    if (passwordType === "password") {
+      setPasswordType("text")
+      return;
+    }
+    setPasswordType("password")
+  }
   // const [msg, setMsg] = useState('');
 
   const navigate = useNavigate();
   const login = async (e) => {
-    console.log(user, password)
-    console.log(process.env.REACT_APP_API_URL)
+
     e.preventDefault();
     try {
-      await axios.post(process.env.REACT_APP_API_URL + 'user/login', {
+
+      const res = await axios.post(process.env.REACT_APP_API_URL + 'user/login', {
         userid: user,
         password: password,
       });
+      // console.log(res.data.values.userID)
+      window.$name = res.data.values.userID;
+      setStatus(res.data.status_code)
 
       navigate('/home');
     } catch (error) {
@@ -28,6 +43,7 @@ function Login() {
         document.getElementById("alert").innerHTML = error.response.data.message
         document.getElementById("alert").classList.add("alert")
         document.getElementById("alert").classList.add("alert-danger")
+        setStatus('200')
 
       }
     }
@@ -109,16 +125,16 @@ function Login() {
 
 
                         <input
-                          type="password"
+                          type={passwordType}
                           id="form3Example4"
                           placeholder="Password"
-                          className="form-control"
+                          className="form-control border-0"
                           value={password}
                           onChange={(e) => setPassword(e.target.value)}
                         />
                         <label >Password</label>
                       </div>
-                      <span className='input-group-text'>Show</span>
+                      <span className='input-group-text bg-white border-0 togglr-password' onClick={togglePassword}>{passwordType === "password" ? 'Show' : 'Hide'}</span>
                     </div>
 
 
@@ -142,8 +158,8 @@ function Login() {
                     <button
                       type="submit"
                       className="btn btn-primary btn-block w-100 rounded-pill"
-                    >
-                      Sign in
+                      onClick={() => setStatus('')}>
+                      {status === '' ? <Loader /> : 'Sign in'}
                     </button>
                   </form>
                   <div className='mb-4' id='alert'>

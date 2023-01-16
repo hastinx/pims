@@ -1,25 +1,25 @@
 import React from 'react'
-import wellhead from '../../../../assets/img/faceplate/wellhead-stop.png'
-import valve from '../../../../assets/img/faceplate/valve.png'
-import Vertical from '../../../../components/Faceplate/pipe/Vertical'
-import Blackboxstop from '../../../../components/Faceplate/blackbox/Blackboxstop'
-import Horizontal from '../../../../components/Faceplate/pipe/Horizontal'
-import pcv from '../../../../assets/img/faceplate/pcv-run.png'
-import pcvstop from '../../../../assets/img/faceplate/pcv-stop.png'
-import sv from '../../../../assets/img/faceplate/sv.png'
-import arrow from '../../../../assets/img/faceplate/arrow.png'
-import pl from '../../../../assets/img/faceplate/pl.png'
-import knife from '../../../../assets/img/faceplate/knife.png'
-import Tankhorizontal from '../../../../assets/img/faceplate/ht.png'
-import Tankvertical from '../../../../assets/img/faceplate/vt.png'
-import olc from '../../../../assets/img/faceplate/olc.png'
-import ilc from '../../../../assets/img/faceplate/ilc.png'
-import es from '../../../../assets/img/faceplate/electric-signal.png'
-import cv from '../../../../assets/img/faceplate/cv.png'
-import meter from '../../../../assets/img/faceplate/meter.png'
-import flare from '../../../../assets/img/faceplate/flare.png'
-import pumptl from '../../../../assets/img/faceplate/pump-tl.png'
-import plank from '../../../../assets/img/faceplate/plank.png'
+import wellhead from '../../assets/img/faceplate/wellhead-stop.png'
+import valve from '../../assets/img/faceplate/valve.png'
+import Vertical from './pipe/Vertical'
+import Blackboxstop from './blackbox/Blackboxstop'
+import Horizontal from './pipe/Horizontal'
+import pcv from '../../assets/img/faceplate/pcv-run.png'
+import pcvstop from '../../assets/img/faceplate/pcv-stop.png'
+import sv from '../../assets/img/faceplate/sv.png'
+import arrow from '../../assets/img/faceplate/arrow.png'
+import pl from '../../assets/img/faceplate/pl.png'
+import knife from '../../assets/img/faceplate/knife.png'
+import Tankhorizontal from '../../assets/img/faceplate/ht.png'
+import Tankvertical from '../../assets/img/faceplate/vt.png'
+import olc from '../../assets/img/faceplate/olc.png'
+import ilc from '../../assets/img/faceplate/ilc.png'
+import es from '../../assets/img/faceplate/electric-signal.png'
+import cv from '../../assets/img/faceplate/cv.png'
+import meter from '../../assets/img/faceplate/meter.png'
+import flare from '../../assets/img/faceplate/flare.png'
+import pumptl from '../../assets/img/faceplate/pump-tl.png'
+import plank from '../../assets/img/faceplate/plank.png'
 import './pfd.css'
 
 function Pfd() {
@@ -157,7 +157,7 @@ function Pfd() {
                     </div>
                     <img src={es} alt='' className='pfd-es-from-olc' />
                     <img src={es} alt='' className='pfd-es-from-olc-horizontal' />
-                    <img src={cv} alt='' className='pfd-dlcv-from-es-olc' />
+
                     <div className='pfd-horizontal-from-dlcv-to-valve'>
                         <Horizontal />
                     </div>
@@ -165,6 +165,7 @@ function Pfd() {
                         <Vertical />
                     </div>
                     <img src={valve} alt='' className='pfd-valve-from-dlcv-to-prod-manifold' />
+                    <img src={arrow} alt='' className='pfd-arrow-from-dlcv-to-prod-manifold' />
                     <div className='pfd-vertical-from-dlcv-to-valve-up'>
                         <Vertical />
                     </div>
@@ -179,6 +180,7 @@ function Pfd() {
                     <div className='pfd-horizontal-from-filter-to-dlcv'>
                         <Horizontal />
                     </div>
+                    <img src={cv} alt='' className='pfd-dlcv-from-es-olc' />
                     <img src={meter} alt='' className='pfd-filter-to-dlcv' />
                     <div className='pfd-horizontal-from-test-separator-to-filter'>
                         <Horizontal />

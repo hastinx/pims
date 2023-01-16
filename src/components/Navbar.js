@@ -2,6 +2,8 @@ import React from 'react'
 import { useLocation } from "react-router-dom";
 
 function Navbar() {
+
+    console.log('NAMA', window)
     const location = useLocation();
     const { pathname } = location;
     const path = pathname.split("/");
@@ -12,7 +14,7 @@ function Navbar() {
                     <div className="sb-sidenav-menu">
                         <div className="nav">
                             <div className="sb-sidenav-menu-heading">Core</div>
-                            <a className={path[1] === "home" ? "nav-link active" : "nav-link"} href="/home">
+                            <a className={path[1] === "home" ? "nav-link active" : "nav-link"} href={!window.$name ? "/" : "/home"}>
                                 <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
                                 Overview
                             </a>
@@ -30,7 +32,7 @@ function Navbar() {
                             <div className="sb-sidenav-menu-heading">PROCESS</div>
                             <a className={path[2] === "overview" ? "nav-link active" : "nav-link"} href="/process/overview">
                                 <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
-                                Overview
+                                OVERVIEW
                             </a>
                             <a className={path[2] === "mudipad-a" ? "nav-link active collapsed" : "nav-link collapsed"} href="#0" data-bs-toggle="collapse" data-bs-target="#collapsemudia" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
@@ -40,7 +42,7 @@ function Navbar() {
                             <div className={path[2] === "mudipad-a" ? "collapse show" : "collapse"} id="collapsemudia" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav className="sb-sidenav-menu-nested nav">
                                     <a className={(path[2] === "mudipad-a" && path[3] === "wellhead") ? "nav-link active" : "nav-link"} href="/process/mudipad-a/wellhead">Wellhead</a>
-                                    <a className="nav-link" href="#0">Test Separator</a>
+                                    <a className={(path[2] === "mudipad-a" && path[3] === "test-separator") ? "nav-link active" : "nav-link"} href="/process/mudipad-a/test-separator">Test Separator</a>
                                     <a className="nav-link" href="#0">Process Flow Diagram</a>
                                 </nav>
                             </div>
@@ -75,6 +77,24 @@ function Navbar() {
                                     <a className={(path[2] === "mudipad-c" && path[3] === "wellhead") ? "nav-link active" : "nav-link"} href="/process/mudipad-c/wellhead">Wellhead</a>
                                 </nav>
                             </div>
+                            <a className={path[2] === "alarm" ? "nav-link active" : "nav-link"} href="/process/alarm">
+                                <div className="sb-nav-link-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                ALARM
+                            </a>
+
+                            <div className="sb-sidenav-menu-heading">REPORT</div>
+                            <a className={path[2] === "mudipad-a" ? "nav-link active collapsed" : "nav-link collapsed"} href="#0" data-bs-toggle="collapse" data-bs-target="#collapsereportmudia" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
+                                GRAPHIC
+                                <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
+                            </a>
+                            <div className={path[1] === "report" ? "collapse show" : "collapse"} id="collapsereportmudia" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav className="sb-sidenav-menu-nested nav">
+                                    <a className={(path[2] === "report" && path[3] === "chart") ? "nav-link active" : "nav-link"} href="/report/chart">MUDI PAD A</a>
+                                    <a className="nav-link" href="#0">Test Separator</a>
+                                    <a className="nav-link" href="#0">Process Flow Diagram</a>
+                                </nav>
+                            </div>
                             {/* <div className="sb-sidenav-menu-heading">Addons</div>
                             <a className="nav-link" href="charts.html">
                                 <div className="sb-nav-link-icon"><i className="fas fa-chart-area"></i></div>
@@ -88,7 +108,7 @@ function Navbar() {
                     </div>
                     <div className="sb-sidenav-footer">
                         <div className="small">Logged in as:</div>
-                        User Test
+                        <p>{window.$name}</p>
                     </div>
                 </nav>
             </div>

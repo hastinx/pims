@@ -1,0 +1,691 @@
+.pfd-tank-horizontal{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 85px;
+    left: 135px;
+}
+.pfd-tank-vertical{
+    width:30px;
+    height: 80px;
+    position: absolute;
+    top: 105px;
+    left: 80.5%;
+}
+.pfd-wellhead{
+    height: 50px;
+    position: absolute;
+    top:85px;
+    left:7px
+}
+.pfd-valve{
+    width: 15px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 67px;
+    left:10px
+
+}
+.pfd-vertical-to-valve{
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    top: 52px;
+}
+.pfd-blackboxstop{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top:77px;
+    left:13.5px
+}
+.pfd-horizontal-from-boxstop{
+    height: 3px;
+    width: 10px;
+    position: absolute;
+    top: 79px;
+    left: 21px;
+}
+.pfd-sdv-to-sv{
+    width: 20px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+.pfd-horizontal-from-sdv-to-sv{
+    height: 3px;
+    width: 10px;
+    position: absolute;
+    top: 79px;
+    left: 49px;
+}
+.pfd-sv{
+    width: 10px;
+    position: absolute;
+    top: 76px;
+    left: 59px;
+}
+.pfd-vertical-from-sv{
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    top: 89px;
+    left: 65px;
+}
+.pfd-horizontal-from-sv-to-prod-manifold{
+    height: 3px;
+    width: 15px;
+    position: absolute;
+    top: 100px;
+    left: 66px;
+}
+.pfd-arrow-top-one{
+    position: absolute;
+    top: 98px;
+    left: 81px;
+    width: 10px;
+}
+.pfd-vertical-from-sv-to-test-manifold{
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    top: 103px;
+    left: 70px;
+}
+.pfd-horizontal-from-sv-to-test-manifold{
+    height: 3px;
+    width: 35px;
+    position: absolute;
+    top: 118px;
+    left: 71px;
+}
+.pfd-arrow-top-two{
+    position: absolute;
+    top: 115px;
+    left: 106px;
+    width: 10px;
+}
+
+/* MIDDLE */
+.pfd-horizontal-from-sv-to-prod-manifold-middle{
+    height: 3px;
+    width: 15px;
+    position: absolute;
+    top:130px;
+    left: 66px;
+}
+.pfd-arrow-middle-one{
+    position: absolute;
+    top:127px;
+    left: 81px;
+    width: 10px;
+}
+.pfd-vertical-from-sv-to-test-manifold-middle{
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    top: 133px;
+    left: 70px;
+}
+.pfd-horizontal-from-sv-to-test-manifold-middle{
+    height: 3px;
+    width: 35px;
+    position: absolute;
+    top:148px;
+    left: 71px;
+}
+.pfd-arrow-middle-two{
+    position: absolute;
+    top:145px;
+    left: 106px;
+    width: 10px;
+}
+
+/* BOTTOM */
+.pfd-horizontal-from-sv-to-prod-manifold-bottom{
+    height: 3px;
+    width: 15px;
+    position: absolute;
+    top:160px;
+    left: 66px;
+}
+.pfd-arrow-bottom-one{
+    position: absolute;
+    top:158px;
+    left: 81px;
+    width: 10px;
+}
+.pfd-vertical-from-sv-to-test-manifold-bottom{
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    top: 163px;
+    left: 70px;
+}
+.pfd-horizontal-from-sv-to-test-manifold-bottom{
+    height: 3px;
+    width: 35px;
+    position: absolute;
+    top:178px;
+    left: 71px;
+}
+.pfd-arrow-bottom-two{
+    position: absolute;
+    top:175px;
+    left: 106px;
+    width: 10px;
+}
+
+/* TO PIG LAUNCHER */
+.pfd-horizontal-from-prod-manifold-to-piglaouncher{
+    height: 3px;
+    width: 28px;
+    position: absolute;
+    top: 200px;
+    left: 62px;
+}
+.pfd-arrow-from-prod-manifold-to-piglaouncher-one{
+    position: absolute;
+    top: 198px;
+    transform: rotate(180deg);
+    left: 66px;
+    width: 10px;
+}
+.pfd-vertical-from-prod-manifold-to-piglaouncher{
+    width: 3px;
+    height: 35px;
+    position: absolute;
+    top: 203px;
+    left: 62px;
+}
+.pfd-horizontal-from-prod-manifold-to-piglaouncher-one{
+    height: 3px;
+    width: 177px;
+    position: absolute;
+    top: 238px;
+    left: 63px;
+}
+.pfd-vertical-from-prod-manifold-to-piglaouncher-one{
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    top: 241px;
+    left:150px;
+}
+.pfd-piglaouncher{
+    height: 15px;
+    position: absolute;
+    top: 251px;
+    left:120px;
+}
+.pfd-horizontal-from-piglaouncher{
+    height: 3px;
+    width:  170px;
+    position: absolute;
+    top:256px;
+    left:208px;
+}
+.pfd-vertical-from-prod-manifold-to-cpa{
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    top: 241px;
+    left:236px;
+}
+.pfd-vertical-prod-manifold{
+    height: 160px;
+    width: 3px;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+}
+.pfd-vertical-test-manifold{
+    height: 142px;
+    width: 3px;
+    position: absolute;
+    top: 60px;
+    left: 115px;
+}
+.pfd-arrow-from-prod-manifold-to-piglaouncher-two{
+    position: absolute;
+    top: 228px;
+    transform: rotate(90deg);
+    left: 59px;
+    width: 10px;
+}
+.pfd-arrow-from-prod-manifold-to-cpa{
+    position: absolute;
+    top:235px;
+    left:226px;
+    width: 10px;
+}
+.pfd-arrow-from-prod-manifold-to-cpa-down{
+    position: absolute;
+    top:247px;
+    transform: rotate(90deg);
+    left:233px;
+    width: 10px;
+}
+.pfd-horizontal-from-test-manifold-to-sdv{
+    height: 3px;
+    width: 13px;
+    position: absolute;
+    top: 71px;
+    left: 118px;
+}
+.pfd-sdv-to-test-separator{
+    width: 20px;
+    position: absolute;
+    top: 54px;
+    left: 131px;
+}
+.pfd-horizontal-from-sdv-to-test-separator{
+    height: 3px;
+    width: 15px;
+    position: absolute;
+    top: 71px;
+    left: 151px;
+}
+.pfd-vertical-from-sdv-to-test-separator{
+    height: 10px;
+    width: 3px;
+    position: absolute;
+    top: 71px;
+    left: 166px;
+}
+.pfd-arrow-from-sdv-to-test-separator-down{
+    position: absolute;
+    top: 81px;
+    transform: rotate(90deg);
+    left: 163px;
+    width: 10px;
+}
+.pfd-vertical-from-test-separator-to-knife{
+    height: 10px;
+    width: 3px;
+    position: absolute;
+    top: 75px;
+    left: 211px;
+}
+.pfd-arrow-from-test-separator-to-knife-up{
+    position: absolute;
+    top: 67px;
+    transform: rotate(-90deg);
+    left: 208px;
+    width: 10px;
+}
+.pfd-horizontal-from-test-separator-to-knife{
+    height: 3px;
+    width: 25px;
+    position: absolute;
+    top: 65px;
+    left: 212px;
+}
+.pfd-knife-from-test-separator{
+    width: 15px;
+    position: absolute;
+    top: 59px;
+    left: 237px;
+}
+.pfd-horizontal-from-knife-to-prod-manifold{
+    height: 3px;
+    width: 117px;
+    position: absolute;
+    top: 65px;
+    left: 251px;
+}
+.pfd-arrow-from-knife-to-prod-manifold{
+    position: absolute;
+    top: 62px;
+    left: 67.5%;
+    width: 10px;
+}
+.pfd-vertical-from-knife-to-prod-manifold{
+    height: 148px;
+    width: 3px;
+    position: absolute;
+    top: 68px;
+    left: 69.5%;
+}
+.pfd-arrow-from-knife-to-prod-manifold-down{
+    position: absolute;
+    top: 204px;
+    transform: rotate(90deg);
+    left: 69%;
+    width: 10px;
+}
+.pfd-horizontal-from-knife-from-vertical-to-prod-manifold{
+    height: 3px;
+    width: 270px;
+    position: absolute;
+    top: 213px;
+    left:18%;
+}
+.pfd-arrow-from-knife-to-prod-manifold-left{
+    position: absolute;
+    top: 209px;
+    transform: rotate(180deg);
+    left: 92px;
+    width: 10px;
+}
+.pfd-horizontal-to-olc{
+    height: 3px;
+    width: 12px;
+    position: absolute;
+    top: 100px;
+    left: 234px;
+}
+.pfd-olc{
+    width: 15px;
+    position: absolute;
+    top: 95px;
+    left: 245px;
+}
+.pfd-horizontal-from-olc{
+    height: 3px;
+    width: 10px;
+    position: absolute;
+    top: 100px;
+    left: 260px;
+}
+.pfd-es-from-olc{
+    width: 10px;
+    height: 33px;
+    position: absolute;
+    top: 101px;
+    left: 266px;
+}
+.pfd-es-from-olc-horizontal{
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 118px;
+    left: 250px;
+}
+.pfd-dlcv-from-es-olc{
+    width: 20px;
+    position: absolute;
+    top: 138px;
+    left: 231px;
+}
+.pfd-horizontal-from-dlcv-to-valve{
+    height: 3px;
+    width: 35px;
+    position: absolute;
+    top: 155px;
+    left: 62%;
+}
+.pfd-vertical-from-olc-es-to-dlcv{
+    height: 4px;
+    width: 3px;
+    position: absolute;
+    top: 134px;
+    left: 239px;
+}
+.pfd-valve-from-dlcv-to-prod-manifold{
+    width: 20px;
+    position: absolute;
+    top: 154px;
+    left: 64%;
+}
+.pfd-vertical-from-dlcv-to-valve-up{
+    height: 12px;
+    width: 3px;
+    position: absolute;
+    top: 144px;
+    left: 62%;
+}
+.pfd-horizontal-from-dlcv-vertical-to-valve-up{
+    height: 3px;
+    width: 8px;
+    position: absolute;
+    top: 143px;
+    left: 62%;
+}
+.pfd-valve-from-dlcv-to-sdv{
+    width: 20px;
+    position: absolute;
+    top: 141px;
+    left: 64%;
+}
+.pfd-horizontal-from-dlcv-valve-up-to-sdv{
+    height: 3px;
+    width: 82px;
+    position: absolute;
+    top: 143px;
+    left: 65%;
+}
+.pfd-sdv-from-dlcv-to-gauging{
+    width: 20px;
+    position: absolute;
+    top: 125px;
+    left: 74%;
+}
+.pfd-horizontal-from-filter-to-dlcv{
+    height: 3px;
+    width: 120px;
+    position: absolute;
+    top: 155px;
+    left: 219px;
+}
+.pfd-filter-to-dlcv{
+    width: 8px;
+    position: absolute;
+    top: 153px;
+    left: 211px;
+}
+.pfd-horizontal-from-test-separator-to-filter{
+    height: 3px;
+    width: 7px;
+    position: absolute;
+    top: 155px;
+    left: 204px;
+}
+.pfd-vertical-from-test-separator-to-filter-down{
+    height: 32px;
+    width: 3px;
+    position: absolute;
+    top: 124px;
+    left: 204px;
+}
+.pfd-arrow-from-test-separator-to-filter-down{
+    position: absolute;
+    top: 145px;
+    transform: rotate(90deg);
+    left: 201px;
+    width: 10px;
+}
+.pfd-horizontal-from-test-separator-to-ilc{
+    height: 3px;
+    width: 7px;
+    position: absolute;
+    top: 111px;
+    left: 131px;
+}
+.pfd-ilc{
+    width: 15px;
+    position: absolute;
+    top: 105px;
+    left: 120px;
+}
+.pfd-es-from-ilc{
+    width: 10px;
+    height: 22px;
+    position: absolute;
+    top: 120px;
+    left: 122px;
+}
+.pfd-es-from-ilc-horizontal{
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 126px;
+    left: 137px;
+}
+.pfd-es-from-ilc-horizontal-extend{
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 126px;
+    left: 165px;
+}
+.pfd-es-from-ilc-to-ilcv{
+    width: 10px;
+    height: 35px;
+    position: absolute;
+    top: 142px;
+    left: 180px;
+}
+.pfd-ilcv-from-ilc{
+    width: 20px;
+    position: absolute;
+    top: 168px;
+    left: 175px;
+}
+.pfd-horizontal-from-test-separator-to-ilcv{
+    height: 3px;
+    width: 8px;
+    position: absolute;
+    top: 185px;
+    left: 167px;
+}
+.pfd-filter-to-ilcv{
+    width: 8px;
+    position: absolute;
+    top: 182px;
+    left: 160px;
+}
+.pfd-horizontal-from-test-separator-to-filter-to-ilcv{
+    height: 3px;
+    width: 7px;
+    position: absolute;
+    top: 185px;
+    left: 153px;
+}
+.pfd-vertical-from-test-separator-to-filter-to-ilcv-down{
+    height: 63px;
+    width: 3px;
+    position: absolute;
+    top: 125px;
+    left: 151px;
+}
+.pfd-horizontal-from-ilcv{
+    height: 3px;
+    width: 165px;
+    position: absolute;
+    top: 185px;
+    left: 37%;
+}
+.pfd-valve-from-ilcv{
+    width: 20px;
+    position: absolute;
+    top: 183px;
+    left: 64%;
+}
+.pfd-arrow-from-ilcv-valve{
+    position: absolute;
+    top: 182px;
+    left: 68%;
+    width: 10px;
+}
+.pfd-arrow-from-dlcv-to-prod-manifold{
+    position: absolute;
+    top: 154px;
+    left: 68%;
+    width: 10px;
+}
+.pfd-vertical-from-ilcv-up-to-sdv{
+    height: 5px;
+    width: 3px;
+    position: absolute;
+    top: 181px;
+    left: 62%;
+}
+.pfd-valve-from-ilcv-up-to-sdv{
+    transform: rotate(90deg);
+    width: 15px;
+    position: absolute;
+    top: 173px;
+    left: 61%;
+}
+.pfd-vertical-from-valve-up-to-sdv {
+    height: 5px;
+    width: 3px;
+    position: absolute;
+    top: 163px;
+    left: 62%;
+}
+.pfd-horizontal-from-valve-up-to-sdv {
+  height: 3px;
+  width: 53px;
+  position: absolute;
+  top: 163px;
+  left: 62%;
+}
+.pfd-vertical-from-valve-horizontal-up-to-sdv {
+    height: 20px;
+    width: 3px;
+    position: absolute;
+    top: 146px;
+    left: 72%;
+}
+.pfd-flare{
+    height: 59px;
+    position: absolute;
+    top: 64px;
+    left:90%;
+}
+.pfd-horizontal-from-gauging-to-flare {
+  height: 3px;
+  width: 20px;
+  position: absolute;
+  top: 117px;
+  left: 86%;
+}
+.pfd-vertical-from-gauging-to-pump {
+    height: 8px;
+    width: 3px;
+    position: absolute;
+    top: 185px;
+    left: 83%;
+}
+.pfd-pump{
+    width: 15px;
+    position: absolute;
+    top: 193px;
+    left: 81.5%;
+}
+.pfd-horizontal-from-pump-to-pipe {
+  height: 3px;
+  width: 60px;
+  position: absolute;
+  top: 193px;
+  left: 70%;
+}
+.pfd-plank-top-test-manifold{
+  height: 6px;
+  position: absolute;
+  top: 55px;
+  left: 86px;
+}
+.pfd-plank-bottom-test-manifold{
+  height: 6px;
+  position: absolute;
+  top: 220px;
+  left: 86px;
+}
+.pfd-plank-top-prod-manifold{
+  height: 6px;
+  position: absolute;
+  top: 55px;
+  left: 112px;
+}
+.pfd-plank-bottom-prod-manifold{
+  height: 6px;
+  position: absolute;
+  top: 202px;
+  left: 112px;
+}

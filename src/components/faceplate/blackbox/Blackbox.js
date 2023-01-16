@@ -1,5 +1,5 @@
 import React from 'react'
-import '../blackbox/blackbox.css'
+import './blackbox.css'
 
 function Blackbox() {
     return (

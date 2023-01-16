@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+.footer{
+  position: sticky;
+bottom: 0px;
+}
+
 
     .background-radial-gradient {
       background-color: hsl(218, 41%, 15%);
@@ -52,4 +57,23 @@ code {
       background-color: hsla(0, 0%, 100%, 0.9) !important;
       backdrop-filter: saturate(200%) blur(25px);
     }
+
+    .toggle-password:hover{
+      cursor: pointer;
+    }
+
+     .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
   
