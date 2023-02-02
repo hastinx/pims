@@ -8,61 +8,61 @@
     height: 100%;
 }
 .large-testseparator-tank-horizontal{
-    width:30%;
-    height: 25%;
+    width: 435px;
+    height: 172px;
     position: absolute;
-    top: 35%;
-    left: 25%;
+    top: 240px;
+    left: 375px;
 }
 .large-testseparator-vertical-left-one{
     width: 10px;
-    height: 260px;
+    height: 280px;
     position: absolute;
-    left:9%
+    left:145px
 }
 .large-testseparator-vertical-left-two{
     width: 10px;
     height: 77px;
     position: absolute;
-    top:45%;
-    left:9%;
+    top:310px;
+    left:145px;
 }
 .large-testseparator-top-left-bow{
     height: 5px;
     width: 5px;
 }
 .large-testseparator-horizontal-top{
-    width: 80%;
+    width: 1300px;
     height: 10px;
     position: absolute;
-    left:9%;
+    left:145px;
 }
 .large-testseparator-horizontal-bottom-one{
     width: 82px;
     height: 10px;
     position: absolute;
-    top:55%;
-    left:6%;
+    top:385px;
+    left:95px;
 }
 .large-testseparator-horizontal-bottom-two{
     width: 150px;
     height: 10px;
     position: absolute;
-    top:55%;
-    left:13%;
+    top:385px;
+    left:210px;
 }
 .large-testseparator-pcv-bdv1151{
     transform: rotate(90deg);
     height: 40px;
     position: absolute;
-    top:40.5%;
-    left:9.2%;
+    top:278px;
+    left:148px;
 }
 .large-testseparator-pcv-esdv1151{
     height: 40px;
     position: absolute;
-    top:51.5%;
-    left:11%;
+    top:357px;
+    left:177px;
 }
 .large-testseparator-bottom-rigth-bow{
     height: 5px;
@@ -76,8 +76,8 @@
     width: 10px;
     height: 120px;
     position: absolute;
-    top:40%;
-    left:21.5%;
+    top:266px;
+    left:350px;
 }
 .large-testseparator-bottom-left-bow-to-tank{
     height: 5px;
@@ -87,18 +87,18 @@
     left:110px;
 }
 .large-testseparator-horizontal-bottom-to-tank{
-    width: 71px;
+    width: 46px;
     height: 10px;
     position: absolute;
-    top: 39%;
-    left: 21.5%;
+    top: 256px;
+    left: 350px;
 }
 .large-testseparator-vertical-top-to-separator{
     width: 10px;
     height: 80px;
     position: absolute;
-    top:25%;
-    left:40%;
+    top: 160px;
+    left: 590px;
 }
 .large-testseparator-bow-top-one-to-separator{
     height: 5px;
@@ -111,15 +111,15 @@
     width: 500px;
     height: 10px;
     position: absolute;
-    top: 25%;
-    left: 40%;
+    top: 150px;
+    left: 590px;
 }
 .large-testseparator-vertical-top-to-wellpad-vessel-one{
     width: 10px;
     height: 40px;
     position: absolute;
-    top: 30%;
-    left: 48%;
+    top: 200px;
+    left: 731px;
 }
 .large-testseparator-bow-top-one-to-wellpad-vessel-one{
     height: 5px;
@@ -129,11 +129,11 @@
     left: 263px;
 }
 .large-testseparator-horizontal-top-one-to-wellpad-vessel-one{
-    width: 150px;
+    width: 108px;
     height: 10px;
     position: absolute;
-    top: 30%;
-    left: 48%;
+    top: 190px;
+    left: 731px;
 }
 .large-testseparator-bow-top-two-to-wellpad-vessel-one{
     height: 5px;
@@ -147,8 +147,8 @@
     width: 10px;
     height: 170px;
     position: absolute;
-    top: 30%;
-    left: 57%;
+    top: 190px;
+    left: 839px;
 }
 .large-testseparator-bow-right-one-to-wellpad-vessel-one{
     height: 5px;
@@ -158,31 +158,31 @@
     left: 317px;
 }
 .large-testseparator-horizontal-right-one-to-wellpad-vessel-one{
-    width: 81px;
+    width: 500px;
     height: 10px;
     position: absolute;
-    top: 52%;
-    left: 57%;
+    top: 358px;
+    left: 944px;
 }
 .large-testseparator-lcv-right-one-to-wellpad-vessel-one{
     width: 40px;
     position: absolute;
-    top: 47.3%;
-    left: 62%;
+    top: 321px;
+    left: 907px;
 }
 .large-testseparator-horizontal-right-two-to-wellpad-vessel-one{
-    width: 405px;
+    width: 68px;
     height: 10px;
     position: absolute;
-    top: 52%;
-    left: 64.3%;
+    top: 359px;
+    left: 839px;
 }
 .large-testseparator-vertical-right-one-to-wellpad-vessel-one{
     width: 10px;
     height: 80px;
     position: absolute;
-    top: 41.7%;
-    left: 60%;
+    top: 279px;
+    left: 868px;
 }
 .large-testseparator-bow-right-baypass-one-to-wellpad-vessel-one{
     height: 5px;
@@ -195,21 +195,21 @@
     width: 40px;
     height: 10px;
     position: absolute;
-    top: 41.7%;
-    left: 60%;
+    top: 270px;
+    left: 868px;
 }
 .large-testseparator-lcv-right-bypass-one-to-wellpad-vessel-one{
     width: 40px;
     position: absolute;
-    top: 37%;
-    left: 62%;
+    top: 233px;
+    left: 907px;
 }
 .large-testseparator-horizontal-right-bypass-two-to-wellpad-vessel-one{
     width: 40px;
     height: 10px;
     position: absolute;
-    top: 41.7%;
-    left: 64.3%;
+    top: 270px;
+    left: 944px;
 }
 .large-testseparator-bow-right-baypass-two-to-wellpad-vessel-one{
     height: 5px;
@@ -221,17 +221,17 @@
 }
 .large-testseparator-vertical-right-two-to-wellpad-vessel-one{
     width: 10px;
-    height: 70px;
+    height: 79px;
     position: absolute;
-    top: 43%;
-    left: 66.1%;
+    top: 280px;
+    left: 974px;
 }
 .large-testseparator-vertical-bottom-one-to-wellpad-vessel-two{
     width: 10px;
     height: 120px;
     position: absolute;
-    top: 60%;
-    left: 48%;
+    top: 411px;
+    left: 731px;
 }
 .large-testseparator-bow-bottom-one-to-wellpad-vessel-two{
     height: 5px;
@@ -241,24 +241,24 @@
     left: 273px;
 }
 .large-testseparator-horizontal-bottom-one-to-wellpad-vessel-two{
-    width: 662px;
+    width: 704px;
     height: 10px;
     position: absolute;
-    top: 75%;
-    left: 48%;
+    top: 521px;
+    left: 740px;
 }
 .large-testseparator-ft-bottom-one-to-wellpad-vessel-two{
     width: 40px;
     position: absolute;
-    top: 72.2%;
-    left: 58%;
+    top: 499px;
+    left: 852px;
 }
 .large-testseparator-vertical-bottom-one-bypass-to-wellpad-vessel-two{
     width: 10px;
     height: 67px;
     position: absolute;
-    top: 66.5%;
-    left: 56%;
+    top: 455px;
+    left: 808px;
 }
 .large-testseparator-bow-bottom-one-bypass-to-wellpad-vessel-two{
     height: 5px;
@@ -271,21 +271,21 @@
     width: 34px;
     height: 10px;
     position: absolute;
-    top: 65.5%;
-    left: 56%;
+    top: 454px;
+    left: 818px;
 }
 .large-testseparator-ft-bottom-one-bypass-to-wellpad-vessel-two{
     width: 40px;
     position: absolute;
-    top: 62.8%;
-    left: 58%;
+    top: 432px;
+    left: 852px;
 }
 .large-testseparator-horizontal-bottom-two-bypass-to-wellpad-vessel-two{
     width: 35px;
     height: 10px;
     position: absolute;
-    top: 65.5%;
-    left: 60.5%;
+    top: 454px;
+    left: 892px;
 }
 .large-testseparator-bow-bottom-two-bypass-to-wellpad-vessel-two{
     height: 5px;
@@ -297,59 +297,59 @@
 }
 .large-testseparator-vertical-bottom-two-bypass-to-wellpad-vessel-two{
     width: 10px;
-    height: 65px;
+    height: 58px;
     position: absolute;
-    top: 66.8%;
-    left: 62%;
+    top: 464px;
+    left: 917px;
 }
 .large-testseparator-horizontal-bottom-two-to-wellpad-vessel-two{
-    width: 125px;
+    width: 100px;
     height: 10px;
     position: absolute;
-    top: 10%;
-    left: 73%;
+    top: 22px;
+    left: 1137px;
 }
 .large-testseparator-vertical-top-tank{
     width: 10px;
     height: 30px;
     position: absolute;
-    top: 11.2%;
-    left: 73%;
+    top: 32px;
+    left: 1137px;
 }
 .large-testseparator-horizontal-top-tank-to-flare{
-    width: 150px;
+    width: 209px;
     height: 10px;
     position: absolute;
-    top: 20%;
-    left: 80%;
+    top: 92px;
+    left: 1236px;
 }
 .large-testseparator-vertical-top-tank-to-flare{
     width: 10px;
     height: 70px;
     position: absolute;
-    top: 11.2%;
-    left: 80%;
+    top: 22px;
+    left: 1236px;
 }
 .large-testseparator-lcv-bottom-one-to-wellpad-vessel-two{
     width: 40px;
     position: absolute;
-    top: 70.2%;
-    left: 72.5%;
+    top: 484px;
+    left: 1155px;
 }
 .large-testseparator-horizontal-bottom-three-to-wellpad-vessel-two{
-    width: 150px;
+    width: 213px;
     height: 10px;
     position: absolute;
-    top: 40%;
-    left: 80%;
+    top: 277px;
+    left: 1233px;
 }
 /* THREE */
 .large-testseparator-vertical-bottom-one-to-wellpad-vessel-three{
     width: 10px;
     height: 250px;
     position: absolute;
-    top: 60%;
-    left: 32%;
+    top: 411px;
+    left: 442px;
 }
 .large-testseparator-bow-bottom-one-to-wellpad-vessel-three{
     height: 5px;
@@ -362,21 +362,21 @@
     width: 120px;
     height: 10px;
     position: absolute;
-    top: 91%;
-    left: 32.6%;
+    top: 651px;
+    left: 452px;
 }
 .large-testseparator-ft-bottom-one-to-wellpad-vessel-three{
     width: 45px;
     position: absolute;
-    top: 87.8%;
-    left: 39.5%;
+    top: 626px;
+    left: 572px;
 }
 .large-testseparator-vertical-bottom-one-bypass-to-wellpad-vessel-three{
     width: 10px;
     height: 67px;
     position: absolute;
-    top: 82.5%;
-    left: 38%;
+    top: 584px;
+    left: 542px;
 }
 .large-testseparator-bow-bottom-one-bypass-to-wellpad-vessel-three{
     height: 10px;
@@ -389,21 +389,21 @@
     width: 27px;
     height: 10px;
     position: absolute;
-    top: 81.5%;
-    left: 38%;
+    top: 574px;
+    left: 542px;
 }
 .large-testseparator-ft-bottom-one-bypass-to-wellpad-vessel-three{
     width: 45px;
     position: absolute;
-    top: 78.4%;
-    left: 39.5%;
+    top: 548px;
+    left: 569px;
 }
 .large-testseparator-horizontal-bottom-two-bypass-to-wellpad-vessel-three{
     width: 30px;
     height: 10px;
     position: absolute;
-    top: 81.5%;
-    left: 42.3%;
+    top: 574px;
+    left: 614px;
 }
 .large-testseparator-bow-bottom-two-bypass-to-wellpad-vessel-three{
     height: 5px;
@@ -417,60 +417,299 @@
     width: 10px;
     height: 70px;
     position: absolute;
-    top: 82.8%;
-    left: 43.5%;
+    top: 584px;
+    left: 634px;
 }
 .large-testseparator-horizontal-bottom-two-to-wellpad-vessel-three{
-    width: 753px;
+    width: 827px;
     height: 10px;
     position: absolute;
-    top: 91%;
-    left: 42.3%;
+    top: 651px;
+    left: 617px;
 }
 .large-testseparator-lcv-bottom-one-to-wellpad-vessel-three{
     width: 40px;
     position: absolute;
-    top: 86.2%;
-    left: 72.5%;
+    top: 615px;
+    left: 1155px;
 }
 .large-testseparator-horizontal-bottom-three-to-wellpad-vessel-three{
-    width: 115px;
+    width: 100px;
     height: 10px;
     position: absolute;
-    top: 47%;
-    left: 73%;
+    top: 332px;
+    left: 1134px;
 }
 .large-testseparator-vertical-bottom-tank{
     width: 10px;
     height: 20px;
     position: absolute;
-    top: 45%;
-    left: 73%;
+    top: 312px;
+    left: 1134px;
 }
 .large-testseparator-vertical-bottom-tank-to-wellhead-manifold{
     width: 10px;
     height: 55px;
     position: absolute;
-    top: 41%;
-    left: 80%;
+    top: 287px;
+    left: 1233px;
 }
 .large-testseparator-tank-vertical{
-    width:6%;
-    height: 30%;
+    width: 100px;
+    height: 250px;
     position: absolute;
-    top:15%;
-    left:70%;
+    top: 62px;
+    left: 1090px;
 }
 .large-testseparator-esdv{
     width: 40px;
     position: absolute;
-    top:20.5%;
-    left:65%;
+    top: 115px;
+    left: 960px;
+}
+.large-testseparator-label-in{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 357px;
+    width: 83px;
+    text-align: center;  
+}
+.large-testseparator-label-to-1{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: -10px;
+    left: 1447px;
+    width: 174px;
+    text-align: center;
+}
+.large-testseparator-label-to-2{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 83px;
+    left: 1448px;
+    width: 83px;
+    text-align: center;
+}
+.large-testseparator-label-to-3{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 269px;
+    left: 1448px;
+    width: 174px;
+    text-align: center;  
+}
+.large-testseparator-label-to-4{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 335px;
+    left: 1446px;
+    width: 174px;
+    text-align: center;
+}
+.large-testseparator-label-to-5{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 364px;
+    left: 1446px;
+    width: 150px;
+    text-align: center;
+}
+.large-testseparator-label-to-6{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 498px;
+    left: 1446px;
+    width: 174px;
+    text-align: center;
+}
+.large-testseparator-label-to-7{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 527px;
+    left: 1446px;
+    width: 150px;
+    text-align: center;
+}
+.large-testseparator-label-to-8{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 627px;
+    left: 1446px;
+    width: 174px;
+    text-align: center;
+}
+.large-testseparator-label-to-9{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    background: #2cc4c4;
+    position: absolute;
+    top: 656px;
+    left: 1446px;
+    width: 150px;
+    text-align: center;
 }
 
+.large-testseparator-label-tank-separator{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 3px;
+    position: absolute;
+    top: 336px;
+    left: 520px;
+    width: 148px;
+    text-align: center;
+}
+.large-testseparator-label-tank-gauging{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 3px;
+    position: absolute;
+    top: 167px;
+    left: 1066px;
+    width: 148px;
+    text-align: center;
+}
+.large-testseparator-label-tag-1{
+    position: absolute;
+    left: 565px;
+    top: 587px;
+}
+.large-testseparator-label-tag-2{
+    position: absolute;
+    left: 567px;
+    top: 665px;
+}
+.large-testseparator-label-tag-3{
+    position: absolute;
+    left: 845px;
+    top: 466px;
+}
+.large-testseparator-label-tag-4{
+    position: absolute;
+    left: 845px;
+    top: 534px;
+}
+.large-testseparator-label-tag-5{
+    position: absolute;
+    left: 891px;
+    top: 284px;
+}
+.large-testseparator-label-tag-6{
+    position: absolute;
+    left: 891px;
+    top: 372px;
+}
+.large-testseparator-label-tag-7{
+    position: absolute;
+    left: 1144px;
+    top: 535px;
+}
+.large-testseparator-label-tag-8{
+    position: absolute;
+    left: 1142px;
+    top: 667px;
+}
+.large-testseparator-monitor-status-1{
+    position: absolute;
+    top: 218px;
+    left: 76px;
+}
+.large-testseparator-monitor-status-2{
+    position: absolute;
+    top: 350px;
+    left: 163px;
+}
+.large-testseparator-monitor-status-3{
+    position: absolute;
+    top: 206px;
+    left: 274px;
+}
+.large-testseparator-monitor-status-4{
+    position: absolute;
+    top: 219px;
+    left: 563px;
+}
+.large-testseparator-monitor-status-5{
+    position: absolute;
+    top: 113px;
+    left: 946px;
+}
+.large-testseparator-monitor-status-6{
+    position: absolute;
+    top: 58px;
+    left: 1108px;
+}
+.large-testseparator-arrow-1{
+    width: 22px;
+    position: absolute;
+    top: 364px;
+    left: 96px;
+}
+.large-testseparator-arrow-2{
+    width: 22px;
+    position: absolute;
+    top: 145px;
+    left: 1057px;
+}
+.large-testseparator-arrow-3{
+    width: 22px;
+    position: absolute;
+    top: -5px;
+    left: 1411px;
+}
+.large-testseparator-arrow-4{
+    width: 22px;
+    position: absolute;
+    top: 353px;
+    left: 1411px;
+}
+.large-testseparator-arrow-5{
+    width: 22px;
+    position: absolute;
+    top: 517px;
+    left: 1411px;
+}
+.large-testseparator-arrow-6{
+    width: 22px;
+    position: absolute;
+    top: 646px;
+    left: 1411px;
+}
+.bg-gray{
+    background-color: #666666;
+}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px) {
     .wrapper{
         overflow-x: scroll;
+        overflow-y: scroll;
     }
 }

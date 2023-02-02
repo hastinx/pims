@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ApexCharts from 'apexcharts'
 import ReactApexChart from "react-apexcharts";
 
 const Chart = (props) => {
@@ -7,26 +6,27 @@ const Chart = (props) => {
     const chartData = {
         series: [
             {
-                name: props.seriesname,
-                data: [28, 29, 33, 36, 32, 32, 33]
+                name: props.y_series_name1,
+                // data: [28, 29, 33, 36, 32, 32, 33]
+                data: props.y_data1
             },
-            // {
-            //     name: "Low - 2013",
-            //     data: [12, 11, 14, 18, 17, 13, 13]
-            // }
+            {
+                name: props.y_series_name2,
+                data: props.y_data2
+            }
         ],
         options: {
             chart: {
                 height: 350,
                 type: 'line',
-                dropShadow: {
-                    enabled: true,
-                    color: '#000',
-                    top: 18,
-                    left: 7,
-                    blur: 10,
-                    opacity: 0.2
-                },
+                // dropShadow: {
+                //     enabled: false,
+                //     color: '#000',
+                //     top: 18,
+                //     left: 7,
+                //     blur: 10,
+                //     opacity: 0.2
+                // },
                 toolbar: {
                     autoSelected: 'zoom'
                 }
@@ -53,17 +53,18 @@ const Chart = (props) => {
                 size: 1
             },
             xaxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                // categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                categories: props.x_data,
                 title: {
                     text: ''
                 }
             },
             yaxis: {
                 title: {
-                    text: props.yaxis_title
+                    text: props.y_title
                 },
-                min: 5,
-                max: 40
+                // min: 5,
+                // max: 40
             },
             legend: {
                 position: 'top',
@@ -77,8 +78,15 @@ const Chart = (props) => {
     };
 
     return (
-        <div id='chart'>
-            <ReactApexChart options={chartData.options} series={chartData.series} type="area" height={350} />
+        <div className="card border-secondary">
+            <div className="card-header fw-semibold text-center text-white bg-secondary">
+                WELLHEAD {props.head_title}
+            </div>
+            <div className="card-body">
+                <div id='chart'>
+                    <ReactApexChart options={chartData.options} series={chartData.series} type="area" height={350} />
+                </div>
+            </div>
         </div>
     )
 }
