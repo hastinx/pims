@@ -1,19 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logo from '../../.../../../assets/img/pims-logo.png'
 import style from './report.module.css'
 import JsPDF from 'jspdf';
 
 const ReportPDF = ({ filename, children }) => {
-    const generatePDF = () => {
 
+    useEffect(() => {
         const report = new JsPDF('portrait', 'pt', 'a4');
         report.html(document.querySelector('#exp-pdf')).then(() => {
             report.save(filename + '.pdf');
         });
-    }
+    }, [])
+
+
     return (
         <>
-            <button onClick={generatePDF} type="button" className='btn btn-primary'>Export PDF</button>
             <div id='exp-pdf' style={{ width: '595px', height: '842px', margin: '25px' }}>
                 <div className={'row ' + style.header}>
                     <div className={'col-md-4 ' + style.header_logo}><img className="pims-logo" src={logo} alt='' /></div>

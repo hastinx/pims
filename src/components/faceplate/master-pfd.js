@@ -25,7 +25,7 @@ import './pfd.css'
 function Pfd() {
     return (
         <>
-            <div className="card border-secondary" style={{ height: '300px' }}>
+            <div className="card border-secondary" style={{ height: '320px', marginTop: '5px' }}>
                 <div className="card-header fw-semibold text-center text-white bg-secondary">
                     MUDI PAD A - PFD
                 </div>

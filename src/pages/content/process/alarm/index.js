@@ -6,10 +6,13 @@ import ReactDatePicker from 'react-datepicker'
 import Table from '../../../../components/Table'
 import { useGetApi } from '../../../../server/Api'
 import "react-datepicker/dist/react-datepicker.css";
+import ReportPDF from '../../../../components/export/pdf'
+import { useNavigate } from 'react-router-dom'
 
 const Alarm = () => {
     const [getDate, setDate] = useState(new Date())
     const [alarm, setAlaram] = useState([])
+    const navigate = useNavigate()
     const GetDataAlarm = async () => {
 
         const data = await useGetApi('alarm');
@@ -25,6 +28,9 @@ const Alarm = () => {
             })
         }
 
+    }
+    const handleExport = () => {
+        navigate('/report/data/mudipad-a')
     }
     useEffect(() => {
         GetDataAlarm()
@@ -48,6 +54,8 @@ const Alarm = () => {
                             showMonthDropdown
                         />
                         <button className='btn btn-success btn-outline ms-3'><i className='fas fa-search'></i></button>
+                        <button className='btn btn-success btn-outline ms-3' onClick={handleExport}><i className='fas fa-print'></i></button>
+
                     </div>
                 </div>
             </div>

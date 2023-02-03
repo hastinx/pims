@@ -18,13 +18,16 @@ function Wellhead(props) {
 
     return (
         <>
-            <div className="card border-secondary" style={{ height: '300px' }}>
+            <div className="card border-secondary" style={{ height: '320px', marginTop: '5px' }}>
                 <div className="card-header fw-semibold text-center text-white bg-secondary d-flex justify-content-between">
                     WELLHEAD {props.title}
-                    <span className='text-danger blink bg-white'> ALARM </span>
+                    <span className='text-white blink bg-danger p-1'> ALARM </span>
                 </div>
                 <div className="card-body">
                     <div className='wrap-well'>
+                        <div className='horizontal-pipe-1'>
+                            <Horizontal />
+                        </div>
                         <div className='wrapper-bottom'>
                             <div className='d-flex'>
                                 <div style={{
@@ -33,12 +36,7 @@ function Wellhead(props) {
                                 }}>
                                     <Bowtopleft />
                                 </div>
-                                <div style={{
-                                    height: '10px',
-                                    width: '100%'
-                                }}>
-                                    <Horizontal />
-                                </div>
+
                             </div>
                             <div className='d-flex flex-column'>
                                 <div className='vertival-left-side'>

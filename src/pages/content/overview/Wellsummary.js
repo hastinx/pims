@@ -7,8 +7,8 @@ function Wellsummary() {
                 <div className="card-header fw-semibold text-center text-dark bg-warning">
                     WELL SUMMARY
                 </div>
-                <div className="card-body">
-                    <table className="table table-bordered">
+                <div className="card-body" style={{ overflow: 'scroll' }}>
+                    <table className="table table-bordered" >
                         <thead>
                             <tr>
                                 <th scope="col">NO</th>
