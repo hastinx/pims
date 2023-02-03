@@ -55,8 +55,15 @@ function Login() {
     <div className='h-100 d-flex align-items-center justify-content-center'>
       <section>
         <div className="container mt-5 px-4 py-5 px-md-5 text-center text-lg-start">
+          <h1
+            className="fw-bold ls-tight logo-mobile"
+            style={{ color: 'hsl(218, 81%, 95%)' }}
+          >
+            PERTAMINA <br />
+            <span style={{ color: 'hsl(354, 85%, 52%, 1)' }}>PHE TEJ</span>
+          </h1>
           <div className="row gx-lg-5 align-items-center mb-5">
-            <div className="col-lg-6 mb-5 mb-lg-0" style={{ zIndex: 10 }}>
+            <div className="col-lg-6 mb-5 mb-lg-0 intro" style={{ zIndex: 10 }}>
               <h1
                 className=" display-5 fw-bold ls-tight"
                 style={{ color: 'hsl(218, 81%, 95%)' }}

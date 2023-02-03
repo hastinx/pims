@@ -6,7 +6,7 @@ function Header() {
     <>
       <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         {/* <!-- Navbar Brand--> */}
-        <a className="navbar-brand ps-3" href="index.html">
+        <a className="navbar-brand ps-3" href="#0">
           <img src={logo} alt='pims-logo' className='pims-logo' />
         </a>
         {/* <!-- Sidebar Toggle--> */}

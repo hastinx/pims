@@ -11701,3 +11701,16 @@ body {
   font-size: 0.75rem;
   border-radius: 0.25rem !important;
 }
+  .logo-mobile{
+    display: none;
+  }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .logo-mobile{
+    display: block;
+  }
+  .intro{
+    display: none;
+  }
+}
