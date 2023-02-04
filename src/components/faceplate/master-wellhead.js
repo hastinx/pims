@@ -13,12 +13,17 @@ import Bowbottomleft from './pipe/Bowbottomleft'
 import './wellheada.css'
 import Blackbox from './blackbox/Blackbox'
 import Alert from 'react-bootstrap/Alert';
+import { useNavigate } from 'react-router-dom'
 
 function Wellhead(props) {
+    const navigate = useNavigate()
+    const handleNavigate = () => {
+        navigate(props.nav)
+    }
 
     return (
         <>
-            <div className="card border-secondary" style={{ height: '320px', marginTop: '5px' }}>
+            <div className="card border-secondary card-hover" style={{ height: '320px', marginTop: '5px' }} onClick={handleNavigate}>
                 <div className="card-header fw-semibold text-center text-white bg-secondary d-flex justify-content-between">
                     WELLHEAD {props.title}
                     <span className='text-white blink bg-danger p-1'> ALARM </span>

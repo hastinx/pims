@@ -26,7 +26,7 @@ function Navbar() {
                             <div className={path[1] === "production-flow" ? "collapse show" : "collapse"} id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav className="sb-sidenav-menu-nested nav">
                                     <a className={path[1] === "production-flow" ? "nav-link active" : "nav-link"} href="/production-flow">Production</a>
-                                    <a className="nav-link" href="#0">MUDI PAD</a>
+                                    {/* <a className="nav-link" href="#0">MUDI PAD</a> */}
                                 </nav>
                             </div>
                             <div className="sb-sidenav-menu-heading">PROCESS</div>

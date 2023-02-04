@@ -10,7 +10,7 @@ const Wellhead18 = () => {
     const [ptStatus, setPtstatus] = useState('');
 
     const GetData = async () => {
-        const data = await useGetApi('pad_a/wellhead/m18');
+        const data = await useGetApi('pad_b/wellhead/m18');
         if (data.error === false) {
             Setpshhstatus(data.data.values[0].pshH_3018)
             setSdvonestatus(data.data.values[0].sdV_1182)
@@ -41,6 +41,7 @@ const Wellhead18 = () => {
             sdvTwoStatus={sdvTwoStatus}
             pshhStatus={pshhStatus}
             ptStatus={ptStatus}
+            nav="/process/mudipad-b/wellhead"
         />
     )
 }

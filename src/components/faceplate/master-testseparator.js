@@ -8,12 +8,17 @@ import pcv from '../../assets/img/faceplate/pcv-run.png'
 import ft from '../../assets/img/faceplate/ft.png'
 import lcv from '../../assets/img/faceplate/lcv.png'
 import Bowbottomleft from './pipe/Bowbottomleft'
+import { useNavigate } from 'react-router-dom';
 
 function Testseparator(props) {
+    const navigate = useNavigate()
+    const handleNavigate = () => {
+        navigate(props.nav)
+    }
     return (
         <>
 
-            <div className="card border-secondary" style={{ height: '320px', marginTop: '5px' }}>
+            <div className="card border-secondary card-hover" style={{ height: '320px', marginTop: '5px' }} onClick={handleNavigate}>
                 <div className="card-header fw-semibold text-center text-white bg-secondary">
                     {props.title}
                 </div>

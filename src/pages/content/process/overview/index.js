@@ -10,6 +10,8 @@ import Testseparator from '../../../../components/Faceplate/master-testseparator
 import MasterLayout from '../../../../components/Layout';
 
 function Processoverview() {
+
+
   return (
     <MasterLayout>
       <div className="row mt-4">
@@ -25,7 +27,7 @@ function Processoverview() {
       </div>
       <div className="row mt-4">
         <div className="col-xl-4 col-md-4">
-          <Testseparator title="MUDI PAD A -TEST SEPARATOR" />
+          <Testseparator title="MUDI PAD A -TEST SEPARATOR" nav="/process/mudipad-a/test-separator" />
         </div>
         <div className="col-xl-4 col-md-4">
           <Wellheadb2 />
@@ -36,7 +38,7 @@ function Processoverview() {
       </div>
       <div className="row mt-4">
         <div className="col-xl-4 col-md-4">
-          <Pfd />
+          <Pfd nav="/process/mudipad-a/process-flow-diagram" />
         </div>
         <div className="col-xl-4 col-md-4">
           <Testseparator title="MUDI PAD B -TEST SEPARATOR" />

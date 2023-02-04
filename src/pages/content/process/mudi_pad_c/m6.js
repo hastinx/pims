@@ -10,7 +10,7 @@ const Wellhead6 = () => {
     const [ptStatus, setPtstatus] = useState('');
 
     const GetData = async () => {
-        const data = await useGetApi('pad_a/wellhead/m6');
+        const data = await useGetApi('pad_c/wellhead/m6');
         if (data.error === false) {
             Setpshhstatus(data.data.values[0].pshH_3006)
             setSdvonestatus(data.data.values[0].sdV_1062)
@@ -19,7 +19,7 @@ const Wellhead6 = () => {
         } else {
             Swal.fire({
                 title: 'Oops!',
-                text: 'Wellhead A#6 ' + data.message,
+                text: 'Wellhead M#6 ' + data.message,
                 icon: 'error',
                 confirmButtonText: 'OK'
             })
@@ -41,6 +41,7 @@ const Wellhead6 = () => {
             sdvTwoStatus={sdvTwoStatus}
             pshhStatus={pshhStatus}
             ptStatus={ptStatus}
+            nav="/process/mudipad-c/wellhead"
         />
     )
 }

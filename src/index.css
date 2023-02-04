@@ -80,4 +80,7 @@ bottom: 0px;
   .pims-logo{
     height: 25px;
   }
+  .card-hover:hover{
+    transform: scale(1.05);
+  }
   

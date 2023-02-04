@@ -21,11 +21,16 @@ import flare from '../../assets/img/faceplate/flare.png'
 import pumptl from '../../assets/img/faceplate/pump-tl.png'
 import plank from '../../assets/img/faceplate/plank.png'
 import './pfd.css'
+import { useNavigate } from 'react-router-dom'
 
-function Pfd() {
+function Pfd(props) {
+    const navigate = useNavigate()
+    const handleNavigate = () => {
+        navigate(props.nav)
+    }
     return (
         <>
-            <div className="card border-secondary" style={{ height: '320px', marginTop: '5px' }}>
+            <div className="card border-secondary card-hover" style={{ height: '320px', marginTop: '5px' }} onClick={handleNavigate}>
                 <div className="card-header fw-semibold text-center text-white bg-secondary">
                     MUDI PAD A - PFD
                 </div>

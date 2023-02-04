@@ -26,6 +26,7 @@ const Wellhead1 = () => {
         }
     }
 
+
     useEffect(() => {
         GetData();
     }, []);
@@ -41,6 +42,7 @@ const Wellhead1 = () => {
             sdvTwoStatus={sdvTwoStatus}
             pshhStatus={pshhStatus}
             ptStatus={ptStatus}
+            nav="/process/mudipad-a/wellhead"
         />
     )
 }

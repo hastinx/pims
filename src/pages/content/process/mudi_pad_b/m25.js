@@ -10,7 +10,7 @@ const Wellhead25 = () => {
     const [ptStatus, setPtstatus] = useState('');
 
     const GetData = async () => {
-        const data = await useGetApi('pad_a/wellhead/m25');
+        const data = await useGetApi('pad_b/wellhead/m25');
         if (data.error === false) {
             Setpshhstatus(data.data.values[0].pshH_3025)
             setSdvonestatus(data.data.values[0].sdV_1252)

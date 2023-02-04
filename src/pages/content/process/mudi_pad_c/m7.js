@@ -10,7 +10,7 @@ const Wellhead7 = () => {
     const [ptStatus, setPtstatus] = useState('');
 
     const GetData = async () => {
-        const data = await useGetApi('pad_a/wellhead/m7');
+        const data = await useGetApi('pad_c/wellhead/m7');
         if (data.error === false) {
             Setpshhstatus(data.data.values[0].pshH_3007)
             setSdvonestatus(data.data.values[0].sdV_1072)
@@ -19,7 +19,7 @@ const Wellhead7 = () => {
         } else {
             Swal.fire({
                 title: 'Oops!',
-                text: 'Wellhead A#7 ' + data.message,
+                text: 'Wellhead M#7 ' + data.message,
                 icon: 'error',
                 confirmButtonText: 'OK'
             })
