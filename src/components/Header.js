@@ -23,7 +23,7 @@ function Header() {
           href="#!"
           onClick={handdleToggle}
         >
-          <i className="fas fa-bars"></i>
+          <i className="fas fa-bars" onClick={handdleToggle}></i>
         </button>
         {/* <!-- Navbar Search--> */}
         <form className="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
