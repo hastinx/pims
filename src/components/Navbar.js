@@ -95,7 +95,7 @@ function Navbar() {
                                     <a className={(path[2] === "chart" && path[3] === "mudipad-c") ? "nav-link active" : "nav-link"} href="/report/chart/mudipad-c">MUDI PAD C</a>
                                 </nav>
                             </div>
-                            <a className={path[2] === "data" ? "nav-link active collapsed" : "nav-link collapsed"} href="#0" data-bs-toggle="collapse" data-bs-target="#collapsereportdata" aria-expanded="false" aria-controls="collapseLayouts">
+                            {/* <a className={path[2] === "data" ? "nav-link active collapsed" : "nav-link collapsed"} href="#0" data-bs-toggle="collapse" data-bs-target="#collapsereportdata" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
                                 REPORTING
                                 <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
@@ -106,7 +106,7 @@ function Navbar() {
                                     <a className={(path[2] === "data" && path[3] === "mudipad-b") ? "nav-link active" : "nav-link"} href="/report/data/mudipad-b">MUDI PAD B</a>
                                     <a className={(path[2] === "data" && path[3] === "mudipad-c") ? "nav-link active" : "nav-link"} href="/report/data/mudipad-c">MUDI PAD C</a>
                                 </nav>
-                            </div>
+                            </div> */}
                             {/* <div className="sb-sidenav-menu-heading">Addons</div>
                             <a className="nav-link" href="charts.html">
                                 <div className="sb-nav-link-icon"><i className="fas fa-chart-area"></i></div>
