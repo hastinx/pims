@@ -172,14 +172,14 @@ function Login() {
                   <div className='mb-4' id='alert'>
 
                   </div>
-                  <div className="d-flex justify-content-center align-items-center">
+                  {/* <div className="d-flex justify-content-center align-items-center">
                     <span className="text-black opacity-100">
                       Don't have an account?
                     </span>
                     <button className="btn text-primary opacity-100">
                       Sign up
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
