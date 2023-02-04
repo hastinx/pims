@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import logo from '../../.../../../assets/img/pims-logo.png'
 import style from './report.module.css'
-import JsPDF from 'jspdf';
 
-const ReportPDF = ({ filename, children }) => {
+const ReportPDF = ({ children }) => {
 
-    useEffect(() => {
-        const report = new JsPDF('portrait', 'pt', 'a4');
-        report.html(document.querySelector('#exp-pdf')).then(() => {
-            report.save(filename + '.pdf');
-        });
-    }, [])
+    // useEffect(() => {
+    //     const report = new JsPDF('portrait', 'pt', 'a4');
+    //     report.html(document.querySelector('#exp-pdf')).then(() => {
+    //         report.save(filename + '.pdf');
+    //     });
+    // }, [])
 
 
     return (
