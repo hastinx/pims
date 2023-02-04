@@ -2,6 +2,12 @@ import React from 'react';
 import logo from '../assets/img/pims-logo.png'
 
 function Header() {
+
+  const handdleToggle = (e) => {
+    e.preventDefault()
+    document.body.classList.toggle('sb-sidenav-toggled');
+    localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
+  }
   return (
     <>
       <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -14,6 +20,7 @@ function Header() {
           className="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
           id="sidebarToggle"
           href="#!"
+          onClick={handdleToggle}
         >
           <i className="fas fa-bars"></i>
         </button>
