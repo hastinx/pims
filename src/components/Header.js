@@ -3,6 +3,7 @@ import logo from '../assets/img/pims-logo.png'
 
 function Header() {
 
+
   const handdleToggle = (e) => {
     e.preventDefault()
     document.body.classList.toggle('sb-sidenav-toggled');
@@ -61,7 +62,7 @@ function Header() {
               className="dropdown-menu dropdown-menu-end"
               aria-labelledby="navbarDropdown"
             >
-              <li>
+              {/* <li>
                 <a className="dropdown-item" href="#!">
                   Settings
                 </a>
@@ -70,12 +71,12 @@ function Header() {
                 <a className="dropdown-item" href="#!">
                   Activity Log
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <hr className="dropdown-divider" />
-              </li>
+              </li> */}
               <li>
-                <a className="dropdown-item" href="/">
+                <a className="dropdown-item" href="/" onClick={localStorage.clear()}>
                   Logout
                 </a>
               </li>

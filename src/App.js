@@ -1,7 +1,7 @@
 
 import './App.css';
 import Login from './pages/login/Login';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Productionflow from './pages/content/flow_diagram';
 import Processoverview from './pages/content/process/overview';
 import Mainwellheadpadb from './pages/content/process/mudi_pad_b';
@@ -16,18 +16,23 @@ import ChartMudiPadA from './pages/content/report/mudi_pad_a/chart';
 import ChartMudiPadB from './pages/content/report/mudi_pad_b/chart';
 import ChartMudiPadC from './pages/content/report/mudi_pad_c/chart';
 import ReportMudiPadA from './pages/content/report/mudi_pad_a/reporting';
+import { createContext } from 'react';
+import UserPermission from './utils/Session';
 
-
-
+export const Session = createContext({
+  name: "",
+  isLogin: 0
+})
 
 function App() {
+
   return (
     <BrowserRouter>
       <Routes>
 
         <Route exact path="/" element={<Login />} />
 
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<UserPermission><Home /></UserPermission>} />
         <Route path="/production-flow" element={<Productionflow />} />
         <Route path="/process/overview" element={<Processoverview />} />
         <Route path="/process/mudipad-a/wellhead" element={<Mainwellheadpada />} />

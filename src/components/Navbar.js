@@ -1,5 +1,8 @@
+import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers';
 import React from 'react'
 import { useLocation } from "react-router-dom";
+import { Session } from '../App';
+import UserPermission from '../utils/Session';
 
 function Navbar() {
 
@@ -120,7 +123,11 @@ function Navbar() {
                     </div>
                     <div className="sb-sidenav-footer">
                         <div className="small">Logged in as:</div>
-                        <p>{window.$name}</p>
+                        <Session.Consumer>
+                            {(value) => {
+                                return value.name
+                            }}
+                        </Session.Consumer>
                     </div>
                 </nav>
             </div>

@@ -1,18 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Loader from '../../utils/loader';
+import { UserContext } from '../../utils/Session';
+import { Session } from '../../App';
 
 
 function Login() {
-  console.log('NAMA', window.$name)
+  // console.log('NAMA', useContext(UserContext.nama))
+  const user_context = useContext(Session)
   const [user, setUser] = useState('');
   const [password, setPassword] = useState('');
   const [status, setStatus] = useState('200');
   const [passwordType, setPasswordType] = useState("password");
+
+  //show hide passowrd
   const togglePassword = () => {
     if (passwordType === "password") {
       setPasswordType("text")
@@ -20,7 +25,7 @@ function Login() {
     }
     setPasswordType("password")
   }
-  // const [msg, setMsg] = useState('');
+
 
   const navigate = useNavigate();
   const login = async (e) => {
@@ -32,14 +37,13 @@ function Login() {
         userid: user,
         password: password,
       });
-      // console.log(res.data.values.userID)
-      window.$name = res.data.values.userID;
+      user_context.name = res.data.values.userID
+      user_context.isLogin = res.data.values.isLogin
       setStatus(res.data.status_code)
 
       navigate('/home');
     } catch (error) {
       if (error.response) {
-        // setMsg(error.response.data.message);
         document.getElementById("alert").innerHTML = error.response.data.message
         document.getElementById("alert").classList.add("alert")
         document.getElementById("alert").classList.add("alert-danger")
@@ -47,9 +51,6 @@ function Login() {
 
       }
     }
-    // if (user === 'user' && password === 'user') {
-    //   navigate('/home');
-    // }
   };
   return (
     <div className='h-100 d-flex align-items-center justify-content-center'>
