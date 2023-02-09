@@ -74,11 +74,11 @@ function Wellhead(props) {
                             <div className='vertical-from-wellhead-to-indicator'>
                                 <Vertical />
                             </div>
-                            <div className='horizontal-from-wellhead-to-indicator'>
+                            {/* <div className='horizontal-from-wellhead-to-indicator'>
                                 <Horizontal />
-                            </div>
+                            </div> */}
                             <img className='wellhead-gauge' src={gauge} alt='' />
-                            <img className='wellhead-indicator' src={indicator} alt='' />
+                            {/* <img className='wellhead-indicator' src={indicator} alt='' /> */}
                             <div className='horizontal-from-box'>
                                 <Horizontal />
                             </div>
@@ -92,10 +92,10 @@ function Wellhead(props) {
                             </div>
                             <span className='lbl-to-plant'>TO MANIFOLD</span>
                             {/* PSHH */}
-                            <div className='d-flex flex-column bg-light p-1 border border-primary pshh-3001'>
+                            {/* <div className='d-flex flex-column bg-light p-1 border border-primary pshh-3001'>
                                 <span className='txt-pshh-3001 p-1 text-center bg-dark fw-bolder text-white'>{props.pshhTitle}</span>
                                 <span className={'indicator-pshh-3001 p-1 text-center fw-bold ' + (props.pshhStatus === "NORMAL" ? 'bg-normal' : 'bg-error')}>{props.pshhStatus ? props.pshhStatus : 'ALARM'}</span>
-                            </div>
+                            </div> */}
                             {/* PT-3001 */}
                             <div className='d-flex flex-column bg-light p-1 border border-primary pt-3001'>
                                 <span className='txt-pt-3001 p-1 text-center bg-dark fw-bolder text-white'>{props.ptTitle}</span>

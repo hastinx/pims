@@ -1,0 +1,83 @@
+.peta-wrapper{
+    position: relative;
+}
+.peta-full{
+    width: 1611px;
+    height: calc(100vh - 215px); 
+}
+
+.pin-peta-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 57px;
+    left: 697px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.pin-peta-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 609px;
+    left: 685px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.pin-peta-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 113px;
+    left: 1302px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.pin{
+    height: 40px;
+}
+
+.show-location-1{
+    background-color: white;
+    padding: 5px;
+    width: 738px;
+    position: absolute;
+    top: 101px;
+    left: 69px;
+}
+
+.show-location-2{
+    background-color: white;
+    padding: 5px;
+    width: 738px;
+    position: absolute;
+    top: 117px;
+    left: 57px;
+}
+
+.show-location-3{
+    background-color: white;
+    padding: 5px;
+    width: 738px;
+    position: absolute;
+    top: 155px;
+    left: 672px;
+}
+
+.location-detail{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1600px) {
+    .peta-wrapper{
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+}

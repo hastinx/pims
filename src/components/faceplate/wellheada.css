@@ -93,10 +93,14 @@
     top: 47px;
 }
 .wellhead-gauge{
+    /* height: 30px; */
+    /* position: absolute; */
+    /* left: 130px; */
+    /* top: 18px; */
     height: 30px;
     position: absolute;
-    left: 130px;
-    top: 18px;
+    left: 260px;
+    top: 21px;
 }
 .wellhead-indicator{
     height: 30px;
@@ -172,9 +176,12 @@
 
 /* PT */
 .pt-3001{
+    /* position: absolute; */
+    /* top: 54px; */
+    /* left: 113px; */
     position: absolute;
-    top: 54px;
-    left: 113px;
+    top: 15px;
+    left: 203px;
 }
 .txt-pt-3001{
     background-color: black;
