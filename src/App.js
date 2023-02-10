@@ -44,7 +44,7 @@ function App() {
         <Route path="/production-flow/mudi" element={<ProcessFlowDiagram />} />
         <Route path="/peta-lokasi" element={<Peta />} />
         <Route path="/power-distribution" element={<PowerDistribution />} />
-        <Route path="/process/overview" element={<Processoverview />} />
+        {/* <Route path="/process/overview" element={<Processoverview />} /> */}
         <Route path="/process/mudipad-a/wellhead" element={<Mainwellheadpada />} />
         <Route path="/process/mudipad-a/test-separator" element={<Maintestseparator />} />
         <Route path="/process/mudipad-a/process-flow-diagram" element={<PfdPadA />} />

@@ -19,7 +19,7 @@ function Navbar() {
                             <div className="sb-sidenav-menu-heading">Core</div>
                             <a className={path[1] === "home" ? "nav-link active" : "nav-link"} href="/home">
                                 <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
-                                Dashboard
+                                Overview
                             </a>
                             <a className={path[1] === "peta-lokasi" ? "nav-link active" : "nav-link"} href="/peta-lokasi">
                                 <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
@@ -42,10 +42,10 @@ function Navbar() {
                                 Power Distribution
                             </a>
                             <div className="sb-sidenav-menu-heading">PROCESS</div>
-                            <a className={path[2] === "overview" ? "nav-link active" : "nav-link"} href="/process/overview">
+                            {/* <a className={path[2] === "overview" ? "nav-link active" : "nav-link"} href="/process/overview">
                                 <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
                                 OVERVIEW
-                            </a>
+                            </a> */}
                             <a className={path[2] === "well-summary" ? "nav-link active" : "nav-link"} href="/process/well-summary">
                                 <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
                                 WELL SUMMARY
