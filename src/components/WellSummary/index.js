@@ -7,7 +7,7 @@ const MasterWellSummary = ({ tag, status }) => {
     return (
 
 
-        <div className='d-flex flex-column'>
+        <div className='d-flex flex-column f-wrap'>
             <img className='ws-indicator' src={status === "ON" ? WellOn : WellOff} alt="" />
             <span className='ws-tag'>{tag}</span>
         </div>

@@ -14,6 +14,22 @@
 
 }
 
+.horizontal-blue{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg,#00ffff 0%, #00ffff 37%, rgba(237,237,237,1) 100%);
+}
+
+.horizontal-green{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg,#00ff00 0%, #00ff00 37%, rgba(237,237,237,1) 100%);
+}
+
 .wrapper-vertical-pipe{
     position: relative;
     width: 100%;
@@ -26,6 +42,22 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(270deg, rgba(120,120,120,1) 0%, rgba(199,199,199,1) 37%, rgba(237,237,237,1) 100%);
+}
+
+.vertical-blue{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(270deg, #00ffff 0%, #00ffff 37%, rgba(237,237,237,1) 100%);
+}
+
+.vertical-green{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(270deg, #00ff00 0%, #00ff00 37%, rgba(237,237,237,1) 100%);
 }
 
 .wrapper-bow{

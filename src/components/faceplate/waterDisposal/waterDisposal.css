@@ -692,7 +692,7 @@
 
 .wtr-dsp-plank-9{
     position: absolute;
-    top: 613px;
+    top: 495px;
     left: 1128px;
     transform: rotate(90deg);
     height: 8px;
@@ -750,6 +750,65 @@
     top: 322px;
     left: 1278px;
     width: 40px;
+}
+
+.wtr-dsp-label-1{
+    position: absolute;
+    top: 175px;
+    left: 234px;
+}
+
+.wtr-dsp-label-2{
+    position: absolute;
+    top: 600px;
+    left: 234px;
+}
+
+.wtr-dsp-label-3{
+    position: absolute;
+    top: 175px;
+    left: 773px;
+}
+
+.wtr-dsp-label-4{
+    position: absolute;
+    top: 602px;
+    left: 732px;
+}
+
+.wtr-dsp-label-5{
+    position: absolute;
+    top: 91px;
+    left: 1312px;
+    width: 100px;
+}
+
+.wtr-dsp-label-6{
+    position: absolute;
+    top: 127px;
+    left: 1425px;
+    width: 100px;
+}
+
+.wtr-dsp-label-7{
+    position: absolute;
+    top: 279px;
+    left: 1424px;
+    width: 100px;
+}
+
+.wtr-dsp-label-8{
+    position: absolute;
+    top: 347px;
+    left: 1308px;
+    width: 100px;
+}
+
+.wtr-dsp-label-9{
+    position: absolute;
+    top: 599px;
+    left: 1369px;
+    width: 155px;
 }
 
 

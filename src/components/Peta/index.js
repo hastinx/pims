@@ -21,13 +21,13 @@ const PetaLokasi = ({ urls }) => {
                 <div className='pin-peta-1' onClick={() => isShown1 ? setShown1(false) : (setShown1(true), setShown2(false), setShown3(false))}>
                     <img src={pin} alt='' className='pin' />
                     <div className='label-tag'>
-                        Mudi Pad A
+                        Mudi Pad B
                     </div>
                 </div>
                 <div className='pin-peta-2' onClick={() => isShown2 ? setShown2(false) : (setShown2(true), setShown1(false), setShown3(false))}>
                     <img src={pin} alt='' className='pin' />
                     <div className='label-tag'>
-                        Mudi Pad B
+                        Mudi Pad A
                     </div>
                 </div>
                 <div className='pin-peta-3' onClick={() => isShown3 ? setShown3(false) : (setShown2(false), setShown1(false), setShown3(true))}>

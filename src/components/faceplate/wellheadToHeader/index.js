@@ -9,8 +9,11 @@ import tt from '../../../assets/img/faceplate/gauge.png'
 import plank from '../../../assets/img/faceplate/plank.png'
 import coriolis from '../../../assets/img/faceplate/coriolis.png'
 import arrow from '../../../assets/img/faceplate/arrow.png'
-import Horizontal from '../pipe/Horizontal';
-import Vertical from '../pipe/Vertical';
+import line from '../../../assets/img/line.png'
+import HorizontalBlue from '../pipe/HorizontalBlue';
+import VerticalBlue from '../pipe/VerticalBlue';
+import HorizontalGreen from '../pipe/HorizontalGreen';
+import VerticalGreen from '../pipe/VerticalGreen';
 
 const WellheadToHeader = () => {
     return (
@@ -18,19 +21,19 @@ const WellheadToHeader = () => {
             <img src={wellon} alt='' className='wh-to-header-wellhead-1' />
             <img src={pcv} alt='' className='wh-to-header-valve-1' />
             <div className='wh-to-header-horizontal-1'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-2'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-3'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-4'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-5'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-tag-from-1'>
                 <span className='span-text'>PRODUCTION</span>
@@ -38,10 +41,10 @@ const WellheadToHeader = () => {
                 <span className='span-text'>MUDI A</span>
             </div>
             <div className='wh-to-header-vertical-1'>
-                <Vertical />
+                <VerticalGreen />
             </div>
             <div className='wh-to-header-vertical-2'>
-                <Vertical />
+                <VerticalGreen />
             </div>
             <img src={pl} alt='' className='wh-to-header-pl-1' />
             <img src={pl} alt='' className='wh-to-header-pl-2' />
@@ -67,19 +70,19 @@ const WellheadToHeader = () => {
             <img src={wellon} alt='' className='wh-to-header-wellhead-2' />
             <img src={pcv} alt='' className='wh-to-header-valve-2' />
             <div className='wh-to-header-horizontal-6'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-7'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-8'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-9'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-10'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-tag-from-2'>
                 <span className='span-text'>PRODUCTION</span>
@@ -87,10 +90,10 @@ const WellheadToHeader = () => {
                 <span className='span-text'>MUDI B</span>
             </div>
             <div className='wh-to-header-vertical-3'>
-                <Vertical />
+                <VerticalGreen />
             </div>
             <div className='wh-to-header-vertical-4'>
-                <Vertical />
+                <VerticalGreen />
             </div>
             <img src={pl} alt='' className='wh-to-header-pl-3' />
             <img src={pl} alt='' className='wh-to-header-pl-4' />
@@ -116,19 +119,19 @@ const WellheadToHeader = () => {
             <img src={wellon} alt='' className='wh-to-header-wellhead-3' />
             <img src={pcv} alt='' className='wh-to-header-valve-3' />
             <div className='wh-to-header-horizontal-11'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-12'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-13'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-14'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-horizontal-15'>
-                <Horizontal />
+                <HorizontalGreen />
             </div>
             <div className='wh-to-header-tag-from-3'>
                 <span className='span-text'>PRODUCTION</span>
@@ -136,10 +139,10 @@ const WellheadToHeader = () => {
                 <span className='span-text'>MUDI C</span>
             </div>
             <div className='wh-to-header-vertical-5'>
-                <Vertical />
+                <VerticalGreen />
             </div>
             <div className='wh-to-header-vertical-6'>
-                <Vertical />
+                <VerticalGreen />
             </div>
             {/* <img src={pl} alt='' className='wh-to-header-pl-5' />
             <img src={pl} alt='' className='wh-to-header-pl-6' /> */}
@@ -167,19 +170,19 @@ const WellheadToHeader = () => {
             <img src={wellon} alt='' className='wh-to-header-wellhead-4' />
             {/* <img src={pcv} alt='' className='wh-to-header-valve-4' /> */}
             <div className='wh-to-header-horizontal-16'>
-                <Horizontal />
+                <HorizontalBlue />
             </div>
             {/* <div className='wh-to-header-horizontal-17'>
                 <Horizontal />
             </div> */}
             <div className='wh-to-header-horizontal-18'>
-                <Horizontal />
+                <HorizontalBlue />
             </div>
             <div className='wh-to-header-horizontal-19'>
-                <Horizontal />
+                <HorizontalBlue />
             </div>
             <div className='wh-to-header-horizontal-20'>
-                <Horizontal />
+                <HorizontalBlue />
             </div>
             <div className='wh-to-header-tag-from-4'>
                 <span className='span-text'>WATER INJECTION</span>
@@ -187,10 +190,10 @@ const WellheadToHeader = () => {
                 <span className='span-text'>MUDI C</span>
             </div>
             <div className='wh-to-header-vertical-7'>
-                <Vertical />
+                <VerticalBlue />
             </div>
             <div className='wh-to-header-vertical-8'>
-                <Vertical />
+                <VerticalBlue />
             </div>
             <img src={pl} alt='' className='wh-to-header-pl-7' />
             <img src={pl} alt='' className='wh-to-header-pl-8' />
@@ -216,58 +219,60 @@ const WellheadToHeader = () => {
             {/* <div className='wh-to-header-horizontal-21'>
                 <Horizontal />
             </div> */}
-            <div className='wh-to-header-horizontal-22'>
+            {/* <div className='wh-to-header-horizontal-22'>
                 <Horizontal />
-            </div>
-            <div className='wh-to-header-horizontal-23'>
+            </div> */}
+            {/* <div className='wh-to-header-horizontal-23'>
                 <Horizontal />
-            </div>
-            <div className='wh-to-header-horizontal-24'>
+            </div> */}
+            {/* <div className='wh-to-header-horizontal-24'>
                 <Horizontal />
-            </div>
-            <div className='wh-to-header-horizontal-25'>
+            </div> */}
+            {/* <div className='wh-to-header-horizontal-25'>
                 <Horizontal />
-            </div>
-            <div className='wh-to-header-tag-from-5'>
+            </div> */}
+            {/* <div className='wh-to-header-tag-from-5'>
                 <span className='span-text'>WATER INJECTION</span>
                 <span className='span-text'>HEADER MANIFOLD</span>
                 <span className='span-text'>MUDI C</span>
-            </div>
-            <div className='wh-to-header-vertical-9'>
+            </div> */}
+            {/* <div className='wh-to-header-vertical-9'>
                 <Vertical />
-            </div>
-            <div className='wh-to-header-vertical-10'>
+            </div> */}
+            {/* <div className='wh-to-header-vertical-10'>
                 <Vertical />
-            </div>
-            <div className='wh-to-header-vertical-11'>
+            </div> */}
+            {/* <div className='wh-to-header-vertical-11'>
                 <Vertical />
-            </div>
-            <img src={pl} alt='' className='wh-to-header-pl-9' />
-            <img src={pl} alt='' className='wh-to-header-pl-10' />
-            <img src={coriolis} alt='' className='wh-to-header-coriolis-9' />
-            <img src={coriolis} alt='' className='wh-to-header-coriolis-10' />
+            </div> */}
+            {/* <img src={pl} alt='' className='wh-to-header-pl-9' /> */}
+            {/* <img src={pl} alt='' className='wh-to-header-pl-10' /> */}
+            {/* <img src={coriolis} alt='' className='wh-to-header-coriolis-9' /> */}
+            {/* <img src={coriolis} alt='' className='wh-to-header-coriolis-10' /> */}
             <img src={pt} alt='' className='wh-to-header-pt-5' />
             <img src={tt} alt='' className='wh-to-header-tt-5' />
-            <img src={plank} alt='' className='wh-to-header-plank-9' />
-            <img src={plank} alt='' className='wh-to-header-plank-10' />
+            {/* <img src={plank} alt='' className='wh-to-header-plank-9' /> */}
+            {/* <img src={plank} alt='' className='wh-to-header-plank-10' /> */}
             <div className='wh-to-header-label-17'>
                 <div className='label-tag'>Wellhead MUDI C</div>
             </div>
             {/* <div className='wh-to-header-label-18'>
                 <div className='label-tag'>ESDV</div>
             </div> */}
-            <div className='wh-to-header-label-19'>
+            {/* <div className='wh-to-header-label-19'>
                 <div className='span-text'>PIG RECEIVER</div>
-            </div>
-            <div className='wh-to-header-label-20'>
+            </div> */}
+            {/* <div className='wh-to-header-label-20'>
                 <div className='span-text'>PIG LAUNCHER</div>
-            </div>
+            </div> */}
             {/* ========================================================================================================================================= */}
 
             <div className='wh-to-header-header'>
                 <div className='span-text-large'>CENTRAL</div>
                 <div className='span-text-large'>PROCESSING</div>
                 <div className='span-text-large'>AREA</div>
+                <div className='span-text-large'>FIELD</div>
+                <div className='span-text-large'>SUKOWATI</div>
             </div>
             <img src={arrow} alt='' className='wh-to-header-arrow-1' />
             <img src={arrow} alt='' className='wh-to-header-arrow-2' />
@@ -280,6 +285,7 @@ const WellheadToHeader = () => {
             <img src={arrow} alt='' className='wh-to-header-arrow-9' />
             <img src={arrow} alt='' className='wh-to-header-arrow-10' />
             <img src={arrow} alt='' className='wh-to-header-arrow-11' />
+            <img src={arrow} alt='' className='wh-to-header-arrow-12' />
 
             <div className='wh-to-header-label-21'>
                 <div className='label-tag'>PT</div>
@@ -305,6 +311,20 @@ const WellheadToHeader = () => {
             <div className='wh-to-header-label-28'>
                 <div className='label-tag'>TT</div>
             </div>
+
+            <div className='wh-to-header-label-29'>
+                <div className='span-text'>Pipeline 10 inch</div>
+            </div>
+            <div className='wh-to-header-label-30'>
+                <div className='span-text'>Pipeline 10 inch</div>
+            </div>
+            <div className='wh-to-header-label-31'>
+                <div className='span-text'>Pipeline 6 inch</div>
+            </div>
+            <div className='wh-to-header-label-32'>
+                <div className='span-text'>Pipeline 10 inch</div>
+            </div>
+            <img src={line} alt='' className='wh-to-header-separator' />
         </div>
     )
 }

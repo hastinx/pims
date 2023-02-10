@@ -52,9 +52,8 @@
 .wh-to-header-arrow-5{
     position: absolute;
     width: 15px;
-    top: 617px;
-    left: 555px;
-    transform: rotate(90deg);
+    top: 360px;
+    left: 1224px;
 }
 
 .wh-to-header-arrow-6{
@@ -81,9 +80,8 @@
 .wh-to-header-arrow-9{
     position: absolute;
     width: 15px;
-    top: 513px;
-    left: 143px;
-    transform: rotate(270deg);
+    top: 212px;
+    left: 1226px;
 }
 
 .wh-to-header-arrow-10{
@@ -97,9 +95,16 @@
 .wh-to-header-arrow-11{
     position: absolute;
     width: 15px;
-    top: 627px;
-    left: 307px;
+    top: 503px;
+    left: 1222px;
     transform: rotate(180deg);
+}
+
+.wh-to-header-arrow-12{
+    position: absolute;
+    width: 15px;
+    top: 71px;
+    left: 1222px;
 }
 
 .wh-to-header-wellhead-1{
@@ -884,14 +889,14 @@
 
 .wh-to-header-pt-5{
     height: 30px;
-    top: 557px;
+    top: 289px;
     position: absolute;
     left: 624px;
 }
 
 .wh-to-header-tt-5{
     height: 30px;
-    top: 557px;
+    top: 289px;
     position: absolute;
     left: 580px;
 }
@@ -1001,14 +1006,46 @@
 
 .wh-to-header-label-27{
     position: absolute;
-    top: 594px;
+    top: 324px;
     left: 580px;
 }
 
 .wh-to-header-label-28{
     position: absolute;
-    top: 594px;
+    top: 325px;
     left: 624px;
+}
+
+.wh-to-header-label-29{
+    position: absolute;
+    top: 10px;
+    left: 693px;
+}
+
+.wh-to-header-label-30{
+    position: absolute;
+    top: 151px;
+    left: 693px;
+}
+
+.wh-to-header-label-31{
+    position: absolute;
+    top: 297px;
+    left: 693px;
+}
+
+.wh-to-header-label-32{
+    position: absolute;
+    top: 443px;
+    left: 693px;
+}
+
+.wh-to-header-separator{
+    position: absolute;
+    top: 0px;
+    left: 1151px;
+    width: 5px;
+    height: 100%;
 }
 
 @media only screen and (max-width: 1600px) {

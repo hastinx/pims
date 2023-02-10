@@ -1,6 +1,7 @@
 import React from 'react';
 import Horizontal from '../pipe/Horizontal';
 import pl from '../../../assets/img/faceplate/pl.png'
+import ph from '../../../assets/img/faceplate/pipe_header.png'
 import plank from '../../../assets/img/faceplate/plank.png'
 import meter from '../../../assets/img/faceplate/meter.png'
 import whrun from '../../../assets/img/faceplate/wellhead-run.png'
@@ -62,7 +63,7 @@ const WaterDisposalSatu = () => {
                     <img src={pl} alt="pigLauncher" className='wtr-dsp-pl-1' />
                     <img src={pl} alt="pigLauncher" className='wtr-dsp-pl-2' />
                     <img src={pl} alt="pigLauncher" className='wtr-dsp-pl-3' />
-                    <img src={pl} alt="pigLauncher" className='wtr-dsp-pl-4' />
+                    <img src={ph} alt="pigLauncher" className='wtr-dsp-pl-4' />
                     <div className='wtr-dsp-pipe-vertical-1'>
                         <Vertical />
                     </div>
@@ -230,6 +231,34 @@ const WaterDisposalSatu = () => {
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-2' />
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-3' />
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-4' />
+                    <div className='wtr-dsp-label-1'>
+                        <span className='span-text'>PL-2000</span>
+                    </div>
+                    <div className='wtr-dsp-label-2'>
+                        <span className='span-text'>PL-2009</span>
+                    </div>
+                    <div className='wtr-dsp-label-3'>
+                        <span className='span-text'>PR-2020</span>
+                    </div>
+                    <div className='wtr-dsp-label-4'>
+                        <span className='span-text'>PIPE HEADER RECEIVER</span>
+                    </div>
+                    <div className='wtr-dsp-label-5'>
+                        <span className='label-tag'>Wellhead M6</span>
+                    </div>
+                    <div className='wtr-dsp-label-6'>
+                        <span className='label-tag'>Wellhead M8</span>
+                    </div>
+                    <div className='wtr-dsp-label-7'>
+                        <span className='label-tag'>Wellhead M14</span>
+                    </div>
+                    <div className='wtr-dsp-label-8'>
+                        <span className='label-tag'>Wellhead M12</span>
+                    </div>
+
+                    <div className='wtr-dsp-label-9'>
+                        <span className='label-tag'>FUTURE CONNECTION</span>
+                    </div>
                 </div>
             </div>
         </div>
