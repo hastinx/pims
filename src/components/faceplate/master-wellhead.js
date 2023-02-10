@@ -24,9 +24,9 @@ function Wellhead(props) {
     return (
         <>
             <div className="card border-secondary card-hover" style={{ height: '320px', marginTop: '5px' }} onClick={handleNavigate}>
-                <div className="card-header fw-semibold text-center text-white bg-secondary d-flex justify-content-between">
+                <div className="card-header fw-semibold text-center text-white bg-secondary">
                     WELLHEAD {props.title}
-                    <span className='text-white blink bg-danger p-1'> ALARM </span>
+                    {/* <span className='text-white blink bg-danger p-1'> ALARM </span> */}
                 </div>
                 <div className="card-body">
                     <div className='wrap-well'>
