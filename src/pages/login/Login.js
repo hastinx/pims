@@ -56,54 +56,26 @@ function Login() {
     <div className='h-100 d-flex align-items-center justify-content-center'>
       <section>
         <div className="container mt-5 px-4 py-5 px-md-5 text-center text-lg-start">
-          <h1
+          {/* <h1
             className="fw-bold ls-tight logo-mobile"
             style={{ color: 'hsl(218, 81%, 95%)' }}
           >
             PERTAMINA <br />
             <span style={{ color: 'hsl(354, 85%, 52%, 1)' }}>PHE TEJ</span>
-          </h1>
+          </h1> */}
           <div className="row gx-lg-5 align-items-center mb-5">
-            <div className="col-lg-6 mb-5 mb-lg-0 intro" style={{ zIndex: 10 }}>
+            <div className="col-lg-12 mb-5 mb-lg-0 intro d-flex justify-content-between" style={{ zIndex: 10 }}>
               <h1
                 className=" display-5 fw-bold ls-tight"
                 style={{ color: 'hsl(218, 81%, 95%)' }}
               >
-                PERTAMINA <br />
-                <span style={{ color: 'hsl(354, 85%, 52%, 1)' }}>PHE TEJ</span>
+                PERTAMINA
               </h1>
-              <p
-                className="mb-3 opacity-70 text-wrap"
-                style={{ color: 'hsl(0, 100%, 100%, 1)' }}
-              >
-                Mudi Well pad terdiri dari 3 pad dan 26 kepala sumur, fasilitas
-                pengetesan sumur dan pipeline. Sistem Instrumentasi telah
-                terpasang untuk membaca, mengatur dan melindungi fasilitas
-                produksi agar dapat beroprasi dengan aman.
-              </p>
-              <p
-                className="mb-3 opacity-70 text-wrap"
-                style={{ color: 'hsl(0, 100%, 100%, 1)' }}
-              >
-                Plant Information Management System (PIMS) diperlukan untuk
-                menampilkan, mengawasi, mengatur dan merekam data-data parameter
-                proses produksi. Sistem ini didesain berbasis web, sehingga
-                memungkinkan untuk dapat diakses dari jarak yang jauh melalui
-                browser.
-              </p>
-              <p
-                className="mb-3 opacity-70 text-wrap"
-                style={{ color: 'hsl(0, 100%, 100%, 1)' }}
-              >
-                Sistem ini sejalan dengan upaya pemenuhan Surat SKK Migas No.
-                0032/SKKMF0000/2020/S1 Tanggal 16 Januari 2020 perihal Koneksi
-                Plant Information Management System (PIMS) Tahun 2020 dan Surat
-                SKK Migas No. 0083/SKKMF0000/2020/S1 Tanggal 27 Mei 2020 perihal
-                Pengembangan Interated Operation Center (IOC) SKK Migas
-              </p>
+              <h1 className="mx-2 display-5 fw-bold ls-tight"><span style={{ color: 'hsl(354, 85%, 52%, 1)' }}>PHE TEJ</span></h1>
             </div>
-
-            <div className="col-lg-6 mb-3 mb-lg-0 position-relative">
+          </div>
+          <div className="row gx-lg-5 align-items-center mb-5">
+            <div className="col-lg-12 mb-3 mb-lg-0 position-relative">
               <div className="card bg-glass opacity-75">
                 <div className="card-body px-4 py-5 px-md-5">
                   <form className="mb-3" onSubmit={login}>
