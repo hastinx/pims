@@ -39,10 +39,10 @@ const PetaLokasi = ({ urls }) => {
 
 
                 <div className='show-location-1' style={{ display: (isShown1 ? 'block' : 'none') }}>
-                    <img src={pada} alt='' className='location-detail' />
+                    <img src={padb} alt='' className='location-detail' />
                 </div>
                 <div className='show-location-2' style={{ display: (isShown2 ? 'block' : 'none') }}>
-                    <img src={padb} alt='' className='location-detail' />
+                    <img src={pada} alt='' className='location-detail' />
                 </div>
                 <div className='show-location-3' style={{ display: (isShown3 ? 'block' : 'none') }}>
                     <img src={padc} alt='' className='location-detail' />
