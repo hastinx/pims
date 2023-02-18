@@ -30,7 +30,7 @@ const WellSummary = () => {
                             MUDI PAD B
                         </div>
                         <div className='card-body d-flex flex-wrap'>
-                            <MasterWellSummary status="STOP" tag="WELLHEAD M#2" />
+                            <MasterWellSummary status="STOP" tag="WELLHEAD M#2A" />
                             <MasterWellSummary status="STOP" tag="WELLHEAD M#4" />
                             <MasterWellSummary status="STOP" tag="WELLHEAD M#5" />
                             <MasterWellSummary status="STOP" tag="WELLHEAD M#9" />
@@ -54,8 +54,8 @@ const WellSummary = () => {
                         </div>
                         <div className='card-body d-flex flex-wrap'>
                             <MasterWellSummary status="STOP" tag="WELLHEAD M#7" />
-                            <MasterWellSummary status="ON" tag="WELLHEAD M#20" />
                             <MasterWellSummary status="ON" tag="WELLHEAD M#13" />
+                            <MasterWellSummary status="ON" tag="WELLHEAD M#20" />
 
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const WellSummary = () => {
                             <MasterWellSummary status="ON" tag="WATER INJECT M#6" />
                             <MasterWellSummary status="STOP" tag="WATER INJECT M#8" />
                             <MasterWellSummary status="ON" tag="WATER INJECT M#12" />
-                            <MasterWellSummary status="ON" tag="WATER INJECT M#4" />
+                            <MasterWellSummary status="ON" tag="WATER INJECT M#14" />
 
                         </div>
                     </div>

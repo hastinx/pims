@@ -1,6 +1,7 @@
 import React from 'react';
 import Horizontal from '../pipe/Horizontal';
 import pl from '../../../assets/img/faceplate/pl.png'
+import gauge from '../../../assets/img/faceplate/gauge.png'
 import ph from '../../../assets/img/faceplate/pipe_header.png'
 import plank from '../../../assets/img/faceplate/plank.png'
 import meter from '../../../assets/img/faceplate/meter.png'
@@ -175,6 +176,24 @@ const WaterDisposalSatu = () => {
                     <div className='wtr-dsp-pipe-vertical-37'>
                         <Vertical />
                     </div>
+                    <div className='wtr-dsp-pipe-vertical-38'>
+                        <Vertical />
+                    </div>
+                    <div className='wtr-dsp-pipe-vertical-39'>
+                        <Vertical />
+                    </div>
+                    <div className='wtr-dsp-pipe-vertical-40'>
+                        <Vertical />
+                    </div>
+                    <div className='wtr-dsp-pipe-vertical-41'>
+                        <Vertical />
+                    </div>
+                    <div className='wtr-dsp-pipe-vertical-42'>
+                        <Vertical />
+                    </div>
+                    <div className='wtr-dsp-pipe-vertical-43'>
+                        <Vertical />
+                    </div>
 
 
                     <div className='wtr-dsp-pipe-horizontal-13'>
@@ -215,6 +234,8 @@ const WaterDisposalSatu = () => {
                     <img src={coriolis} alt="" className='wtr-dsp-coriolis-16' />
                     <img src={coriolis} alt="" className='wtr-dsp-coriolis-17' />
                     <img src={coriolis} alt="" className='wtr-dsp-coriolis-18' />
+                    <img src={coriolis} alt="" className='wtr-dsp-coriolis-19' />
+                    <img src={coriolis} alt="" className='wtr-dsp-coriolis-20' />
                     <img src={plank} alt="" className='wtr-dsp-plank-1' />
                     <img src={plank} alt="" className='wtr-dsp-plank-2' />
                     <img src={plank} alt="" className='wtr-dsp-plank-3' />
@@ -224,9 +245,12 @@ const WaterDisposalSatu = () => {
                     <img src={plank} alt="" className='wtr-dsp-plank-7' />
                     <img src={plank} alt="" className='wtr-dsp-plank-8' />
                     <img src={plank} alt="" className='wtr-dsp-plank-9' />
+                    <img src={plank} alt="" className='wtr-dsp-plank-10' />
+                    <img src={plank} alt="" className='wtr-dsp-plank-11' />
                     <img src={meter} alt="" className='wtr-dsp-meter-1' />
                     <img src={meter} alt="" className='wtr-dsp-meter-2' />
                     <img src={meter} alt="" className='wtr-dsp-meter-3' />
+                    <img src={meter} alt="" className='wtr-dsp-meter-4' />
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-1' />
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-2' />
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-3' />
@@ -259,6 +283,15 @@ const WaterDisposalSatu = () => {
                     <div className='wtr-dsp-label-9'>
                         <span className='label-tag'>FUTURE CONNECTION</span>
                     </div>
+                    <div className='wtr-dsp-label-10'>
+                        <span className='label-tag'>PT</span>
+                    </div>
+                    <div className='wtr-dsp-label-11'>
+                        <span className='label-tag'>TT</span>
+                    </div>
+
+                    <img src={gauge} alt="" className='wtr-dsp-pt-1' />
+                    <img src={gauge} alt="" className='wtr-dsp-pt-2' />
                 </div>
             </div>
         </div>

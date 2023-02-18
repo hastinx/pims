@@ -25,6 +25,20 @@
     left: 10px;
 }
 
+.wtr-dsp-pt-1{
+    position: absolute;
+    top: 457px;
+    left: 758px;
+    width: 30px;
+}
+
+.wtr-dsp-pt-2{
+    position: absolute;
+    top: 457px;
+    left: 808px;
+    width: 30px;
+}
+
 .wtr-dsp-pipe-horizontal-1{
     width: 133px;
     height: 5px;
@@ -463,6 +477,54 @@
     left: 1039px;
 }
 
+.wtr-dsp-pipe-vertical-38{
+    width: 5px;
+    height: 29px;
+    position: absolute;
+    top: 20px;
+    left: 898px;
+}
+
+.wtr-dsp-pipe-vertical-39{
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    top: 57px;
+    left: 898px;
+}
+
+.wtr-dsp-pipe-vertical-40{
+    width: 5px;
+    height: 262px;
+    position: absolute;
+    top: 104px;
+    left: 898px;
+}
+
+.wtr-dsp-pipe-vertical-41{
+    width: 5px;
+    height: 22px;
+    position: absolute;
+    top: 404px;
+    left: 898px;
+}
+
+.wtr-dsp-pipe-vertical-42{
+    width: 5px;
+    height: 24px;
+    position: absolute;
+    top: 442px;
+    left: 899px;
+}
+.wtr-dsp-pipe-vertical-43{
+    width: 5px;
+    height: 23px;
+    position: absolute;
+    top: 474px;
+    left: 899px;
+}
+
+
 
 .wtr-dsp-pl-1{
     position: absolute;
@@ -633,6 +695,23 @@
     height: 15px;
 }
 
+.wtr-dsp-coriolis-19{
+    position: absolute;
+    top: 79px;
+    left: 881px;
+    transform: rotate(90deg);
+    height: 15px;
+}
+
+.wtr-dsp-coriolis-20{
+    position: absolute;
+    top: 379px;
+    left: 881px;
+    transform: rotate(90deg);
+    height: 15px;
+}
+
+
 .wtr-dsp-plank-1{
     position: absolute;
     top: 13px;
@@ -698,6 +777,20 @@
     height: 8px;
 }
 
+.wtr-dsp-plank-10{
+    position: absolute;
+    top: 49px;
+    left: 894px;
+    height: 8px;
+}
+
+.wtr-dsp-plank-11{
+    position: absolute;
+    top: 465px;
+    left: 895px;
+    height: 8px;
+}
+
 .wtr-dsp-meter-1{
     position: absolute;
     top: 424px;
@@ -718,6 +811,14 @@
     position: absolute;
     top: 424px;
     left: 1066px;
+    transform: rotate(90deg);
+    height: 20px;
+}
+
+.wtr-dsp-meter-4{
+    position: absolute;
+    top: 424px;
+    left: 892px;
     transform: rotate(90deg);
     height: 20px;
 }
@@ -810,6 +911,22 @@
     left: 1369px;
     width: 155px;
 }
+
+.wtr-dsp-label-10{
+    position: absolute;
+    top: 501px;
+    left: 762px;
+    width: 121px;
+}
+
+.wtr-dsp-label-11{
+    position: absolute;
+    top: 501px;
+    left: 812px;
+    width: 155px;
+}
+
+
 
 
 @media only screen and (max-width: 1600px) {
