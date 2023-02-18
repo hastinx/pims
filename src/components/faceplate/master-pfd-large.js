@@ -62,10 +62,10 @@ function PfdLarge(props) {
                             <Horizontal />
                         </div>
                         <img src={arrow} alt='' className='large-pfd-arrow-top-two' />
-                        <div className='large-pfd-horizontal-from-sv-to-prod-manifold-middle'>
+                        {/* <div className='large-pfd-horizontal-from-sv-to-prod-manifold-middle'>
                             <Horizontal />
-                        </div>
-                        <img src={arrow} alt='' className='large-pfd-arrow-middle-one' />
+                        </div> */}
+                        {/* <img src={arrow} alt='' className='large-pfd-arrow-middle-one' />
                         <div className='large-pfd-vertical-from-sv-to-test-manifold-middle'>
                             <Vertical />
                         </div>
@@ -75,15 +75,15 @@ function PfdLarge(props) {
                         <img src={arrow} alt='' className='large-pfd-arrow-middle-two' />
                         <div className='large-pfd-horizontal-from-sv-to-prod-manifold-bottom'>
                             <Horizontal />
-                        </div>
-                        <img src={arrow} alt='' className='large-pfd-arrow-bottom-one' />
+                        </div> */}
+                        {/* <img src={arrow} alt='' className='large-pfd-arrow-bottom-one' />
                         <div className='large-pfd-vertical-from-sv-to-test-manifold-bottom'>
                             <Vertical />
                         </div>
                         <div className='large-pfd-horizontal-from-sv-to-test-manifold-bottom'>
                             <Horizontal />
-                        </div>
-                        <img src={arrow} alt='' className='large-pfd-arrow-bottom-two' />
+                        </div> */}
+                        {/* <img src={arrow} alt='' className='large-pfd-arrow-bottom-two' /> */}
                         <div className='large-pfd-horizontal-from-prod-manifold-to-piglaouncher'>
                             <Horizontal />
                         </div>
@@ -255,7 +255,9 @@ function PfdLarge(props) {
                         <img src={arrow} alt='' className='large-pfd-arrow-6' />
                         <div className='large-pfd-label-wellhead'>{props.labelWellhead}</div>
                         <div className='large-pfd-label-tank-separator'>{props.labelSeparator}</div>
+                        <div className='large-pfd-label-tank-separator-tag'>{props.labelSeparatorTag}</div>
                         <div className='large-pfd-label-vessel-gauging'>{props.labelGauging}</div>
+                        <div className='large-pfd-label-vessel-gauging-tag'>{props.labelGaugingTag}</div>
                         <div className='large-pfd-label-pig-launcher'>{props.labelPig}</div>
                         <div className='large-pfd-label-flare'>{props.labelFlare}</div>
                         <div className='large-pfd-label-tag-1'>
@@ -278,6 +280,9 @@ function PfdLarge(props) {
                         </div>
                         <div className='large-pfd-label-tag-7'>
                             <LabelTag tag="SDV" />
+                        </div>
+                        <div className='large-pfd-label-tag-8'>
+                            <LabelTag tag="PP-1000" />
                         </div>
                         <div className='large-pfd-label-to'>{props.labelTo}</div>
                     </div>

@@ -762,11 +762,21 @@
     text-align: center;
 }
 .large-pfd-label-tank-separator{
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 700;
     padding: 3px;
     position: absolute;
-    top: 129px;
+    top: 134px;
+    left: 592px;
+    width: 177px;
+    text-align: center;
+}
+.large-pfd-label-tank-separator-tag{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 3px;
+    position: absolute;
+    top: 170px;
     left: 592px;
     width: 177px;
     text-align: center;
@@ -777,6 +787,16 @@
     padding: 3px;
     position: absolute;
     top: 244px;
+    left: 1209px;
+    width: 262px;
+    text-align: center;
+}
+.large-pfd-label-vessel-gauging-tag{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 3px;
+    position: absolute;
+    top: 294px;
     left: 1209px;
     width: 262px;
     text-align: center;
@@ -835,6 +855,11 @@
     position: absolute;
     top: 240px;
     left: 1203px;
+}
+.large-pfd-label-tag-8{
+    position: absolute;
+    top: 454px;
+    left: 1315px;
 }
 .large-pfd-label-to{
     font-size: 14px;

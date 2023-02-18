@@ -11,7 +11,9 @@ const PfdPadA = () => {
                     <PfdLarge
                         labelWellhead="WELLHEAD"
                         labelSeparator="TANK SEPARATOR"
+                        labelSeparatorTag="PV-1150"
                         labelGauging="GAUGING"
+                        labelGaugingTag="PV-6000"
                         labelPig="PIG LAUNCHER"
                         labelFlare="FLARE"
                         labelTo="TO CPA"
