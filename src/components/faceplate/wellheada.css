@@ -226,6 +226,13 @@
     background-color: #ec1e24;
 }
 
+.wellhead-arrow-1{
+    position: absolute;
+    top: -2px;
+    left: 450px;
+    width: 18px;
+}
+
 @media only screen and (max-width: 1600px) {
     .wrap-well{
         overflow-x: scroll;

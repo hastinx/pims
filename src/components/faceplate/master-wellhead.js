@@ -7,12 +7,12 @@ import pcvstop from '../../assets/img/faceplate/pcv-stop.png'
 import valve from '../../assets/img/faceplate/valve.png'
 import gauge from '../../assets/img/faceplate/gauge.png'
 import sv from '../../assets/img/faceplate/sv.png'
+import arrow from '../../assets/img/faceplate/arrow.png'
 import indicator from '../../assets/img/faceplate/indicator.png'
 import wellhead from '../../assets/img/faceplate/wellhead-stop.png'
 import Bowbottomleft from './pipe/Bowbottomleft'
 import './wellheada.css'
 import Blackbox from './blackbox/Blackbox'
-import Alert from 'react-bootstrap/Alert';
 import { useNavigate } from 'react-router-dom'
 
 function Wellhead(props) {
@@ -111,6 +111,7 @@ function Wellhead(props) {
                                 <span className='txt-sdv-1012 p-1 text-center bg-dark fw-bolder text-white'>{props.sdvOneTitle}</span>
                                 <span className={'indicator-sdv-1013 p-1 text-center fw-bold ' + (props.sdvOneStatus === 1 ? 'bg-normal' : 'bg-error')}>{props.sdvOneStatus === 1 ? 'OPEN' : 'CLOSE'}</span>
                             </div>
+                            <img className='wellhead-arrow-1' src={arrow} alt='' />
 
                         </div>
                     </div>
