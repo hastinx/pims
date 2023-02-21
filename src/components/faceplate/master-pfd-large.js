@@ -20,7 +20,7 @@ import meter from '../../assets/img/faceplate/meter.png'
 import flare from '../../assets/img/faceplate/flare.png'
 import pumptl from '../../assets/img/faceplate/pump-tl.png'
 import plank from '../../assets/img/faceplate/plank.png'
-import './pfd-copy.css'
+import './master-pfd-large.css'
 import LabelTag from './labelMonitor/labelTag'
 
 function PfdLarge(props) {

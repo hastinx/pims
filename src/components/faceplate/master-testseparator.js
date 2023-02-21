@@ -1,5 +1,5 @@
 import React from 'react';
-import './testseparator.css'
+import './master-testseparator.css'
 import Tankhorizontal from '../../assets/img/faceplate/ht.png'
 import Horizontal from './pipe/Horizontal'
 import Vertical from './pipe/Vertical'

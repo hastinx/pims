@@ -20,7 +20,7 @@ import meter from '../../assets/img/faceplate/meter.png'
 import flare from '../../assets/img/faceplate/flare.png'
 import pumptl from '../../assets/img/faceplate/pump-tl.png'
 import plank from '../../assets/img/faceplate/plank.png'
-import './pfd.css'
+import './master-pfd.css'
 import { useNavigate } from 'react-router-dom'
 
 function Pfd(props) {

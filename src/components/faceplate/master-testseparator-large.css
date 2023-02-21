@@ -578,6 +578,16 @@
 }
 
 .large-testseparator-label-tank-separator{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 3px;
+    position: absolute;
+    top: 246px;
+    left: 506px;
+    width: 177px;
+    text-align: center;
+}
+.large-testseparator-tag-tank-separator{
     font-size: 32px;
     font-weight: 700;
     padding: 3px;
@@ -587,12 +597,24 @@
     width: 148px;
     text-align: center;
 }
+
 .large-testseparator-label-tank-gauging{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3px;
+    position: absolute;
+    top: 170px;
+    left: 1066px;
+    width: 148px;
+    text-align: center;
+}
+
+.large-testseparator-tag-tank-gauging{
     font-size: 22px;
     font-weight: 700;
     padding: 3px;
     position: absolute;
-    top: 167px;
+    top: 228px;
     left: 1066px;
     width: 148px;
     text-align: center;
@@ -640,7 +662,7 @@
 .large-testseparator-monitor-status-1{
     position: absolute;
     top: 218px;
-    left: 46px;
+    left: 39px;
 }
 .large-testseparator-monitor-status-2{
     position: absolute;
@@ -650,7 +672,7 @@
 .large-testseparator-monitor-status-3{
     position: absolute;
     top: 206px;
-    left: 246px;
+    left: 221px;
 }
 .large-testseparator-monitor-status-4{
     position: absolute;
@@ -664,8 +686,8 @@
 }
 .large-testseparator-monitor-status-6{
     position: absolute;
-    top: 58px;
-    left: 1075px;
+    top: 45px;
+    left: 1064px;
 }
 .large-testseparator-arrow-1{
     width: 22px;

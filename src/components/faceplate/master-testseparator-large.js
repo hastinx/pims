@@ -1,5 +1,5 @@
 import React from 'react';
-import './testseparator-large-copy.css'
+import './master-testseparator-large.css'
 import Tankhorizontal from '../../assets/img/faceplate/ht.png'
 import Horizontal from './pipe/Horizontal'
 import Vertical from './pipe/Vertical'
@@ -72,33 +72,31 @@ function Testseparatorlarge(props) {
                             <div className="large-testseparator-monitor-status-5">
                                 <MonitorStatusOpenClose status={props.esdv2Status} tag_name={props.tag_asdv2} />
                             </div>
-                            <div className="large-testseparator-monitor-status-6">
-                                <MonitorStatusNormalAlarm status={props.lshh2Status} tag_name={props.tag_lshh2} />
-                            </div>
                             <div className='large-testseparator-label-tank-separator'>{props.labelTankSeparator}</div>
+                            <div className='large-testseparator-tag-tank-separator'>{props.TagTankSeparator}</div>
                             <div className='large-testseparator-label-tag-1'>
-                                <LabelTag tag="FT-1150" />
+                                <LabelTag tag={props.tag_ft_1} />
                             </div>
                             <div className='large-testseparator-label-tag-2'>
-                                <LabelTag tag="FT-1151" />
+                                <LabelTag tag={props.tag_ft_2} />
                             </div>
                             <div className='large-testseparator-label-tag-3'>
-                                <LabelTag tag="FT-1152" />
+                                <LabelTag tag={props.tag_ft_3} />
                             </div>
                             <div className='large-testseparator-label-tag-4'>
-                                <LabelTag tag="FT-1153" />
+                                <LabelTag tag={props.tag_ft_4} />
                             </div>
                             <div className='large-testseparator-label-tag-5'>
-                                <LabelTag tag="LCV-1150A" />
+                                <LabelTag tag={props.tag_lcv_1} />
                             </div>
                             <div className='large-testseparator-label-tag-6'>
-                                <LabelTag tag="LCV-1150B" />
+                                <LabelTag tag={props.tag_lcv_2} />
                             </div>
                             <div className='large-testseparator-label-tag-7'>
-                                <LabelTag tag="LCV-1152" />
+                                <LabelTag tag={props.tag_lcv_3} />
                             </div>
                             <div className='large-testseparator-label-tag-8'>
-                                <LabelTag tag="LCV-1150" />
+                                <LabelTag tag={props.tag_lcv_4} />
                             </div>
                             <div className='large-testseparator-vertical-left-three'>
                                 <Vertical />
@@ -221,10 +219,14 @@ function Testseparatorlarge(props) {
                             <div className='large-testseparator-vertical-top-tank'>
                                 <Vertical />
                             </div>
+                            {/* <div className="large-testseparator-monitor-status-6">
+                                <MonitorStatusNormalAlarm status="ALARM" tag_name="LSHH-6005" tag={props.tag_lshh_gauging} />
+                            </div> */}
                             <div className="large-testseparator-monitor-status-6">
-                                <MonitorStatusNormalAlarm status="ALARM" tag_name="LSHH-6005" />
+                                <MonitorStatusNormalAlarm status={props.lshh2Status} tag_name={props.tag_lshh2} />
                             </div>
                             <div className='large-testseparator-label-tank-gauging'>{props.labelTankGauging}</div>
+                            <div className='large-testseparator-tag-tank-gauging'>{props.tagTankGauging}</div>
                             <div className='large-testseparator-horizontal-top-tank-to-flare'>
                                 <Horizontal />
                             </div>
