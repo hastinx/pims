@@ -1,47 +1,53 @@
-import React, { useState, useEffect } from 'react'
-import Wellhead from '../../../../../components/Faceplate/master-wellhead'
-import { useGetApi } from '../../../../../server/Api'
+import React, { useState, useEffect } from "react";
+import Wellhead from "../../../../../components/Faceplate/master-wellhead";
+import { useGetApi } from "../../../../../server/Api";
 import Swal from "sweetalert2";
 
 const Wellhead11 = () => {
-    const [sdvOneStatus, setSdvonestatus] = useState('');
-    const [sdvTwoStatus, setSdvtwostatus] = useState('');
-    const [pshhStatus, Setpshhstatus] = useState('');
-    const [ptStatus, setPtstatus] = useState('');
+  const [sdvOneStatus, setSdvonestatus] = useState("");
+  const [sdvTwoStatus, setSdvtwostatus] = useState("");
+  const [pshhStatus, Setpshhstatus] = useState("");
+  const [ptStatus, setPtstatus] = useState(0);
 
-    const GetData = async () => {
-        const data = await useGetApi('pad_a/wellhead/m11');
-        if (data.error === false) {
-            Setpshhstatus(data.data.values[0].pshH_3011)
-            setSdvonestatus(data.data.values[0].sdV_1112)
-            setSdvtwostatus(data.data.values[0].sdV_1113)
-            setPtstatus(data.data.values[0].pT_3011)
-        } else {
-            Swal.fire({
-                title: 'Oops!',
-                text: 'Wellhead A#11 ' + data.message,
-                icon: 'error',
-                confirmButtonText: 'OK'
-            })
-        }
+  const GetData = async () => {
+    const data = await useGetApi("pad_a/wellhead/m11");
+    if (data.error === false) {
+      Setpshhstatus("0");
+      setSdvonestatus("0");
+      setSdvtwostatus("0");
+      setPtstatus(
+        data.data.values.paD_A_Rack_2_Prgm_MainProgram_SCL_PT_3011_Out_VALUE
+      );
+    } else {
+      Swal.fire({
+        title: "Oops!",
+        text: "Wellhead A#11 " + data.message,
+        icon: "error",
+        confirmButtonText: "OK",
+      });
     }
-    useEffect(() => {
-        GetData();
-    }, []);
+  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      GetData();
+    }, 10000);
 
-    return (
-        <Wellhead
-            title="M#11"
-            pshhTitle="PSHH-3011"
-            ptTitle="PT-3011"
-            sdvOneTitle="SDV-1112"
-            sdvTwoTitle="SDV-1113"
-            sdvOneStatus={sdvOneStatus}
-            sdvTwoStatus={sdvTwoStatus}
-            pshhStatus={pshhStatus}
-            ptStatus={ptStatus}
-        />
-    )
-}
+    return () => clearInterval(interval);
+  });
 
-export default Wellhead11
+  return (
+    <Wellhead
+      title="M#11"
+      pshhTitle="PSHH-3011"
+      ptTitle="PT-3011"
+      sdvOneTitle="SDV-1112"
+      sdvTwoTitle="SDV-1113"
+      sdvOneStatus={sdvOneStatus}
+      sdvTwoStatus={sdvTwoStatus}
+      pshhStatus={pshhStatus}
+      ptStatus={ptStatus.toFixed(1)}
+    />
+  );
+};
+
+export default Wellhead11;
