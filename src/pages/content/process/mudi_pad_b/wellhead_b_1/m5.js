@@ -10,14 +10,12 @@ const Wellhead5 = () => {
   const [ptStatus, setPtstatus] = useState(0);
 
   const GetData = async () => {
-    const data = await useGetApi("pad_b/wellhead5");
+    const data = await useGetApi("pad_b/wellhead/m5");
     if (data.error === false) {
-      Setpshhstatus("OPEN");
-      setSdvonestatus("OPEN");
-      setSdvtwostatus("OPEN");
-      setPtstatus(
-        data.data.values.paD_B_Rack_2_Prgm_MainProgram_ALMA_PT_3005_In_VALUE
-      );
+      Setpshhstatus("");
+      setSdvonestatus(data.data.values.SDV_3005);
+      setSdvtwostatus(data.data.values.SDV_3005);
+      setPtstatus(data.data.values.PT_3005);
     } else {
       Swal.fire({
         title: "Oops!",

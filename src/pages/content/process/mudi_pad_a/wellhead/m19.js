@@ -13,11 +13,9 @@ const Wellhead19 = () => {
     const data = await useGetApi("pad_a/wellhead/m19");
     if (data.error === false) {
       Setpshhstatus("0");
-      setSdvonestatus("0");
-      setSdvtwostatus("0");
-      setPtstatus(
-        data.data.values.paD_A_Rack_2_Prgm_MainProgram_SCL_PT_3019_Out_VALUE
-      );
+      setSdvonestatus(data.data.values.SDV_3019);
+      setSdvtwostatus(data.data.values.SDV_3019);
+      setPtstatus(data.data.values.PT_3019);
     } else {
       Swal.fire({
         title: "Oops!",

@@ -10,16 +10,16 @@ const Wellhead15 = () => {
   const [ptStatus, setPtstatus] = useState(0);
 
   const GetData = async () => {
-    const data = await useGetApi("pad_b/wellhead/m17");
+    const data = await useGetApi("pad_b/wellhead/m15");
     if (data.error === false) {
-      Setpshhstatus(data.data.values[0].pshH_3017);
-      setSdvonestatus(data.data.values[0].sdV_1172);
-      setSdvtwostatus(data.data.values[0].sdV_1173);
-      setPtstatus(data.data.values[0].pT_3017);
+      Setpshhstatus("");
+      setSdvonestatus(data.data.values.SDV_3015);
+      setSdvtwostatus(data.data.values.SDV_3015);
+      setPtstatus(data.data.values.PT_3015);
     } else {
       Swal.fire({
         title: "Oops!",
-        text: "Wellhead M#17 " + data.message,
+        text: "Wellhead M#15 " + data.message,
         icon: "error",
         confirmButtonText: "OK",
       });
@@ -27,8 +27,12 @@ const Wellhead15 = () => {
   };
 
   useEffect(() => {
-    GetData();
-  }, []);
+    const interval = setInterval(() => {
+      GetData();
+    }, 10000);
+
+    return () => clearInterval(interval);
+  });
 
   return (
     <Wellhead
@@ -40,7 +44,7 @@ const Wellhead15 = () => {
       sdvOneStatus={sdvOneStatus}
       sdvTwoStatus={sdvTwoStatus}
       pshhStatus={pshhStatus}
-      ptStatus={ptStatus}
+      ptStatus={ptStatus.toFixed(1)}
       nav="/process/mudipad-b/wellhead"
     />
   );
