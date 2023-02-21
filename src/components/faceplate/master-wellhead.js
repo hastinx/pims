@@ -8,10 +8,9 @@ import valve from "../../assets/img/faceplate/valve.png";
 import gauge from "../../assets/img/faceplate/gauge.png";
 import sv from "../../assets/img/faceplate/sv.png";
 import arrow from "../../assets/img/faceplate/arrow.png";
-import indicator from "../../assets/img/faceplate/indicator.png";
 import wellhead from "../../assets/img/faceplate/wellhead-stop.png";
 import Bowbottomleft from "./pipe/Bowbottomleft";
-import "./wellheada.css";
+import "./master-wellhead.css";
 import Blackbox from "./blackbox/Blackbox";
 import { useNavigate } from "react-router-dom";
 

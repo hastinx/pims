@@ -165,13 +165,14 @@
     position: absolute;
     top: 54px;
     left: 33px;
+    width: 97px;
 }
 .txt-pshh-3001{
     background-color: black;
-    font-size: xx-small;
+    font-size: 14px;
 }
 .indicator-pshh-3001{
-    font-size: xx-small;
+    font-size: 14px;
 }
 
 /* PT */
@@ -181,14 +182,15 @@
     /* left: 113px; */
     position: absolute;
     top: 15px;
-    left: 203px;
+    left: 141px;
+    width: 117px;
 }
 .txt-pt-3001{
     background-color: black;
-    font-size: xx-small;
+    font-size: 16px;
 }
 .indicator-pt-3001{
-    font-size: xx-small;
+    font-size: 16px;
 }
 
 /* SDV-1013 */
@@ -199,10 +201,10 @@
 }
 .txt-sdv-1013{
     background-color: black;
-    font-size: xx-small;
+    font-size: 14px;
 }
 .indicator-sdv-1013{
-    font-size: xx-small;
+    font-size: 14px;
 }
 
 /* SDV-1012 */
@@ -213,10 +215,10 @@
 }
 .txt-sdv-1012{
     background-color: black;
-    font-size: xx-small;
+    font-size: 14px;
 }
 .indicator-sdv-1012{
-    font-size: xx-small;
+    font-size: 14px;
 }
 
 .bg-normal{
