@@ -63,20 +63,20 @@ function MaintestseparatorC() {
                         lshh1Status={lshh1150.toUpperCase()}
                         esdv2Status={esdv6005.toUpperCase()}
                         lshh2Status={lshh6005.toUpperCase()}
-                        tag_bdv="BDV-1151"
-                        tag_esdv1="ESDV-1150"
-                        tag_pashh="PSHH-1150"
-                        tag_lshh1="LSHH-1150"
-                        tag_asdv2="ESDV-6005"
-                        tag_lshh2="LSHH-60090"
-                        tag_ft_1="FT-1150"
-                        tag_ft_2="FT-1151"
-                        tag_ft_3="FT-1152"
-                        tag_ft_4="FT-1153"
-                        tag_lcv_1="PCV-1170A"
-                        tag_lcv_2="PCV-1170B"
-                        tag_lcv_3="LCV-1152"
-                        tag_lcv_4="LCV-1150"
+                        tag_bdv="BDV-1171"
+                        tag_esdv1="ESDV-1170"
+                        tag_pashh="PSHH-1170"
+                        tag_lshh1="LSHH-1170"
+                        tag_asdv2="ESDV-6025"
+                        tag_lshh2="LSHH-6025"
+                        tag_ft_1="FT-1170"
+                        tag_ft_2="FT-1171"
+                        tag_ft_3="FT-1172"
+                        tag_ft_4="FT-1173"
+                        tag_pcv_1="PCV-1170A"
+                        tag_pcv_2="PCV-1170B"
+                        tag_lcv_1="LCV-1172"
+                        tag_lcv_2="LCV-1170"
 
                     />
                 </div>

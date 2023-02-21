@@ -725,6 +725,18 @@
     top: 646px;
     left: 1411px;
 }
+.large-testseparator-arrow-7{
+    width: 22px;
+    position: absolute;
+    top: 87px;
+    left: 1411px;
+}
+.large-testseparator-arrow-8{
+    width: 22px;
+    position: absolute;
+    top: 271px;
+    left: 1411px;
+}
 .bg-gray{
     background-color: #666666;
 }

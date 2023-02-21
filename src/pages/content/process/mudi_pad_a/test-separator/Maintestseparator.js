@@ -44,8 +44,10 @@ function Maintestseparator() {
                     <Testseparatorlarge
                         title="TEST SEPARATOR & GAUGING VESSEL MUDI PAD A"
                         inputFrom='FROM WELLPAD MANIFOLD'
-                        labelTankSeparator="PV-1150"
-                        labelTankGauging="PV-6000"
+                        labelTankSeparator="TANK SEPARATOR"
+                        TagTankSeparator="PV-1150"
+                        labelTankGauging="VESSEL GAUGING"
+                        tagTankGauging="PV-6000"
                         toOne="TO WELLPAD MANIFOLD"
                         toTwo="TO FLARE"
                         toThree="TO WELLPAD MANIFOLD"
@@ -67,6 +69,14 @@ function Maintestseparator() {
                         tag_lshh1="LSHH-1150"
                         tag_asdv2="ESDV-6005"
                         tag_lshh2="LSHH-6005"
+                        tag_ft_1="FT-1150"
+                        tag_ft_2="FT-1151"
+                        tag_ft_3="FT-1152"
+                        tag_ft_4="FT-1153"
+                        tag_pcv_1="PCV-1150A"
+                        tag_pcv_2="PCV-1150B"
+                        tag_lcv_1="LCV-1152"
+                        tag_lcv_2="LCV-1150"
                     />
                 </div>
             </div>

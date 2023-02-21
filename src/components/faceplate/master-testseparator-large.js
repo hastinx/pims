@@ -87,16 +87,16 @@ function Testseparatorlarge(props) {
                                 <LabelTag tag={props.tag_ft_4} />
                             </div>
                             <div className='large-testseparator-label-tag-5'>
-                                <LabelTag tag={props.tag_lcv_1} />
+                                <LabelTag tag={props.tag_pcv_1} />
                             </div>
                             <div className='large-testseparator-label-tag-6'>
-                                <LabelTag tag={props.tag_lcv_2} />
+                                <LabelTag tag={props.tag_pcv_2} />
                             </div>
                             <div className='large-testseparator-label-tag-7'>
-                                <LabelTag tag={props.tag_lcv_3} />
+                                <LabelTag tag={props.tag_lcv_1} />
                             </div>
                             <div className='large-testseparator-label-tag-8'>
-                                <LabelTag tag={props.tag_lcv_4} />
+                                <LabelTag tag={props.tag_lcv_2} />
                             </div>
                             <div className='large-testseparator-vertical-left-three'>
                                 <Vertical />
@@ -238,6 +238,8 @@ function Testseparatorlarge(props) {
                             <img src={arrow} alt="arrow-input" className='large-testseparator-arrow-4' />
                             <img src={arrow} alt="arrow-input" className='large-testseparator-arrow-5' />
                             <img src={arrow} alt="arrow-input" className='large-testseparator-arrow-6' />
+                            <img src={arrow} alt="arrow-input" className='large-testseparator-arrow-7' />
+                            <img src={arrow} alt="arrow-input" className='large-testseparator-arrow-8' />
                         </div>
                     </div>
                 </div>
