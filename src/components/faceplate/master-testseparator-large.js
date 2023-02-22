@@ -41,7 +41,7 @@ function Testseparatorlarge(props) {
               </div>
               <img
                 className="large-testseparator-pcv-bdv1151"
-                src={props.bdvStatus === 1 ? pcv : pcvStop}
+                src={props.bdvStatus === 0 ? pcv : pcvStop}
                 alt=""
               />
               <img
