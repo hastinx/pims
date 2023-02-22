@@ -109,6 +109,12 @@ const WellSummary = () => {
     return () => clearInterval(interval);
   });
 
+  useEffect(() => {
+    GetDataPadA();
+    GetDataPadB();
+    GetDataPadC();
+  }, []);
+
   return (
     <MasterLayout>
       <div className="row mt-4">
