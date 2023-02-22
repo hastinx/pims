@@ -5,22 +5,22 @@ import Swal from 'sweetalert2'
 import { useGetApi } from '../../../../../server/Api'
 
 function MaintestseparatorC() {
-    const [bdv1151, setBdv1151] = useState("")
-    const [esdv1150, setEsdv1150] = useState("")
-    const [pshh1150, setPshh1150] = useState("")
-    const [lshh1150, setLshh1150] = useState("")
-    const [esdv6005, setEsdv6005] = useState("")
-    const [lshh6005, setLshh6005] = useState("")
+    const [bdv, setBdv1151] = useState("")
+    const [esdv1, setEsdv1150] = useState("")
+    const [pshh, setPshh1150] = useState("")
+    const [lshh1, setLshh1150] = useState("")
+    const [esdv2, setEsdv6005] = useState("")
+    const [lshh2, setLshh6005] = useState("")
 
     const GetData = async () => {
-        const data = await useGetApi('pad_a/test_separator');
+        const data = await useGetApi('pad_c/test_separator');
         if (data.error === false) {
-            setBdv1151(data.data.values[0].bdV_1151)
-            setEsdv1150(data.data.values[0].esdV_1150)
-            setPshh1150(data.data.values[0].pshH_1150)
-            setLshh1150(data.data.values[0].lshH_1150)
-            setEsdv6005(data.data.values[0].esdV_6005)
-            setLshh6005(data.data.values[0].lshH_6005)
+            setBdv1151(data.data.values.BDV_1151)
+            setEsdv1150(data.data.values.ESDV_1150)
+            setPshh1150(data.data.values.PSHH_1150)
+            setLshh1150(data.data.values.LSHH_1150)
+            setEsdv6005(data.data.values.ESDV_6025)
+            setLshh6005(data.data.values.LSHH_6025)
         } else {
             Swal.fire({
                 title: 'Oops!',
@@ -57,12 +57,12 @@ function MaintestseparatorC() {
                         toSeven="TO GAUGING VESSEL"
                         toEight="TO WELLPAD MANIFOLD"
                         toNine="TO GAUGING VESSEL"
-                        bdvStatus={bdv1151.toUpperCase()}
-                        esdv1Status={esdv1150.toUpperCase()}
-                        pshhStatus={pshh1150.toUpperCase()}
-                        lshh1Status={lshh1150.toUpperCase()}
-                        esdv2Status={esdv6005.toUpperCase()}
-                        lshh2Status={lshh6005.toUpperCase()}
+                        bdvStatus={bdv}
+                        esdv1Status={esdv1}
+                        pshhStatus={pshh}
+                        lshh1Status={lshh1}
+                        esdv2Status={esdv2}
+                        lshh2Status={lshh2}
                         tag_bdv="BDV-1171"
                         tag_esdv1="ESDV-1170"
                         tag_pashh="PSHH-1170"
