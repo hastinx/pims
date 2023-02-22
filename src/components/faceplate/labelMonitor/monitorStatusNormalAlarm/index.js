@@ -10,7 +10,7 @@ const MonitorStatusNormalAlarm = (props) => {
         <span
           className={
             "indicator-pshh-3001 p-1 text-center fw-bold " +
-            (props.status === 1 ? "bg-normal" : "bg-error")
+            (props.status === 1 ? "bg-normal" : props.status === 0 ? "bg-error" : "bg-secondary")
           }
         >
           {props.status === 1 ? "NORMAL" : "ALARM"}

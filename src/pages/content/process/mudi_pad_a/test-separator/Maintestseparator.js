@@ -22,8 +22,8 @@ function Maintestseparator() {
       setEsdv1150(data.data.values.ESDV_1150);
       setPshh1150(data.data.values.PSHH_1150);
       setLshh1150(data.data.values.LSHH_1150);
-      setEsdv6005(data.data.values.ESDV_6005);
-      setLshh6005(data.data.values.LSHH_6005);
+      setEsdv6005("");
+      setLshh6005("");
     } else {
       Swal.fire({
         title: "Oops!",
@@ -46,6 +46,8 @@ function Maintestseparator() {
     setInterval(() => {
       setLoading(false)
     }, 1000)
+
+    GetData()
   }, [])
 
   return (

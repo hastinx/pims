@@ -34,6 +34,10 @@ const Wellhead24 = () => {
     return () => clearInterval(interval);
   });
 
+  useEffect(() => {
+    GetData();
+  }, []);
+
   return (
     <Wellhead
       title="M#24"

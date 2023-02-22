@@ -1,6 +1,6 @@
 import React from "react";
 
-const MonitorStatusOpenClose = (props) => {
+const MonitorStatusOpenCloseBDV = (props) => {
   return (
     <>
       <div className="d-flex flex-column bg-light p-1 border border-primary pshh-3001">
@@ -10,14 +10,14 @@ const MonitorStatusOpenClose = (props) => {
         <span
           className={
             "indicator-pshh-3001 p-1 text-center fw-bold " +
-            (props.status === 1 ? "bg-normal" : props.status === 0 ? "bg-error" : "bg-secondary")
+            (props.status === 0 ? "bg-normal" : "bg-error")
           }
         >
-          {props.status === 1 ? "OPEN" : "CLOSE"}
+          {props.status === 0 ? "OPEN" : "CLOSE"}
         </span>
       </div>
     </>
   );
 };
 
-export default MonitorStatusOpenClose;
+export default MonitorStatusOpenCloseBDV;

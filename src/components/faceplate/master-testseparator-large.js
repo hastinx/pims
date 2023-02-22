@@ -12,6 +12,7 @@ import MonitorStatusOpenClose from "./labelMonitor/monitorStatusOpenClose";
 import MonitorStatusNormalAlarm from "./labelMonitor/monitorStatusNormalAlarm";
 import LabelTag from "./labelMonitor/labelTag";
 import arrow from "../../assets/img/faceplate/arrow.png";
+import MonitorStatusOpenCloseBDV from "./labelMonitor/monitorStatusOpenCloseBDV";
 
 function Testseparatorlarge(props) {
   return (
@@ -93,7 +94,7 @@ function Testseparatorlarge(props) {
                 <Horizontal />
               </div>
               <div className="large-testseparator-monitor-status-1">
-                <MonitorStatusOpenClose
+                <MonitorStatusOpenCloseBDV
                   status={props.bdvStatus}
                   tag_name={props.tag_bdv}
                 />
