@@ -25,6 +25,7 @@ import ProcessFlowDiagram from './pages/content/process_flow_diagram';
 import Peta from './pages/content/peta';
 import PowerDistribution from './pages/content/power_distribution';
 import WellheadB1 from './pages/content/process/mudi_pad_b/wellhead_b_1';
+import WaterInjectorPadC from './pages/content/process/mudi_pad_c/water_injector';
 
 export const Session = createContext({
   name: "",
@@ -51,6 +52,7 @@ function App() {
         <Route path="/process/mudipad-b/wellhead-b1" element={<WellheadB1 />} />
         <Route path="/process/mudipad-b/test-separator" element={<MaintestseparatorB />} />
         <Route path="/process/mudipad-c/wellhead" element={<Mainwellheadpadc />} />
+        <Route path="/process/mudipad-c/water-injector" element={<WaterInjectorPadC />} />
         <Route path="/process/mudipad-c/test-separator" element={<MaintestseparatorC />} />
         <Route path="/process/mudipad-c/water-disposal" element={<WaterDisposalPump />} />
         <Route path="/pada" element={<PadA />} />

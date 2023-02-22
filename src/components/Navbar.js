@@ -93,8 +93,9 @@ function Navbar() {
                             <div className={path[2] === "mudipad-c" ? "collapse show" : "collapse"} id="collapsemudic" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav className="sb-sidenav-menu-nested nav">
                                     <a className={(path[2] === "mudipad-c" && path[3] === "wellhead") ? "nav-link active" : "nav-link"} href="/process/mudipad-c/wellhead">Wellhead</a>
-                                    <a className={(path[2] === "mudipad-c" && path[3] === "wellhead") ? "nav-link active" : "nav-link"} href="/process/mudipad-c/test-separator">Test Separator</a>
-                                    <a className={(path[2] === "mudipad-c" && path[3] === "wellhead") ? "nav-link active" : "nav-link"} href="/process/mudipad-c/water-disposal">Water Disposal System</a>
+                                    <a className={(path[2] === "mudipad-c" && path[3] === "water-injector") ? "nav-link active" : "nav-link"} href="/process/mudipad-c/water-injector">Water Injector</a>
+                                    <a className={(path[2] === "mudipad-c" && path[3] === "test-separator") ? "nav-link active" : "nav-link"} href="/process/mudipad-c/test-separator">Test Separator</a>
+                                    <a className={(path[2] === "mudipad-c" && path[3] === "water-disposal") ? "nav-link active" : "nav-link"} href="/process/mudipad-c/water-disposal">Water Disposal System</a>
                                 </nav>
                             </div>
                             {/* <a className={path[2] === "alarm" ? "nav-link active" : "nav-link"} href="/process/alarm">
