@@ -71,7 +71,7 @@ function Navbar() {
                                 <nav className="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
                                     <a className={(path[2] === "mudipad-b" && path[3] === "wellhead-b1") ? "nav-link active" : "nav-link"} href="/process/mudipad-b/wellhead-b1">Wellhead 1</a>
                                     <a className={(path[2] === "mudipad-b" && path[3] === "wellhead") ? "nav-link active" : "nav-link"} href="/process/mudipad-b/wellhead">Wellhead 2</a>
-                                    <a className={(path[2] === "mudipad-bا" && path[3] === "test-separator") ? "nav-link active" : "nav-link"} href="/process/mudipad-b/test-separator">Test Separator</a>
+                                    <a className={(path[2] === "mudipad-b" && path[3] === "test-separator") ? "nav-link active" : "nav-link"} href="/process/mudipad-b/test-separator">Test Separator</a>
                                     {/* <a className={(path[1] === "mudipad-b" && path[2] === "wellhead") ? "nav-link active" : "nav-link"} href="/mudipad-b/wellhead" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
                                         Wellhead
                                         <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
