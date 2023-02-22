@@ -1,5 +1,5 @@
 import React from 'react';
-import MasterLayout from '../../../../components/Layout';
+import MasterLayout from '../../../../../components/Layout';
 import Wellhead17 from './m17';
 import Wellhead18 from './m18';
 import Wellhead23 from './m23';

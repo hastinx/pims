@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from "react";
-import Wellhead from "../../../../components/Faceplate/master-wellhead";
-import { useGetApi } from "../../../../server/Api";
+import Wellhead from "../../../../../components/Faceplate/master-wellhead";
+import { useGetApi } from "../../../../../server/Api";
 import Swal from "sweetalert2";
 
-const Wellhead23 = () => {
+const Wellhead25 = () => {
   const [sdvOneStatus, setSdvonestatus] = useState("");
   const [sdvTwoStatus, setSdvtwostatus] = useState("");
   const [pshhStatus, Setpshhstatus] = useState("");
   const [ptStatus, setPtstatus] = useState(0);
 
   const GetData = async () => {
-    const data = await useGetApi("pad_b/wellhead/m23");
+    const data = await useGetApi("pad_b/wellhead/m25");
     if (data.error === false) {
       Setpshhstatus("");
-      setSdvonestatus(data.data.values.SDV_3023);
-      setSdvtwostatus(data.data.values.SDV_3023);
-      setPtstatus(data.data.values.PT_3023);
+      setSdvonestatus(data.data.values.SDV_3025);
+      setSdvtwostatus(data.data.values.SDV_3025);
+      setPtstatus(data.data.values.PT_3025);
     } else {
       Swal.fire({
         title: "Oops!",
-        text: "Wellhead M#23 " + data.message,
+        text: "Wellhead M#25 " + data.message,
         icon: "error",
         confirmButtonText: "OK",
       });
@@ -36,11 +36,11 @@ const Wellhead23 = () => {
 
   return (
     <Wellhead
-      title="M#23"
-      pshhTitle="PSHH-3023"
-      ptTitle="PT-3023"
-      sdvOneTitle="SDV-1232"
-      sdvTwoTitle="SDV-1233"
+      title="M#25"
+      pshhTitle="PSHH-3025"
+      ptTitle="PT-3025"
+      sdvOneTitle="SDV-1252"
+      sdvTwoTitle="SDV-1253"
       sdvOneStatus={sdvOneStatus}
       sdvTwoStatus={sdvTwoStatus}
       pshhStatus={pshhStatus}
@@ -49,4 +49,4 @@ const Wellhead23 = () => {
   );
 };
 
-export default Wellhead23;
+export default Wellhead25;

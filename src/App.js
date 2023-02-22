@@ -3,8 +3,7 @@ import './App.css';
 import Login from './pages/login/Login';
 import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Productionflow from './pages/content/flow_diagram';
-import Processoverview from './pages/content/process/overview';
-import Mainwellheadpadb from './pages/content/process/mudi_pad_b';
+import Mainwellheadpadb from './pages/content/process/mudi_pad_b/wellhead_b_2';
 import Mainwellheadpada from './pages/content/process/mudi_pad_a/wellhead';
 import Mainwellheadpadc from './pages/content/process/mudi_pad_c';
 import PadA from './pages/content/pad-a';
@@ -45,7 +44,6 @@ function App() {
         <Route path="/production-flow/mudi" element={<ProcessFlowDiagram />} />
         <Route path="/peta-lokasi" element={<Peta />} />
         <Route path="/power-distribution" element={<PowerDistribution />} />
-        {/* <Route path="/process/overview" element={<Processoverview />} /> */}
         <Route path="/process/mudipad-a/wellhead" element={<Mainwellheadpada />} />
         <Route path="/process/mudipad-a/test-separator" element={<Maintestseparator />} />
         <Route path="/process/mudipad-a/process-flow-diagram" element={<PfdPadA />} />
