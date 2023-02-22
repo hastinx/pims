@@ -4,6 +4,7 @@ import Tankhorizontal from "../../assets/img/faceplate/ht.png";
 import Horizontal from "./pipe/Horizontal";
 import Vertical from "./pipe/Vertical";
 import pcv from "../../assets/img/faceplate/pcv-run.png";
+import pcv_standby from "../../assets/img/faceplate/pcv.png";
 import pcvStop from "../../assets/img/faceplate/pcv-stop.png";
 import ft from "../../assets/img/faceplate/ft.png";
 import lcv from "../../assets/img/faceplate/lcv.png";
@@ -308,7 +309,7 @@ function Testseparatorlarge(props) {
               />
               <img
                 className="large-testseparator-esdv"
-                src={props.esdv2Status === 1 ? pcv : pcvStop}
+                src={props.esdv2Status === 1 ? pcv : props.esdv2Status === 0 ? pcvStop : pcv_standby}
                 alt=""
               />
               <div className="large-testseparator-vertical-top-tank">
