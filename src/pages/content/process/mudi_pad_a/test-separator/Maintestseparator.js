@@ -3,8 +3,10 @@ import Testseparatorlarge from "../../../../../components/Faceplate/master-tests
 import MasterLayout from "../../../../../components/Layout";
 import Swal from "sweetalert2";
 import { useGetApi } from "../../../../../server/Api";
+import Loader from "../../../../../utils/loader";
 
 function Maintestseparator() {
+  const [loading, setLoading] = useState(true)
   const [bdv, setBdv1151] = useState(0);
   const [esdv1, setEsdv1150] = useState(0);
   const [pshh, setPshh1150] = useState(0);
@@ -40,8 +42,14 @@ function Maintestseparator() {
     return () => clearInterval(interval);
   });
 
+  useEffect(() => {
+    setInterval(() => {
+      setLoading(false)
+    }, 1000)
+  }, [])
+
   return (
-    <MasterLayout>
+    <>{loading ? <Loader /> : <MasterLayout>
       <div className="row mt-4">
         <div className="col-xl-12 col-md-12">
           <Testseparatorlarge
@@ -83,7 +91,8 @@ function Maintestseparator() {
           />
         </div>
       </div>
-    </MasterLayout>
+    </MasterLayout>}</>
+
   );
 }
 

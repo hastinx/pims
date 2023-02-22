@@ -4,9 +4,9 @@ import { useGetApi } from "../../../../../server/Api";
 import Swal from "sweetalert2";
 
 const Wellhead22 = () => {
-  const [sdvOneStatus, setSdvonestatus] = useState("");
-  const [sdvTwoStatus, setSdvtwostatus] = useState("");
-  const [pshhStatus, Setpshhstatus] = useState("");
+  const [sdvOneStatus, setSdvonestatus] = useState(0);
+  const [sdvTwoStatus, setSdvtwostatus] = useState(0);
+  const [pshhStatus, Setpshhstatus] = useState(0);
   const [ptStatus, setPtstatus] = useState(0);
 
   const GetData = async () => {

@@ -4,11 +4,10 @@ import { useGetApi } from "../../../../../server/Api";
 import Swal from "sweetalert2";
 
 const Wellhead23 = () => {
-  const [sdvOneStatus, setSdvonestatus] = useState("");
-  const [sdvTwoStatus, setSdvtwostatus] = useState("");
-  const [pshhStatus, Setpshhstatus] = useState("");
+  const [sdvOneStatus, setSdvonestatus] = useState(0);
+  const [sdvTwoStatus, setSdvtwostatus] = useState(0);
+  const [pshhStatus, Setpshhstatus] = useState(0);
   const [ptStatus, setPtstatus] = useState(0);
-
   const GetData = async () => {
     const data = await useGetApi("pad_b/wellhead/m23");
     if (data.error === false) {

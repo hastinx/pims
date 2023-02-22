@@ -1,63 +1,50 @@
 import React, { useEffect, useState } from 'react';
+import Wellhead3 from './m3';
+import Wellhead6 from './m6';
+import Wellhead7 from './m7';
+import Wellhead8 from './m8';
+import Wellhead12 from './m12';
+import Wellhead13 from './m13';
 import MasterLayout from '../../../../../components/Layout';
 import Loader from '../../../../../utils/loader';
-import Wellhead1 from './m1';
-import Wellhead10 from './m10';
-import Wellhead11 from './m11';
-import Wellhead19 from './m19';
-import Wellhead21 from './m21';
-import Wellhead22 from './m22';
-import Wellhead27 from './m27';
 
-function Mainwellheadpada() {
+function Mainwellheadpadc() {
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     setInterval(() => {
       setLoading(false)
     }, 1000)
-  });
+  }, [])
   return (
     <>
       {loading ? <Loader /> : <MasterLayout>
         <div className="row mt-4">
           <div className="col-xl-4 col-md-4">
-            <Wellhead1 />
+            <Wellhead3 />
           </div>
           <div className="col-xl-4 col-md-4">
-            <Wellhead10 />
+            <Wellhead6 />
           </div>
           <div className="col-xl-4 col-md-4">
-            <Wellhead11 />
+            <Wellhead7 />
           </div>
         </div>
         <div className="row mt-4">
           <div className="col-xl-4 col-md-4">
-            <Wellhead19 />
+            <Wellhead8 />
           </div>
           <div className="col-xl-4 col-md-4">
-            <Wellhead21 />
+            <Wellhead12 />
           </div>
           <div className="col-xl-4 col-md-4">
-            <Wellhead22 />
+            <Wellhead13 />
           </div>
-        </div>
-        <div className="row mt-4">
-          <div className="col-xl-4 col-md-4">
-            <Wellhead27 />
-          </div>
-          {/* <div className="col-xl-4 col-md-4">
-          <Wellhead21 />
-        </div>
-        <div className="col-xl-4 col-md-4">
-          <Wellhead22 />
-        </div> */}
         </div>
       </MasterLayout>}
-
     </>
 
   );
 }
 
-export default Mainwellheadpada;
+
+export default Mainwellheadpadc;

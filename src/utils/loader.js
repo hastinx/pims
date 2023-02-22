@@ -1,11 +1,12 @@
 import React from 'react'
 
+import { InfinitySpin } from 'react-loader-spinner';
+
 const Loader = () => {
     return (
-        <>
-            <span className="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
-            Loading...
-        </>
+
+        <div className='loading-screen'><InfinitySpin width='200' color="#0f6eb7" /></div>
+
     )
 }
 

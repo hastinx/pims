@@ -5,7 +5,7 @@ import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-route
 import Productionflow from './pages/content/flow_diagram';
 import Mainwellheadpadb from './pages/content/process/mudi_pad_b/wellhead_b_2';
 import Mainwellheadpada from './pages/content/process/mudi_pad_a/wellhead';
-import Mainwellheadpadc from './pages/content/process/mudi_pad_c';
+import Mainwellheadpadc from './pages/content/process/mudi_pad_c/wellhead';
 import PadA from './pages/content/pad-a';
 import AlarmWellheadW1 from './pages/content/process/alarm';
 import Home from './pages/content/overview';
