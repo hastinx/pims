@@ -48,7 +48,7 @@ const Wellhead26 = () => {
       sdvOneStatus={sdvOneStatus}
       sdvTwoStatus={sdvTwoStatus}
       pshhStatus={pshhStatus}
-      ptStatus={ptStatus.toFixed(1)}
+      ptStatus={ptStatus ? ptStatus.toFixed(1) : 0}
     />
   );
 };

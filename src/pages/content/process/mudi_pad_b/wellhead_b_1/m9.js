@@ -48,7 +48,7 @@ const Wellhead9 = () => {
       sdvOneStatus={sdvOneStatus}
       sdvTwoStatus={sdvTwoStatus}
       pshhStatus={pshhStatus}
-      ptStatus={ptStatus.toFixed}
+      ptStatus={ptStatus ? ptStatus.toFixed(1) : 0}
       nav="/process/mudipad-b/wellhead"
     />
   );

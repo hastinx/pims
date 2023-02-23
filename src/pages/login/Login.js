@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Loader from '../../utils/loader';
-import { UserContext } from '../../utils/Session';
 import { Session } from '../../App';
 
 
@@ -40,7 +39,7 @@ function Login() {
       user_context.name = res.data.values.userID
       user_context.isLogin = res.data.values.isLogin
       setStatus(res.data.status_code)
-
+      localStorage.setItem('user', res.data.values.userID)
       navigate('/home');
     } catch (error) {
       if (error.response) {

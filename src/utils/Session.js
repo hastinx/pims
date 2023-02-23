@@ -1,19 +1,17 @@
-import { useContext } from "react";
-import { Navigate, useLocation } from "react-router-dom";
-import { Session } from "../App";
+import React from "react";
+import { Navigate, Outlet } from "react-router-dom";
 
 
-
-const UserPermission = ({ children }) => {
-    const session = useContext(Session).isLogin
-    const location = useLocation();
-
-
-    if (session !== 1) {
-        return <Navigate to='/' state={{ from: location }} replace />
-    }
-    return children
+const useAuth = () => {
+    const user = localStorage.getItem('user')
+    if (user) return true
+    else return false
 }
 
-export default UserPermission
+const ProtectedRoutes = (props) => {
+    const auth = useAuth()
 
+    return auth ? <Outlet /> : <Navigate to="/login" />
+}
+
+export default ProtectedRoutes;

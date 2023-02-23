@@ -8,7 +8,6 @@ function Header() {
     e.preventDefault()
     document.body.classList.toggle('sb-sidenav-toggled');
     localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
-    console.log(localStorage.getItem('sb|sidebar-toggle'))
   }
   return (
     <>
@@ -76,7 +75,7 @@ function Header() {
                 <hr className="dropdown-divider" />
               </li> */}
               <li>
-                <a className="dropdown-item" href="/" onClick={localStorage.clear()}>
+                <a className="dropdown-item" href="/" onClick={localStorage.removeItem('user')}>
                   Logout
                 </a>
               </li>

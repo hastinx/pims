@@ -26,6 +26,7 @@ import Peta from './pages/content/peta';
 import PowerDistribution from './pages/content/power_distribution';
 import WellheadB1 from './pages/content/process/mudi_pad_b/wellhead_b_1';
 import WaterInjectorPadC from './pages/content/process/mudi_pad_c/water_injector';
+import ProtectedRoutes from './utils/Session';
 
 export const Session = createContext({
   name: "",
@@ -38,25 +39,30 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route exact path="/" element={<Login />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route path="/" element={<ProtectedRoutes />}>
+          <Route path="/home" element={<Home />} />
+          <Route path="/production-flow" element={<Productionflow />} />
+          <Route path="/production-flow/mudi" element={<ProcessFlowDiagram />} />
+          <Route path="/peta-lokasi" element={<Peta />} />
+          <Route path="/power-distribution" element={<PowerDistribution />} />
+          <Route path="/process/mudipad-a/wellhead" element={<Mainwellheadpada />} />
+          <Route path="/process/mudipad-a/test-separator" element={<Maintestseparator />} />
+          <Route path="/process/mudipad-a/process-flow-diagram" element={<PfdPadA />} />
+          <Route path="/process/mudipad-b/wellhead" element={<Mainwellheadpadb />} />
+          <Route path="/process/mudipad-b/wellhead-b1" element={<WellheadB1 />} />
+          <Route path="/process/mudipad-b/test-separator" element={<MaintestseparatorB />} />
+          <Route path="/process/mudipad-c/wellhead" element={<Mainwellheadpadc />} />
+          <Route path="/process/mudipad-c/water-injector" element={<WaterInjectorPadC />} />
+          <Route path="/process/mudipad-c/test-separator" element={<MaintestseparatorC />} />
+          <Route path="/process/mudipad-c/water-disposal" element={<WaterDisposalPump />} />
+          <Route path="/pada" element={<PadA />} />
+          <Route path="/process/well-summary" element={<WellSummary />} />
+        </Route>
 
-        <Route path="/home" element={<Home />} />
-        <Route path="/production-flow" element={<Productionflow />} />
-        <Route path="/production-flow/mudi" element={<ProcessFlowDiagram />} />
-        <Route path="/peta-lokasi" element={<Peta />} />
-        <Route path="/power-distribution" element={<PowerDistribution />} />
-        <Route path="/process/mudipad-a/wellhead" element={<Mainwellheadpada />} />
-        <Route path="/process/mudipad-a/test-separator" element={<Maintestseparator />} />
-        <Route path="/process/mudipad-a/process-flow-diagram" element={<PfdPadA />} />
-        <Route path="/process/mudipad-b/wellhead" element={<Mainwellheadpadb />} />
-        <Route path="/process/mudipad-b/wellhead-b1" element={<WellheadB1 />} />
-        <Route path="/process/mudipad-b/test-separator" element={<MaintestseparatorB />} />
-        <Route path="/process/mudipad-c/wellhead" element={<Mainwellheadpadc />} />
-        <Route path="/process/mudipad-c/water-injector" element={<WaterInjectorPadC />} />
-        <Route path="/process/mudipad-c/test-separator" element={<MaintestseparatorC />} />
-        <Route path="/process/mudipad-c/water-disposal" element={<WaterDisposalPump />} />
-        <Route path="/pada" element={<PadA />} />
-        <Route path="/process/well-summary" element={<WellSummary />} />
+
+
+
         {/* <Route path="/process/alarm" element={<AlarmWellheadW1 />} /> */}
         {/* <Route path="/report/chart/mudipad-a" element={<ChartMudiPadA />} /> */}
         {/* <Route path="/report/chart/mudipad-b" element={<ChartMudiPadB />} /> */}
