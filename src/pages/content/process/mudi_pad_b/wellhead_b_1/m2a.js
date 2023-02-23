@@ -41,8 +41,8 @@ const Wellhead2a = () => {
   return (
     <Wellhead
       title="M#2A"
-      pshhTitle="PSHH-302A"
-      ptTitle="PT-302A"
+      pshhTitle="PSHH-3002A"
+      ptTitle="PT-3002A"
       sdvOneTitle="SDV-12A2"
       sdvTwoTitle="SDV-12A3"
       sdvOneStatus={sdvOneStatus}
