@@ -36,7 +36,7 @@ function MaintestseparatorB() {
     useEffect(() => {
         const interval = setInterval(() => {
             GetData();
-        }, 10000);
+        }, 5000);
 
         return () => clearInterval(interval);
     });
