@@ -59,7 +59,7 @@ function MaintestseparatorC() {
                             <Testseparatorlarge
                                 title="TEST SEPARATOR & GAUGING VESSEL MUDI PAD C"
                                 inputFrom="FROM WELLPAD MANIFOLD"
-                                labelTankSeparator="TANK SEPARATOR"
+                                labelTankSeparator="TEST SEPARATOR"
                                 TagTankSeparator="PV-1170"
                                 labelTankGauging="VESSEL GAUGING"
                                 tagTankGauging="PV-6020"

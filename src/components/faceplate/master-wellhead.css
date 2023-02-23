@@ -165,14 +165,15 @@
     position: absolute;
     top: 54px;
     left: 33px;
-    width: 97px;
+    width: 87px;
 }
 .txt-pshh-3001{
     background-color: black;
-    font-size: 14px;
+    font-size: 12px;
 }
+
 .indicator-pshh-3001{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* PT */
@@ -197,7 +198,7 @@
 .sdv-1013{
     position: absolute;
     top: 174px;
-    left: 93px;
+    left: 82px;
 }
 .txt-sdv-1013{
     background-color: black;
