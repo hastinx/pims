@@ -44,9 +44,9 @@ const WaterDisposalPump = () => {
                         tag1='FQI-2009'
                         tag2='FQI-2010'
                         tag3='FQI-2011'
-                        tag1Status={tag1Status}
-                        tag2Status={tag2Status}
-                        tag3Status={tag3Status}
+                        tag1Status={tag1Status.toFixed(1)}
+                        tag2Status={tag2Status.toFixed(1)}
+                        tag3Status={tag3Status.toFixed(1)}
                     />
                 </div>
             </div>

@@ -295,7 +295,7 @@ const WaterDisposalSatu = (props) => {
 
                     <div className="d-flex flex-column bg-light p-1 border border-primary wtr-dsp-monitor-1">
                         <span className="p-1 text-center bg-dark fw-bolder text-white wtr-dsp-monitor-tag">
-                            {props.tag1} FQI-2009
+                            {props.tag1}
                         </span>
                         <span className="p-1 text-center fw-bold wtr-dsp-monitor-value">
                             {props.tag1Status ? props.tag1Status : "####"}  bw/d
@@ -303,7 +303,7 @@ const WaterDisposalSatu = (props) => {
                     </div>
                     <div className="d-flex flex-column bg-light p-1 border border-primary wtr-dsp-monitor-2">
                         <span className="p-1 text-center bg-dark fw-bolder text-white wtr-dsp-monitor-tag">
-                            {props.tag2} FQI-2010
+                            {props.tag2}
                         </span>
                         <span className="p-1 text-center fw-bold wtr-dsp-monitor-value">
                             {props.tag2Status ? props.tag2Status : "####"}  bw/d
@@ -311,7 +311,7 @@ const WaterDisposalSatu = (props) => {
                     </div>
                     <div className="d-flex flex-column bg-light p-1 border border-primary wtr-dsp-monitor-3">
                         <span className="p-1 text-center bg-dark fw-bolder text-white wtr-dsp-monitor-tag">
-                            {props.tag3} FQI-2011
+                            {props.tag3}
                         </span>
                         <span className="p-1 text-center fw-bold wtr-dsp-monitor-value">
                             {props.tag3Status ? props.tag3Status : "####"}  bw/d
