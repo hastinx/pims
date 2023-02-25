@@ -29,7 +29,7 @@ const Wellhead1 = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       GetData();
-    }, 50000);
+    }, 5000);
 
     return () => clearInterval(interval);
   });

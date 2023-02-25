@@ -100,7 +100,7 @@ const WellheadToHeader = (props) => {
             <img src={coriolis} alt='' className='wh-to-header-coriolis-3' />
             <img src={coriolis} alt='' className='wh-to-header-coriolis-4' />
             <img src={pt} alt='' className='wh-to-header-pt-2' />
-            <img src={tt} alt='' className='wh-to-header-tt-2' />
+            {/* <img src={tt} alt='' className='wh-to-header-tt-2' /> */}
             <img src={pt} alt='' className='wh-to-header-pt-6' />
             <img src={pt} alt='' className='wh-to-header-pt-7' />
             <img src={plank} alt='' className='wh-to-header-plank-3' />
@@ -295,9 +295,9 @@ const WellheadToHeader = (props) => {
             <div className='wh-to-header-label-22'>
                 <div className='label-tag'>TT</div>
             </div>
-            <div className='wh-to-header-label-23'>
+            {/* <div className='wh-to-header-label-23'>
                 <div className='label-tag'>PT</div>
-            </div>
+            </div> */}
             <div className='wh-to-header-label-24'>
                 <div className='label-tag'>TT</div>
             </div>
