@@ -377,7 +377,7 @@
     height: 30px;
     top: 144px;
     position: absolute;
-    left: 624px;
+    left: 770px;
 }
 
 .wh-to-header-tt-2{
@@ -386,6 +386,21 @@
     position: absolute;
     left: 580px;
 }
+
+.wh-to-header-pt-6{
+    height: 30px;
+    top: 144px;
+    position: absolute;
+    left: 633px;
+}
+
+.wh-to-header-pt-7{
+    height: 30px;
+    top: 144px;
+    position: absolute;
+    left: 716px;
+}
+
 
 .wh-to-header-coriolis-3{
     height: 15px;
@@ -989,7 +1004,7 @@
 .wh-to-header-label-24{
     position: absolute;
     top: 183px;
-    left: 624px;
+    left: 773px;
 }
 
 .wh-to-header-label-25{
@@ -1025,7 +1040,7 @@
 .wh-to-header-label-30{
     position: absolute;
     top: 151px;
-    left: 693px;
+    left: 800px;
 }
 
 .wh-to-header-label-31{
@@ -1046,6 +1061,28 @@
     left: 1151px;
     width: 5px;
     height: 100%;
+}
+
+.wh-to-header-monitor-1{
+    position: absolute;
+    top: 183px;
+    left: 604px;
+    width: 81px;
+}
+
+.wh-to-header-monitor-2{
+    position: absolute;
+    top: 183px;
+    left: 689px;
+    width: 81px;
+}
+
+.wh-to-header-monitor-tag{
+    font-size: 12px;
+}
+
+.wh-to-header-monitor-value{
+    font-size: 12px;
 }
 
 @media only screen and (max-width: 1600px) {

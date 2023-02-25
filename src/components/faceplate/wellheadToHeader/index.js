@@ -15,7 +15,7 @@ import VerticalBlue from '../pipe/VerticalBlue';
 import HorizontalGreen from '../pipe/HorizontalGreen';
 import VerticalGreen from '../pipe/VerticalGreen';
 
-const WellheadToHeader = () => {
+const WellheadToHeader = (props) => {
     return (
         <div className='wh-to-header-wrapper'>
             <img src={wellon} alt='' className='wh-to-header-wellhead-1' />
@@ -101,6 +101,8 @@ const WellheadToHeader = () => {
             <img src={coriolis} alt='' className='wh-to-header-coriolis-4' />
             <img src={pt} alt='' className='wh-to-header-pt-2' />
             <img src={tt} alt='' className='wh-to-header-tt-2' />
+            <img src={pt} alt='' className='wh-to-header-pt-6' />
+            <img src={pt} alt='' className='wh-to-header-pt-7' />
             <img src={plank} alt='' className='wh-to-header-plank-3' />
             <img src={plank} alt='' className='wh-to-header-plank-4' />
             <div className='wh-to-header-label-5'>
@@ -325,6 +327,15 @@ const WellheadToHeader = () => {
                 <div className='span-text'>Pipeline 10 inch</div>
             </div>
             <img src={line} alt='' className='wh-to-header-separator' />
+
+            <div class="d-flex flex-column bg-light p-1 border border-primary wh-to-header-monitor-1">
+                <span class="p-1 text-center bg-dark fw-bolder text-white wh-to-header-monitor-tag">{props.tag1}</span>
+                <span class="p-1 text-center fw-bold wh-to-header-monitor-value">{props.tag1Status ? props.tag1Status : "####"} PSI</span>
+            </div>
+            <div class="d-flex flex-column bg-light p-1 border border-primary wh-to-header-monitor-2">
+                <span class="p-1 text-center bg-dark fw-bolder text-white wh-to-header-monitor-tag">{props.tag2}</span>
+                <span class="p-1 text-center fw-bold wh-to-header-monitor-value">{props.tag2Status ? props.tag2Status : "####"} PSI</span>
+            </div>
         </div>
     )
 }
