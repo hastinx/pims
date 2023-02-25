@@ -10,7 +10,7 @@ import coriolis from '../../../assets/img/faceplate/coriolis.png'
 import './waterDisposal.css'
 import Vertical from '../pipe/Vertical';
 
-const WaterDisposalSatu = () => {
+const WaterDisposalSatu = (props) => {
     return (
         <div className='card large'>
             <div className='card-header text-center fw-semibold'>Water Disposal</div>
@@ -18,11 +18,11 @@ const WaterDisposalSatu = () => {
                 <div className='wtr-dsp-wrapper'>
                     <div className='wtr-dsp-from-pump top'>
                         <span className='wtr-dsp-from-pump'>From Disposal Pump</span>
-                        <span className='wtr-dsp-tag'>PP-510</span>
+                        <span className='wtr-dsp-tag'>PP-510 FROM CPA</span>
                     </div>
                     <div className='wtr-dsp-from-pump bottom'>
                         <span className='wtr-dsp-from-pump'>From Disposal Pump</span>
-                        <span className='wtr-dsp-tag'>PP-510</span>
+                        <span className='wtr-dsp-tag'>PP-510 FROM CPA</span>
                     </div>
                     <div className='wtr-dsp-pipe-horizontal-1'>
                         <Horizontal />
@@ -179,21 +179,21 @@ const WaterDisposalSatu = () => {
                     <div className='wtr-dsp-pipe-vertical-38'>
                         <Vertical />
                     </div>
-                    <div className='wtr-dsp-pipe-vertical-39'>
+                    {/* <div className='wtr-dsp-pipe-vertical-39'>
                         <Vertical />
-                    </div>
+                    </div> */}
                     <div className='wtr-dsp-pipe-vertical-40'>
                         <Vertical />
                     </div>
-                    <div className='wtr-dsp-pipe-vertical-41'>
+                    {/* <div className='wtr-dsp-pipe-vertical-41'>
                         <Vertical />
-                    </div>
-                    <div className='wtr-dsp-pipe-vertical-42'>
+                    </div> */}
+                    {/* <div className='wtr-dsp-pipe-vertical-42'>
                         <Vertical />
-                    </div>
-                    <div className='wtr-dsp-pipe-vertical-43'>
+                    </div> */}
+                    {/* <div className='wtr-dsp-pipe-vertical-43'>
                         <Vertical />
-                    </div>
+                    </div> */}
 
 
                     <div className='wtr-dsp-pipe-horizontal-13'>
@@ -235,7 +235,7 @@ const WaterDisposalSatu = () => {
                     <img src={coriolis} alt="" className='wtr-dsp-coriolis-17' />
                     <img src={coriolis} alt="" className='wtr-dsp-coriolis-18' />
                     <img src={coriolis} alt="" className='wtr-dsp-coriolis-19' />
-                    <img src={coriolis} alt="" className='wtr-dsp-coriolis-20' />
+                    {/* <img src={coriolis} alt="" className='wtr-dsp-coriolis-20' /> */}
                     <img src={plank} alt="" className='wtr-dsp-plank-1' />
                     <img src={plank} alt="" className='wtr-dsp-plank-2' />
                     <img src={plank} alt="" className='wtr-dsp-plank-3' />
@@ -245,12 +245,12 @@ const WaterDisposalSatu = () => {
                     <img src={plank} alt="" className='wtr-dsp-plank-7' />
                     <img src={plank} alt="" className='wtr-dsp-plank-8' />
                     <img src={plank} alt="" className='wtr-dsp-plank-9' />
-                    <img src={plank} alt="" className='wtr-dsp-plank-10' />
-                    <img src={plank} alt="" className='wtr-dsp-plank-11' />
+                    {/* <img src={plank} alt="" className='wtr-dsp-plank-10' /> */}
+                    {/* <img src={plank} alt="" className='wtr-dsp-plank-11' /> */}
                     <img src={meter} alt="" className='wtr-dsp-meter-1' />
                     <img src={meter} alt="" className='wtr-dsp-meter-2' />
                     <img src={meter} alt="" className='wtr-dsp-meter-3' />
-                    <img src={meter} alt="" className='wtr-dsp-meter-4' />
+                    {/* <img src={meter} alt="" className='wtr-dsp-meter-4' /> */}
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-1' />
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-2' />
                     <img src={whrun} alt="" className='wtr-dsp-wellhead-3' />
@@ -274,10 +274,10 @@ const WaterDisposalSatu = () => {
                         <span className='label-tag'>Wellhead M8</span>
                     </div>
                     <div className='wtr-dsp-label-7'>
-                        <span className='label-tag'>Wellhead M14</span>
+                        <span className='label-tag'>Wellhead M12</span>
                     </div>
                     <div className='wtr-dsp-label-8'>
-                        <span className='label-tag'>Wellhead M12</span>
+                        <span className='label-tag'>Wellhead M14</span>
                     </div>
 
                     <div className='wtr-dsp-label-9'>
@@ -292,6 +292,31 @@ const WaterDisposalSatu = () => {
 
                     <img src={gauge} alt="" className='wtr-dsp-pt-1' />
                     <img src={gauge} alt="" className='wtr-dsp-pt-2' />
+
+                    <div className="d-flex flex-column bg-light p-1 border border-primary wtr-dsp-monitor-1">
+                        <span className="p-1 text-center bg-dark fw-bolder text-white wtr-dsp-monitor-tag">
+                            {props.tag1} FQI-2009
+                        </span>
+                        <span className="p-1 text-center fw-bold wtr-dsp-monitor-value">
+                            {props.tag1Status ? props.tag1Status : "####"}  bw/d
+                        </span>
+                    </div>
+                    <div className="d-flex flex-column bg-light p-1 border border-primary wtr-dsp-monitor-2">
+                        <span className="p-1 text-center bg-dark fw-bolder text-white wtr-dsp-monitor-tag">
+                            {props.tag2} FQI-2010
+                        </span>
+                        <span className="p-1 text-center fw-bold wtr-dsp-monitor-value">
+                            {props.tag2Status ? props.tag2Status : "####"}  bw/d
+                        </span>
+                    </div>
+                    <div className="d-flex flex-column bg-light p-1 border border-primary wtr-dsp-monitor-3">
+                        <span className="p-1 text-center bg-dark fw-bolder text-white wtr-dsp-monitor-tag">
+                            {props.tag3} FQI-2011
+                        </span>
+                        <span className="p-1 text-center fw-bold wtr-dsp-monitor-value">
+                            {props.tag3Status ? props.tag3Status : "####"}  bw/d
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>

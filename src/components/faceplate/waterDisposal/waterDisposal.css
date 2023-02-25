@@ -118,7 +118,7 @@
 }
 
 .wtr-dsp-pipe-horizontal-11{
-    width: 383px;
+    width: 437px;
     height: 5px;
     position: absolute;
     top: 15px;
@@ -126,7 +126,7 @@
 }
 
 .wtr-dsp-pipe-horizontal-12{
-    width: 383px;
+    width: 440px;
     height: 5px;
     position: absolute;
     top: 497px;
@@ -142,19 +142,19 @@
 }
 
 .wtr-dsp-pipe-horizontal-14{
-    width: 341px;
+    width: 310px;
     height: 5px;
     position: absolute;
     top: 218px;
-    left: 1004px;
+    left: 1034px;
 }
 
 .wtr-dsp-pipe-horizontal-15{
-    width: 202px;
+    width: 148px;
     height: 5px;
     position: absolute;
     top: 340px;
-    left: 1075px;
+    left: 1132px;
 }
 
 .wtr-dsp-pipe-horizontal-16{
@@ -322,7 +322,7 @@
     height: 29px;
     position: absolute;
     top: 20px;
-    left: 999px;
+    left: 1029px;
 }
 
 .wtr-dsp-pipe-vertical-19{
@@ -330,7 +330,7 @@
     height: 29px;
     position: absolute;
     top: 20px;
-    left: 1070px;
+    left: 1127px;
 }
 
 .wtr-dsp-pipe-vertical-20{
@@ -346,7 +346,7 @@
     height: 10px;
     position: absolute;
     top: 57px;
-    left: 999px;
+    left: 1029px;
 }
 
 .wtr-dsp-pipe-vertical-22{
@@ -354,7 +354,7 @@
     height: 10px;
     position: absolute;
     top: 57px;
-    left: 1070px;
+    left: 1127px;
 }
 
 .wtr-dsp-pipe-vertical-23{
@@ -370,7 +370,7 @@
     height: 262px;
     position: absolute;
     top: 104px;
-    left: 999px;
+    left: 1029px;
 }
 
 .wtr-dsp-pipe-vertical-25{
@@ -378,7 +378,7 @@
     height: 262px;
     position: absolute;
     top: 104px;
-    left: 1070px;
+    left: 1127px;
 }
 
 .wtr-dsp-pipe-vertical-26{
@@ -394,7 +394,7 @@
     height: 22px;
     position: absolute;
     top: 404px;
-    left: 999px;
+    left: 1029px;
 }
 
 .wtr-dsp-pipe-vertical-28{
@@ -402,7 +402,7 @@
     height: 22px;
     position: absolute;
     top: 404px;
-    left: 1070px;
+    left: 1127px;
 }
 
 .wtr-dsp-pipe-vertical-29{
@@ -418,7 +418,7 @@
     height: 24px;
     position: absolute;
     top: 442px;
-    left: 999px;
+    left: 1029px;
 }
 
 .wtr-dsp-pipe-vertical-31{
@@ -426,7 +426,7 @@
     height: 24px;
     position: absolute;
     top: 442px;
-    left: 1070px;
+    left: 1128px;
 }
 
 .wtr-dsp-pipe-vertical-32{
@@ -442,7 +442,7 @@
     height: 23px;
     position: absolute;
     top: 474px;
-    left: 999px;
+    left: 1029px;
 }
 
 .wtr-dsp-pipe-vertical-34{
@@ -450,7 +450,7 @@
     height: 23px;
     position: absolute;
     top: 474px;
-    left: 1070px;
+    left: 1128px;
 }
 
 .wtr-dsp-pipe-vertical-35{
@@ -479,7 +479,7 @@
 
 .wtr-dsp-pipe-vertical-38{
     width: 5px;
-    height: 29px;
+    height: 281px;
     position: absolute;
     top: 20px;
     left: 898px;
@@ -495,9 +495,9 @@
 
 .wtr-dsp-pipe-vertical-40{
     width: 5px;
-    height: 262px;
+    height: 199px;
     position: absolute;
-    top: 104px;
+    top: 300px;
     left: 898px;
 }
 
@@ -658,7 +658,7 @@
 .wtr-dsp-coriolis-14{
     position: absolute;
     top: 79px;
-    left: 982px;
+    left: 1012px;
     transform: rotate(90deg);
     height: 15px;
 }
@@ -666,7 +666,7 @@
 .wtr-dsp-coriolis-15{
     position: absolute;
     top: 79px;
-    left: 1053px;
+    left: 1110px;
     transform: rotate(90deg);
     height: 15px;
 }
@@ -682,7 +682,7 @@
 .wtr-dsp-coriolis-17{
     position: absolute;
     top: 379px;
-    left: 982px;
+    left: 1012px;
     transform: rotate(90deg);
     height: 15px;
 }
@@ -690,14 +690,14 @@
 .wtr-dsp-coriolis-18{
     position: absolute;
     top: 379px;
-    left: 1053px;
+    left: 1110px;
     transform: rotate(90deg);
     height: 15px;
 }
 
 .wtr-dsp-coriolis-19{
     position: absolute;
-    top: 79px;
+    top: 269px;
     left: 881px;
     transform: rotate(90deg);
     height: 15px;
@@ -715,7 +715,7 @@
 .wtr-dsp-plank-1{
     position: absolute;
     top: 13px;
-    left: 1128px;
+    left: 1182px;
     transform: rotate(90deg);
     height: 8px;
 }
@@ -730,14 +730,14 @@
 .wtr-dsp-plank-3{
     position: absolute;
     top: 49px;
-    left: 994px;
+    left: 1024px;
     height: 8px;
 }
 
 .wtr-dsp-plank-4{
     position: absolute;
     top: 49px;
-    left: 1066px;
+    left: 1122px;
     height: 8px;
 }
 
@@ -751,14 +751,14 @@
 .wtr-dsp-plank-6{
     position: absolute;
     top: 465px;
-    left: 994px;
+    left: 1025px;
     height: 8px;
 }
 
 .wtr-dsp-plank-7{
     position: absolute;
     top: 465px;
-    left: 1066px;
+    left: 1123px;
     height: 8px;
 }
 
@@ -772,7 +772,7 @@
 .wtr-dsp-plank-9{
     position: absolute;
     top: 495px;
-    left: 1128px;
+    left: 1184px;
     transform: rotate(90deg);
     height: 8px;
 }
@@ -802,7 +802,7 @@
 .wtr-dsp-meter-2{
     position: absolute;
     top: 424px;
-    left: 994px;
+    left: 1023px;
     transform: rotate(90deg);
     height: 20px;
 }
@@ -810,7 +810,7 @@
 .wtr-dsp-meter-3{
     position: absolute;
     top: 424px;
-    left: 1066px;
+    left: 1121px;
     transform: rotate(90deg);
     height: 20px;
 }
@@ -924,6 +924,32 @@
     top: 501px;
     left: 812px;
     width: 155px;
+}
+
+.wtr-dsp-monitor-1{
+    position: absolute;
+    top: 399px;
+    left: 941px;
+}
+
+.wtr-dsp-monitor-2{
+    position: absolute;
+    top: 398px;
+    left: 1044px;
+}
+
+.wtr-dsp-monitor-3{
+    position: absolute;
+    top: 398px;
+    left: 1143px;
+}
+
+.wtr-dsp-monitor-tag{
+    font-size: 12px;
+}
+
+.wtr-dsp-monitor-value{
+    font-size: 12px;
 }
 
 
