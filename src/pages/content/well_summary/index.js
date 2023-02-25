@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import MasterLayout from "../../../components/Layout";
 import MasterWellSummary from "../../../components/WellSummary";
+import MasterWellSummaryWater from "../../../components/WellSummaryWater";
+import wellOn from "../../../assets/img/faceplate/well-on.png"
+import wellOff from "../../../assets/img/faceplate/well-off.png"
+import wellWater from "../../../assets/img/faceplate/well-water.png"
 import { useGetApi } from "../../../server/Api";
 
 const WellSummary = () => {
@@ -198,10 +202,30 @@ const WellSummary = () => {
               WATER INJECTOR
             </div>
             <div className="card-body d-flex flex-wrap">
-              <MasterWellSummary status={status_pad_c_well_6} tag="WATER INJECT M#6" />
-              <MasterWellSummary status={status_pad_c_well_8} tag="WATER INJECT M#8" />
-              <MasterWellSummary status={status_pad_c_well_12} tag="WATER INJECT M#12" />
-              <MasterWellSummary status={status_pad_c_well_14} tag="WATER INJECT M#14" />
+              <MasterWellSummaryWater status={status_pad_c_well_6} tag="WATER INJECT M#6" />
+              <MasterWellSummaryWater status={status_pad_c_well_8} tag="WATER INJECT M#8" />
+              <MasterWellSummaryWater status={status_pad_c_well_12} tag="WATER INJECT M#12" />
+              <MasterWellSummaryWater status={status_pad_c_well_14} tag="WATER INJECT M#14" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row mt-4">
+        <div className="col-xl-6 col-md-6 ">
+          <div className="card bg-transparent border-0">
+            <div className="card-header bg-transparent border-0">
+              LEGEND
+            </div>
+            <div className="card-body bg-transparent d-flex gap-5">
+              <div className="legend">
+                <img src={wellOn} alt="" className="legend-img" /><span>Active</span>
+              </div>
+              <div className="legend">
+                <img src={wellOff} alt="" className="legend-img" /><span>Shut In</span>
+              </div>
+              <div className="legend">
+                <img src={wellWater} alt="" className="legend-img" /><span>Water Injector</span>
+              </div>
             </div>
           </div>
         </div>
