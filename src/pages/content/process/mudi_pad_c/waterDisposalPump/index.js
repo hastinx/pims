@@ -28,7 +28,7 @@ const WaterDisposalPump = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             GetData();
-        }, 5000);
+        }, 500000);
 
         return () => clearInterval(interval);
     });
@@ -44,9 +44,9 @@ const WaterDisposalPump = () => {
                         tag1='FQI-2009'
                         tag2='FQI-2010'
                         tag3='FQI-2011'
-                        tag1Status={tag1Status.toFixed(1)}
-                        tag2Status={tag2Status.toFixed(1)}
-                        tag3Status={tag3Status.toFixed(1)}
+                        tag1Status={tag1Status.toFixed(2)}
+                        tag2Status={tag2Status.toFixed(2)}
+                        tag3Status={tag3Status.toFixed(2)}
                     />
                 </div>
             </div>
