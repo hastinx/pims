@@ -102,7 +102,7 @@ const WellheadToHeader = (props) => {
             <img src={pt} alt='' className='wh-to-header-pt-2' />
             {/* <img src={tt} alt='' className='wh-to-header-tt-2' /> */}
             <img src={pt} alt='' className='wh-to-header-pt-6' />
-            <img src={pt} alt='' className='wh-to-header-pt-7' />
+            {/* <img src={pt} alt='' className='wh-to-header-pt-7' /> */}
             <img src={plank} alt='' className='wh-to-header-plank-3' />
             <img src={plank} alt='' className='wh-to-header-plank-4' />
             <div className='wh-to-header-label-5'>
@@ -289,9 +289,9 @@ const WellheadToHeader = (props) => {
             <img src={arrow} alt='' className='wh-to-header-arrow-11' />
             <img src={arrow} alt='' className='wh-to-header-arrow-12' />
 
-            <div className='wh-to-header-label-21'>
+            {/* <div className='wh-to-header-label-21'>
                 <div className='label-tag'>PT</div>
-            </div>
+            </div> */}
             <div className='wh-to-header-label-22'>
                 <div className='label-tag'>TT</div>
             </div>
@@ -301,15 +301,15 @@ const WellheadToHeader = (props) => {
             <div className='wh-to-header-label-24'>
                 <div className='label-tag'>TT</div>
             </div>
-            <div className='wh-to-header-label-25'>
+            {/* <div className='wh-to-header-label-25'>
                 <div className='label-tag'>PT</div>
-            </div>
+            </div> */}
             <div className='wh-to-header-label-26'>
                 <div className='label-tag'>TT</div>
             </div>
-            <div className='wh-to-header-label-27'>
+            {/* <div className='wh-to-header-label-27'>
                 <div className='label-tag'>PT</div>
-            </div>
+            </div> */}
             <div className='wh-to-header-label-28'>
                 <div className='label-tag'>TT</div>
             </div>
@@ -335,6 +335,14 @@ const WellheadToHeader = (props) => {
             <div class="d-flex flex-column bg-light p-1 border border-primary wh-to-header-monitor-2">
                 <span class="p-1 text-center bg-dark fw-bolder text-white wh-to-header-monitor-tag">{props.tag2}</span>
                 <span class="p-1 text-center fw-bold wh-to-header-monitor-value">{props.tag2Status ? props.tag2Status : "####"} PSI</span>
+            </div>
+            <div class="d-flex flex-column bg-light p-1 border border-primary wh-to-header-monitor-3">
+                <span class="p-1 text-center bg-dark fw-bolder text-white wh-to-header-monitor-tag">{props.tag3}</span>
+                <span class="p-1 text-center fw-bold wh-to-header-monitor-value">{props.tag3Status ? props.tag3Status : "####"} PSI</span>
+            </div>
+            <div class="d-flex flex-column bg-light p-1 border border-primary wh-to-header-monitor-4">
+                <span class="p-1 text-center bg-dark fw-bolder text-white wh-to-header-monitor-tag">{props.tag4}</span>
+                <span class="p-1 text-center fw-bold wh-to-header-monitor-value">{props.tag4Status ? props.tag4Status : "####"} PSI</span>
             </div>
         </div>
     )

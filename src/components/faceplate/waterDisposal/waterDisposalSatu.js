@@ -17,12 +17,11 @@ const WaterDisposalSatu = (props) => {
             <div className='card-body bg-dark'>
                 <div className='wtr-dsp-wrapper'>
                     <div className='wtr-dsp-from-pump top'>
-                        <span className='wtr-dsp-from-pump'>From Disposal Pump</span>
-                        <span className='wtr-dsp-tag'>PP-510 FROM CPA</span>
+                        <span className='wtr-dsp-tag'>FROM CPA</span>
                     </div>
                     <div className='wtr-dsp-from-pump bottom'>
-                        <span className='wtr-dsp-from-pump'>From Disposal Pump</span>
-                        <span className='wtr-dsp-tag'>PP-510 FROM CPA</span>
+                        {/* <span className='wtr-dsp-from-pump'>From Disposal Pump</span> */}
+                        <span className='wtr-dsp-tag'>FROM CPA</span>
                     </div>
                     <div className='wtr-dsp-pipe-horizontal-1'>
                         <Horizontal />

@@ -6,13 +6,11 @@ import { useGetApi } from '../../../server/Api';
 
 const ProcessFlowDiagram = () => {
     const [tag1Status, setTag1Status] = useState(0);
-    const [tag2Status, setTag2Status] = useState(0);
 
     const GetData = async () => {
         const data = await useGetApi("pad_b/process_flow_diagram");
         if (data.error === false) {
             setTag1Status(data.data.values.PT_3200);
-            setTag2Status(data.data.values.PT_3201);
         } else {
             Swal.fire({
                 title: "Oops!",
@@ -26,7 +24,7 @@ const ProcessFlowDiagram = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             GetData();
-        }, 500000);
+        }, 5000);
 
         return () => clearInterval(interval);
     });
@@ -39,7 +37,7 @@ const ProcessFlowDiagram = () => {
             <div className='card large mt-4'>
                 <div className='card-header text-center bg-secondary text-white'>Process Flow Diagram MUDI</div>
                 <div className='card-body bg-gray'>
-                    <WellheadToHeader tag1='PT-3200' tag2='PT-3201' tag1Status={tag1Status.toFixed(1)} tag2Status={tag2Status.toFixed(1)} />
+                    <WellheadToHeader tag1='PT-3200' tag2='PT-3100' tag3='PT-3300' tag4='PT-3400' tag1Status={tag1Status.toFixed(1)} tag2Status='0.00' tag3Status='0.00' tag4Status='0.00' />
                 </div>
             </div>
         </MasterLayout>

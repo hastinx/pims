@@ -197,14 +197,14 @@
     height: 30px;
     top: 0px;
     position: absolute;
-    left: 624px;
+    left: 770px;
 }
 
 .wh-to-header-tt-1{
     height: 30px;
     top: 0px;
     position: absolute;
-    left: 580px;
+    left: 633px;
 }
 
 .wh-to-header-coriolis-1{
@@ -744,14 +744,14 @@
     height: 30px;
     top: 435px;
     position: absolute;
-    left: 624px;
+    left: 770px;
 }
 
 .wh-to-header-tt-4{
     height: 30px;
     top: 435px;
     position: absolute;
-    left: 580px;
+    left: 633px;
 }
 
 .wh-to-header-coriolis-7{
@@ -906,14 +906,14 @@
     height: 30px;
     top: 289px;
     position: absolute;
-    left: 624px;
+    left: 770px;
 }
 
 .wh-to-header-tt-5{
     height: 30px;
     top: 289px;
     position: absolute;
-    left: 580px;
+    left: 633px;
 }
 
 .wh-to-header-coriolis-9{
@@ -992,7 +992,7 @@
 .wh-to-header-label-22{
     position: absolute;
     top: 38px;
-    left: 624px;
+    left: 773px;
 }
 
 .wh-to-header-label-23{
@@ -1016,7 +1016,7 @@
 .wh-to-header-label-26{
     position: absolute;
     top: 471px;
-    left: 624px;
+    left: 773px;
 }
 
 .wh-to-header-label-27{
@@ -1028,13 +1028,13 @@
 .wh-to-header-label-28{
     position: absolute;
     top: 325px;
-    left: 624px;
+    left: 773px;
 }
 
 .wh-to-header-label-29{
     position: absolute;
     top: 10px;
-    left: 693px;
+    left: 800px;
 }
 
 .wh-to-header-label-30{
@@ -1046,13 +1046,13 @@
 .wh-to-header-label-31{
     position: absolute;
     top: 297px;
-    left: 693px;
+    left: 800px;
 }
 
 .wh-to-header-label-32{
     position: absolute;
     top: 443px;
-    left: 693px;
+    left: 800px;
 }
 
 .wh-to-header-separator{
@@ -1072,8 +1072,20 @@
 
 .wh-to-header-monitor-2{
     position: absolute;
-    top: 183px;
-    left: 689px;
+    top: 40px;
+    left: 604px;
+    width: 81px;
+}
+.wh-to-header-monitor-3{
+    position: absolute;
+    top: 329px;
+    left: 604px;
+    width: 81px;
+}
+.wh-to-header-monitor-4{
+    position: absolute;
+    top: 475px;
+    left: 604px;
     width: 81px;
 }
 
