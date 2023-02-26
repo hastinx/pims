@@ -199,13 +199,13 @@ const WellSummary = () => {
         <div className="col-xl-6 col-md-6 ">
           <div className="card">
             <div className="card-header text-center bg-secondary text-white">
-              WATER INJECTOR
+              WATER INJECTION
             </div>
             <div className="card-body d-flex flex-wrap">
-              <MasterWellSummaryWater status={status_pad_c_well_6} tag="WATER INJECT M#6" />
-              <MasterWellSummaryWater status={status_pad_c_well_8} tag="WATER INJECT M#8" />
-              <MasterWellSummaryWater status={status_pad_c_well_12} tag="WATER INJECT M#12" />
-              <MasterWellSummaryWater status={status_pad_c_well_14} tag="WATER INJECT M#14" />
+              <MasterWellSummaryWater status={status_pad_c_well_6} tag="WATER INJECTION M#6" />
+              <MasterWellSummaryWater status={status_pad_c_well_8} tag="WATER INJECTION M#8" />
+              <MasterWellSummaryWater status={status_pad_c_well_12} tag="WATER INJECTION M#12" />
+              <MasterWellSummaryWater status={status_pad_c_well_14} tag="WATER INJECTION M#14" />
             </div>
           </div>
         </div>
@@ -223,9 +223,9 @@ const WellSummary = () => {
               <div className="legend">
                 <img src={wellOff} alt="" className="legend-img" /><span>Shut In</span>
               </div>
-              <div className="legend">
+              {/* <div className="legend">
                 <img src={wellWater} alt="" className="legend-img" /><span>Water Injector</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
