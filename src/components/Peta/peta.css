@@ -14,7 +14,8 @@
     top: 57px;
     left: 697px;
     cursor: pointer;
-    width: 110px;
+   width: 135px;
+   text-align: center;
 }
 
 .pin-peta-2{
@@ -25,7 +26,8 @@
     top: 609px;
     left: 685px;
     cursor: pointer;
-    width: 110px;
+    width: 135px;
+    text-align: center;
 }
 
 .pin-peta-3{
@@ -36,7 +38,8 @@
     top: 113px;
     left: 1302px;
     cursor: pointer;
-    width: 110px;
+    width: 135px;
+    text-align: center;
 }
 
 .pin{
@@ -73,6 +76,15 @@
 .location-detail{
     width: 100%;
     height: 100%;
+}
+
+.peta-label-tag{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 3px 2px 3px;
+    border: 1px solid #000;
+    background: aqua;  
+    width: 135px;
 }
 
 @media only screen and (max-width: 1600px) {
