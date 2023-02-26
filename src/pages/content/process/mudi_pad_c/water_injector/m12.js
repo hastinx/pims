@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Wellhead from "../../../../../components/Faceplate/master-wellhead";
 import { useGetApi } from "../../../../../server/Api";
 import Swal from "sweetalert2";
+import WaterInjection from "../../../../../components/Faceplate/master-water-injection";
 
 const Wellhead12 = () => {
   const [sdvOneStatus, setSdvonestatus] = useState(0);
@@ -39,7 +39,7 @@ const Wellhead12 = () => {
   }, []);
 
   return (
-    <Wellhead
+    <WaterInjection
       title="M#12"
       pshhTitle="PSHH-3012"
       ptTitle="PT-3012"
