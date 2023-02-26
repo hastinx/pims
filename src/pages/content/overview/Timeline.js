@@ -1,5 +1,6 @@
 import React from 'react';
 import './timeline.css';
+import background from '../../../assets/img/bg4.png'
 
 function Timeline() {
     return (
@@ -9,7 +10,9 @@ function Timeline() {
                 <div className="card-header fw-semibold text-center text-white bg-primary">
                     CONTRACT SUMMARY
                 </div>
-                <div className="card-body">
+                <div className="card-body" style={{
+                    backgroundImage: "url(" + background + ")", backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
+                }}>
                     <div className="row">
                         <div className="col-md-12">
                             <div style={{ display: 'inline-block', width: '100%', overflowY: 'auto' }}>
