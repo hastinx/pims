@@ -14,14 +14,24 @@ function Blocksummary() {
     const handleShow = () => setShow(true);
 
     const handleUpdate = async () => {
-        await axios.put(
-            process.env.REACT_APP_API_URL + "current_production/update",
-            {
-                id: id,
-                table_1: bopd,
-                table_2: mmscfd,
-            }
-        );
+        try {
+            await axios.put(
+                process.env.REACT_APP_API_URL + "current_production/update",
+                {
+                    id: id,
+                    table_1: bopd,
+                    table_2: mmscfd,
+                }
+            );
+        } catch (error) {
+            Swal.fire({
+                title: "Oops!",
+                text: "Block Summary " + error.message,
+                icon: "error",
+                confirmButtonText: "OK",
+            });
+        }
+
     }
 
     const GetData = async () => {
