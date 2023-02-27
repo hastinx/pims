@@ -8,14 +8,16 @@ function Blocksummary() {
     const [show, setShow] = useState(false);
     const [bopd, setBopd] = useState("");
     const [mmscfd, setMmscfd] = useState("");
+    const [id, setId] = useState(2);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
     const handleUpdate = async () => {
-        await axios.post(
-            process.env.REACT_APP_API_URL + "current_production/store",
+        await axios.put(
+            process.env.REACT_APP_API_URL + "current_production/update",
             {
+                id: id,
                 table_1: bopd,
                 table_2: mmscfd,
             }
@@ -27,6 +29,7 @@ function Blocksummary() {
         if (data.error === false) {
             setBopd(data.data.values.table_1)
             setMmscfd(data.data.values.table_2)
+            setId(data.data.values.id)
         } else {
             Swal.fire({
                 title: "Oops!",
