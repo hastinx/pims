@@ -14,19 +14,19 @@ function Blocksummary() {
 
     const handleUpdate = async () => {
         await axios.post(
-            process.env.REACT_APP_API_URL + "user",
+            process.env.REACT_APP_API_URL + "current_production/store",
             {
-                userid: bopd,
-                password: mmscfd,
+                table_1: bopd,
+                table_2: mmscfd,
             }
         );
     }
 
     const GetData = async () => {
-        const data = await useGetApi("pad_a/wellhead/m1");
+        const data = await useGetApi("current_production");
         if (data.error === false) {
-            setBopd(data.data.value.bpod)
-            setMmscfd(data.data.value.mmscfd)
+            setBopd(data.data.values.table_1)
+            setMmscfd(data.data.values.table_2)
         } else {
             Swal.fire({
                 title: "Oops!",
