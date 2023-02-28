@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react'
 import MasterLayout from '../../../components/Layout';
 import Loader from '../../../utils/loader';
 import Blocksummary from './Blocksummary';
+import MonthlyProduction from './MonthlyProduction';
 import Overview from './Overview';
 import Timeline from './Timeline';
 import Wellsummary from './Wellsummary';
+import YearlyProduction from './YearlyProduction';
 function Home() {
     const [loading, setLoading] = useState(true);
 
@@ -27,6 +29,14 @@ function Home() {
                     </div>
                     <div className="col-xl-6 col-md-6">
                         <Blocksummary />
+                    </div>
+                </div>
+                <div className='row mt-4'>
+                    <div className="col-xl-6 col-md-6">
+                        <YearlyProduction />
+                    </div>
+                    <div className="col-xl-6 col-md-6">
+                        <MonthlyProduction />
                     </div>
                 </div>
                 <div className='row mt-4'>
