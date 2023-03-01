@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Button, Modal } from "react-bootstrap";
+import { Button, Modal, Tooltip } from "react-bootstrap";
 import Swal from "sweetalert2";
 import { useGetApi } from "../../../server/Api";
 
@@ -55,9 +55,7 @@ const YearlyProduction = () => {
 
   const GetData = async () => {
     const data = await useGetApi("yearly_production");
-    console.log("Yearly :", data);
     if (data.error === false) {
-      console.log("Yearly :", data.data.values);
       setData(data.data.values);
       setLastyear(data.data.values[0].lastyear);
       setYear(data.data.values[0].yeartodate);
@@ -79,23 +77,22 @@ const YearlyProduction = () => {
       setYeartodatevalue(dataRow.yeartodatevalue);
       setLastyear_e(dataRow.lastyear);
       setYeartodate_e(dataRow.yeartodate);
+      handleShow();
     }
-    console.log(
-      id,
-      descr,
-      lastYearValue,
-      yearToDateValue,
-      e_lastYear,
-      e_yearToDate
-    );
-    handleShow();
   };
 
   const handleUpdate = async () => {
     try {
       await axios.put(
-        process.env.REACT_APP_API_URL + "current_production/update",
-        {}
+        process.env.REACT_APP_API_URL + "yearly_production/update",
+        {
+          id: id,
+          descr: descr,
+          lastyear: e_lastYear,
+          yeartodate: e_yearToDate,
+          lastyearvalue: lastYearValue,
+          yeartodatevalue: yearToDateValue,
+        }
       );
 
       GetData();
@@ -116,11 +113,8 @@ const YearlyProduction = () => {
   return (
     <>
       <div className="card border-secondary">
-        <div className="card-header fw-semibold text-center text-white bg-secondary d-flex justify-content-between">
+        <div className="card-header fw-semibold text-center text-white bg-secondary">
           YEARLY PRODUCTION
-          <button className="btn btn-sm btn-primary left">
-            <i className="fa fa-pencil fs-6" />
-          </button>
         </div>
         <div className="card-body">
           <table style={styles.table}>
@@ -135,12 +129,21 @@ const YearlyProduction = () => {
             </tr>
 
             {dataYearly.map((i) => (
-              <tr onClick={(e) => handleClick(e.detail, i)}>
+              <tr
+                onClick={(e) => handleClick(e.detail, i)}
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Double Click for change value"
+              >
                 <td style={i.id > 2 ? styles.desc_yellow : styles.desc_green}>
                   {i.descr}
                 </td>
-                <td style={styles.data}>{i.lastyearvalue}</td>
-                <td style={styles.data}>{i.yeartodatevalue}</td>
+                <td style={styles.data}>
+                  {i.lastyearvalue ? i.lastyearvalue.toFixed(2) : ""}
+                </td>
+                <td style={styles.data}>
+                  {i.yeartodatevalue ? i.yeartodatevalue.toFixed(2) : ""}
+                </td>
               </tr>
             ))}
           </table>
@@ -154,38 +157,52 @@ const YearlyProduction = () => {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Edit {descr}</Modal.Title>
+          <Modal.Title>{descr}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <form className="p-2">
-            {/* <div className="form-group row align-items-center mb-2 g-2">
-              <label className="form-label col-2">{descr}</label>
-              <input
-                className="form-control col"
-                type="text"
-                name="bopd"
-                value={descr}
-                placeholder="BOPD"
-              />
-            </div> */}
-            <div className="row align-items-center g-2">
-              <label className="form-label col-2">Last Year Result</label>
+            <div className="row align-items-center mb-1 g-2">
+              <label className="form-label col-4">Last Year Result</label>
               <input
                 className="form-control col"
                 type="text"
                 name="mmscfd"
                 value={lastYearValue}
                 placeholder="MMSCFD"
+                onChange={(e) => setLastyearvalue(e.target.value)}
               />
             </div>
-            <div className="row align-items-center g-2">
-              <label className="form-label col-2">YTD Result</label>
+            <div className="row align-items-center mb-1 g-2">
+              <label className="form-label col-4">YTD Result</label>
               <input
                 className="form-control col"
                 type="text"
                 name="mmscfd"
                 value={yearToDateValue}
                 placeholder="MMSCFD"
+                onChange={(e) => setYeartodatevalue(e.target.value)}
+              />
+            </div>
+            <div className="row align-items-center mb-1 g-2">
+              <label className="form-label col-4">Last Year</label>
+              <input
+                className="form-control col"
+                type="text"
+                name="mmscfd"
+                value={e_lastYear}
+                placeholder="MMSCFD"
+                onChange={(e) => setLastyear_e(e.target.value)}
+              />
+            </div>
+            <div className="row align-items-center g-2">
+              <label className="form-label col-4">YTD</label>
+              <input
+                className="form-control col"
+                type="text"
+                name="mmscfd"
+                value={e_yearToDate}
+                placeholder="MMSCFD"
+                onChange={(e) => setYeartodate_e(e.target.value)}
               />
             </div>
           </form>
